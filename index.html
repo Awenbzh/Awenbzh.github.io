@@ -2,119 +2,762 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Awen ha Fredrig Studio imagine et développe des applications utiles, accessibles et ancrées en Bretagne."
+  >
 
   <title>Awen ha Fredrig Studio</title>
 
   <style>
+    :root {
+      --bleu-nuit: #09263b;
+      --bleu-mer: #087ca7;
+      --turquoise: #4cc9d8;
+      --sable: #fff4dc;
+      --blanc: #ffffff;
+      --texte: #17324d;
+      --gris: #657786;
+      --ombre: 0 18px 45px rgba(9, 38, 59, 0.14);
+    }
+
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      color: #17324d;
-      background: #f4fbff;
-      text-align: center;
+      font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+      color: var(--texte);
+      background: #f6fbfd;
+      line-height: 1.6;
     }
 
-    header {
-      padding: 80px 20px;
-      color: white;
-      background: linear-gradient(135deg, #087ca7, #55c1d9);
+    a {
+      color: inherit;
     }
 
-    header h1 {
-      margin: 0;
-      font-size: 42px;
+    .navigation {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      padding: 15px 7%;
+      color: var(--blanc);
+      background: rgba(9, 38, 59, 0.95);
+      backdrop-filter: blur(12px);
     }
 
-    header p {
-      font-size: 20px;
+    .marque {
+      font-weight: 800;
+      letter-spacing: 0.4px;
     }
 
-    section {
-      max-width: 900px;
-      margin: auto;
-      padding: 50px 20px;
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 22px;
     }
 
-    .application {
-      margin-top: 30px;
-      padding: 30px;
-      background: white;
-      border-radius: 20px;
-      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.10);
-    }
-
-    .button {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 14px 24px;
-      color: white;
-      background: #087ca7;
-      border-radius: 30px;
+    .menu a {
+      color: var(--blanc);
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+
+    .menu a:hover {
+      color: var(--turquoise);
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      min-height: 630px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 90px 20px 120px;
+      text-align: center;
+      color: var(--blanc);
+      background:
+        radial-gradient(
+          circle at top right,
+          rgba(255, 255, 255, 0.23),
+          transparent 30%
+        ),
+        linear-gradient(
+          135deg,
+          var(--bleu-nuit),
+          var(--bleu-mer) 55%,
+          var(--turquoise)
+        );
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      left: -5%;
+      right: -5%;
+      bottom: -70px;
+      height: 150px;
+      background: #f6fbfd;
+      border-radius: 50% 50% 0 0;
+    }
+
+    .hero-contenu {
+      position: relative;
+      z-index: 2;
+      max-width: 950px;
+    }
+
+    .mascotte {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 100px;
+      height: 100px;
+      margin-bottom: 24px;
+      font-size: 3.6rem;
+      background: rgba(255, 255, 255, 0.16);
+      border: 2px solid rgba(255, 255, 255, 0.38);
+      border-radius: 50%;
+      box-shadow: 0 18px 45px rgba(0, 0, 0, 0.15);
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: clamp(2.5rem, 7vw, 5.2rem);
+      line-height: 1.04;
+    }
+
+    .hero .sous-titre {
+      margin: 22px auto 12px;
+      font-size: clamp(1.15rem, 3vw, 1.7rem);
+      font-weight: 700;
+    }
+
+    .hero .description {
+      max-width: 720px;
+      margin: 0 auto 35px;
+      font-size: 1.08rem;
+      color: rgba(255, 255, 255, 0.91);
+    }
+
+    .boutons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    .bouton {
+      display: inline-block;
+      padding: 14px 25px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 800;
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+    }
+
+    .bouton:hover {
+      transform: translateY(-3px);
+    }
+
+    .bouton-principal {
+      color: var(--bleu-nuit);
+      background: var(--blanc);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+    }
+
+    .bouton-secondaire {
+      color: var(--blanc);
+      border: 2px solid rgba(255, 255, 255, 0.75);
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    main {
+      overflow: hidden;
+    }
+
+    .section {
+      max-width: 1120px;
+      margin: auto;
+      padding: 85px 24px;
+    }
+
+    .titre-section {
+      margin-bottom: 14px;
+      text-align: center;
+      font-size: clamp(2rem, 4vw, 3rem);
+      color: var(--bleu-nuit);
+    }
+
+    .intro-section {
+      max-width: 720px;
+      margin: 0 auto 45px;
+      text-align: center;
+      color: var(--gris);
+      font-size: 1.06rem;
+    }
+
+    .carte-application {
+      display: grid;
+      grid-template-columns: 1fr 1.25fr;
+      gap: 38px;
+      align-items: center;
+      padding: 42px;
+      background: var(--blanc);
+      border-radius: 30px;
+      box-shadow: var(--ombre);
+    }
+
+    .illustration {
+      min-height: 360px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+      text-align: center;
+      color: var(--blanc);
+      background:
+        radial-gradient(
+          circle at top left,
+          rgba(255, 255, 255, 0.34),
+          transparent 35%
+        ),
+        linear-gradient(
+          145deg,
+          #0a7298,
+          #57ced9
+        );
+      border-radius: 25px;
+    }
+
+    .illustration-contenu {
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+    .illustration-emoji {
+      display: block;
+      margin-bottom: 15px;
+      font-size: 6rem;
+    }
+
+    .etiquette {
+      display: inline-block;
+      margin-bottom: 12px;
+      padding: 7px 13px;
+      color: #04637f;
+      background: #dff8fb;
+      border-radius: 999px;
+      font-weight: 800;
+      font-size: 0.84rem;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+    }
+
+    .carte-application h3 {
+      margin: 0 0 12px;
+      color: var(--bleu-nuit);
+      font-size: 2.35rem;
+    }
+
+    .liste-fonctions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      padding: 0;
+      margin: 25px 0;
+      list-style: none;
+    }
+
+    .liste-fonctions li {
+      padding: 12px 14px;
+      background: #f1fafc;
+      border-radius: 13px;
+      font-weight: 700;
+    }
+
+    .bouton-bleu {
+      color: var(--blanc);
+      background: var(--bleu-mer);
+      box-shadow: 0 12px 25px rgba(8, 124, 167, 0.23);
+    }
+
+    .fond-clair {
+      background: linear-gradient(
+        180deg,
+        #ebf8fb,
+        #f9fdfe
+      );
+    }
+
+    .valeurs {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .valeur {
+      padding: 30px 25px;
+      text-align: center;
+      background: var(--blanc);
+      border-radius: 22px;
+      box-shadow: 0 12px 30px rgba(9, 38, 59, 0.08);
+    }
+
+    .valeur .icone {
+      font-size: 2.5rem;
+    }
+
+    .valeur h3 {
+      margin: 12px 0 8px;
+      color: var(--bleu-nuit);
+    }
+
+    .valeur p {
+      margin: 0;
+      color: var(--gris);
+    }
+
+    .projets {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+
+    .projet {
+      position: relative;
+      padding: 34px;
+      background: var(--blanc);
+      border-radius: 24px;
+      box-shadow: var(--ombre);
+    }
+
+    .projet h3 {
+      margin: 10px 0;
+      color: var(--bleu-nuit);
+      font-size: 1.65rem;
+    }
+
+    .projet p {
+      color: var(--gris);
+    }
+
+    .bientot {
+      display: inline-block;
+      padding: 6px 11px;
+      color: #7a4c00;
+      background: #fff0c8;
+      border-radius: 999px;
+      font-size: 0.82rem;
+      font-weight: 800;
+    }
+
+    .contact {
+      padding: 55px 30px;
+      text-align: center;
+      color: var(--blanc);
+      background:
+        linear-gradient(
+          135deg,
+          var(--bleu-nuit),
+          var(--bleu-mer)
+        );
+      border-radius: 30px;
+      box-shadow: var(--ombre);
+    }
+
+    .contact h2 {
+      margin-top: 0;
+      font-size: 2.5rem;
+    }
+
+    .contact p {
+      max-width: 650px;
+      margin: 0 auto 24px;
+      color: rgba(255, 255, 255, 0.88);
+    }
+
+    .contact .bouton {
+      margin: 6px;
     }
 
     footer {
-      padding: 30px 20px;
-      color: white;
-      background: #17324d;
+      padding: 35px 20px;
+      text-align: center;
+      color: rgba(255, 255, 255, 0.78);
+      background: #061b2a;
+    }
+
+    footer strong {
+      color: var(--blanc);
+    }
+
+    footer a {
+      color: var(--turquoise);
+    }
+
+    @media (max-width: 820px) {
+      .navigation {
+        flex-direction: column;
+      }
+
+      .menu {
+        justify-content: center;
+        gap: 14px;
+      }
+
+      .carte-application {
+        grid-template-columns: 1fr;
+        padding: 25px;
+      }
+
+      .valeurs,
+      .projets {
+        grid-template-columns: 1fr;
+      }
+
+      .liste-fonctions {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        min-height: 690px;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .navigation {
+        position: static;
+      }
+
+      .menu {
+        display: none;
+      }
+
+      .hero {
+        padding-top: 65px;
+      }
+
+      .section {
+        padding: 65px 18px;
+      }
+
+      .carte-application h3 {
+        font-size: 2rem;
+      }
+
+      .illustration {
+        min-height: 290px;
+      }
     }
   </style>
 </head>
 
 <body>
 
-  <header>
-    <h1>Awen ha Fredrig Studio</h1>
-    <p>Des applications pensées en Bretagne, pour la Bretagne.</p>
+  <nav class="navigation">
+    <div class="marque">
+      Awen ha Fredrig Studio
+    </div>
+
+    <div class="menu">
+      <a href="#applications">Applications</a>
+      <a href="#studio">Le studio</a>
+      <a href="#projets">Nos projets</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-contenu">
+
+      <div class="mascotte">
+        🦐
+      </div>
+
+      <h1>Awen ha Fredrig Studio</h1>
+
+      <p class="sous-titre">
+        Des applications pensées en Bretagne,
+        pour la Bretagne.
+      </p>
+
+      <p class="description">
+        Nous imaginons des outils numériques utiles,
+        accessibles et ancrés dans le territoire breton,
+        avec une bonne dose d’iode et quelques idées
+        qui trottent plus vite qu’une crevette.
+      </p>
+
+      <div class="boutons">
+        <a
+          class="bouton bouton-principal"
+          href="#applications"
+        >
+          Découvrir nos applications
+        </a>
+
+        <a
+          class="bouton bouton-secondaire"
+          href="#contact"
+        >
+          Nous contacter
+        </a>
+      </div>
+
+    </div>
   </header>
 
-  <section>
-    <h2>Nos applications</h2>
+  <main>
 
-    <div class="application">
-      <h3>🦐 Breizh Plage</h3>
+    <section
+      class="section"
+      id="applications"
+    >
 
-      <p>
-        L’application bretonne qui vous accompagne sur les plages
-        de la Bretagne historique.
+      <h2 class="titre-section">
+        Notre première application
+      </h2>
+
+      <p class="intro-section">
+        Des informations utiles pour profiter du littoral
+        breton et préparer ses sorties en toute simplicité.
       </p>
 
-      <p>
-        Météo, marées, sécurité, qualité des eaux, pêche à pied,
-        activités et informations pratiques.
-      </p>
+      <div class="carte-application">
 
-      <a class="button" href="#">
-        Découvrir Breizh Plage
-      </a>
+        <div class="illustration">
+          <div class="illustration-contenu">
+            <span class="illustration-emoji">
+              🦐
+            </span>
+
+            Breizh Plage
+
+            <br>
+
+            <small>
+              La Bretagne à portée de plage
+            </small>
+          </div>
+        </div>
+
+        <div>
+          <span class="etiquette">
+            Disponible sur Android
+          </span>
+
+          <h3>Breizh Plage</h3>
+
+          <p>
+            Breizh Plage vous accompagne sur les plages
+            de la Bretagne historique, de la Loire-Atlantique
+            aux Côtes-d’Armor.
+          </p>
+
+          <p>
+            Retrouvez les informations indispensables pour
+            choisir votre plage, préparer votre sortie et
+            profiter du littoral plus sereinement.
+          </p>
+
+          <ul class="liste-fonctions">
+            <li>🌦️ Météo</li>
+            <li>🌊 Marées</li>
+            <li>🛟 Sécurité</li>
+            <li>💧 Qualité des eaux</li>
+            <li>🐚 Pêche à pied</li>
+            <li>📍 Plages à proximité</li>
+          </ul>
+
+          <a
+            class="bouton bouton-bleu"
+            href="#"
+            aria-label="Découvrir Breizh Plage sur Google Play"
+          >
+            Voir sur Google Play
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="fond-clair">
+      <section
+        class="section"
+        id="studio"
+      >
+
+        <h2 class="titre-section">
+          Notre cap
+        </h2>
+
+        <p class="intro-section">
+          Créer des applications simples à utiliser,
+          proches des habitants et utiles au territoire.
+        </p>
+
+        <div class="valeurs">
+
+          <article class="valeur">
+            <div class="icone">🏴</div>
+
+            <h3>Ancrage breton</h3>
+
+            <p>
+              Des projets inspirés par la Bretagne,
+              sa culture, ses habitants et son littoral.
+            </p>
+          </article>
+
+          <article class="valeur">
+            <div class="icone">📱</div>
+
+            <h3>Simplicité</h3>
+
+            <p>
+              Des outils accessibles et compréhensibles,
+              sans transformer chaque écran en tableau de bord
+              de sous-marin.
+            </p>
+          </article>
+
+          <article class="valeur">
+            <div class="icone">💡</div>
+
+            <h3>Utilité</h3>
+
+            <p>
+              Chaque fonctionnalité doit apporter une
+              information concrète ou faciliter la vie
+              des utilisateurs.
+            </p>
+          </article>
+
+        </div>
+      </section>
     </div>
-  </section>
 
-  <section>
-    <h2>À propos</h2>
+    <section
+      class="section"
+      id="projets"
+    >
 
-    <p>
-      Awen ha Fredrig Studio imagine et développe des outils numériques
-      utiles, accessibles et ancrés dans le territoire breton.
-    </p>
-  </section>
+      <h2 class="titre-section">
+        Les projets à venir
+      </h2>
 
-  <section>
-    <h2>Contact</h2>
+      <p class="intro-section">
+        Le studio poursuit son aventure avec de nouvelles
+        idées destinées à la Bretagne et à ses habitants.
+      </p>
 
-    <p>
-      Pour toute question concernant nos applications :
-    </p>
+      <div class="projets">
 
-    <p>
-      <strong>Adresse e-mail :</strong> à compléter
-    </p>
-  </section>
+        <article class="projet">
+          <span class="bientot">
+            En réflexion
+          </span>
+
+          <h3>❤️ Breizh Kalon</h3>
+
+          <p>
+            Un projet d’application de rencontres pensée
+            pour les cinq départements de la Bretagne
+            historique.
+          </p>
+        </article>
+
+        <article class="projet">
+          <span class="bientot">
+            Projet futur
+          </span>
+
+          <h3>🏡 Habitat en Bretagne</h3>
+
+          <p>
+            Une future application destinée à faciliter
+            la mise en relation autour de la location et
+            de l’achat de logements en Bretagne.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <section
+      class="section"
+      id="contact"
+    >
+
+      <div class="contact">
+
+        <h2>Une question ?</h2>
+
+        <p>
+          Pour toute demande concernant Breizh Plage,
+          le studio ou un problème rencontré dans
+          l’application, vous pouvez nous contacter.
+        </p>
+
+        <a
+          class="bouton bouton-principal"
+          href="mailto:VOTRE-ADRESSE-EMAIL"
+        >
+          Envoyer un e-mail
+        </a>
+
+        <a
+          class="bouton bouton-secondaire"
+          href="VOTRE-LIEN-FACEBOOK"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Page Facebook
+        </a>
+
+      </div>
+    </section>
+
+  </main>
 
   <footer>
-    <p>© 2026 Awen ha Fredrig Studio</p>
+    <p>
+      <strong>Awen ha Fredrig Studio</strong>
+      <br>
+      Applications numériques imaginées en Bretagne.
+    </p>
+
+    <p>
+      © 2026 Awen ha Fredrig Studio
+      —
+      <a href="#">
+        Mentions légales
+      </a>
+      —
+      <a href="#">
+        Politique de confidentialité
+      </a>
+    </p>
   </footer>
 
 </body>
