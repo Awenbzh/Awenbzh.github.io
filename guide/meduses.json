@@ -33,5 +33,47 @@
     "photo_credit": "Photo : Yoruno — CC BY-SA 3.0",
     "photo_source_label": "Wikimedia Commons",
     "photo_source_url": null
-  }
+  },
+  {
+  "id": "bigorneau-commun",
+  "category": "coquillages",
+  "title": "Bigorneau commun",
+  "scientific_name": "Littorina littorea",
+  "image_url": "https://awenhafredrigstudio.bzh/images/guide/coquillages/bigorneau-commun.jpg",
+  "image_asset": "assets/images/guide/coquillages/bigorneau-commun.jpg",
+  "danger_level": "faible",
+  "danger_label": "Comestible – vérifier la qualité sanitaire du lieu de pêche",
+  "presence": "Petit gastéropode marin très commun sur les côtes bretonnes, le bigorneau vit sur les rochers, sous les algues et dans les mares découvertes à marée basse. Sa coquille sombre et spiralée cache un mollusque herbivore qui se nourrit de microalgues.\n\nLe bigorneau commun mesure généralement autour de 25 à 30 mm à l’âge adulte. Sa coquille comporte cinq à six tours et se termine par une pointe.",
+  "summary": "Petit gastéropode marin très commun sur les côtes bretonnes, le bigorneau vit sur les rochers, sous les algues et dans les mares découvertes à marée basse. Sa coquille sombre et spiralée cache un mollusque herbivore qui se nourrit de micro algues.",
+  "recognition": [
+    "Coquille conique, spiralée et légèrement bombée, terminée par une pointe.",
+    "Couleur généralement noire, gris foncé ou brunâtre chez l’adulte.",
+    "Présence de fines stries sombres et claires autour de la coquille.",
+    "Ouverture ovale pouvant être fermée par un petit opercule corné.",
+    "Taille adulte généralement comprise entre 2,5 et 3 centimètres.",
+    "Les jeunes peuvent être plus clairs, du crème au brun roux."
+  ],
+  "elouan_tip": "Demat ! Cherche-moi sous les algues et dans les petites fissures des rochers à marée basse. Mais soulève doucement les pierres et remets-les toujours comme tu les as trouvées !",
+  "good_actions": [
+    "Vérifier avant toute récolte que la zone est autorisée et ouverte à la pêche à pied.",
+    "Ne prélever que la quantité nécessaire à sa consommation personnelle.",
+    "Laisser sur place les individus les plus petits.",
+    "Soulever les pierres avec précaution et toujours les remettre dans leur position d’origine.",
+    "Conserver les bigorneaux au frais et les consommer rapidement après la récolte.",
+    "Les rincer soigneusement à l’eau de mer propre avant la cuisson."
+  ],
+  "avoid_actions": [
+    "Ne pas ramasser de bigorneaux dans une zone interdite ou touchée par une alerte sanitaire.",
+    "Ne pas consommer un coquillage dont l’odeur ou l’aspect paraît anormal.",
+    "Ne pas retourner durablement les pierres : cela détruit l’habitat des espèces qui vivent dessous.",
+    "Ne pas prélever tous les individus présents au même endroit.",
+    "Ne pas conserver les coquillages dans de l’eau douce."
+  ],
+  "warning": "La consommation de coquillages ramassés à pied peut présenter un risque lorsque la qualité sanitaire de l’eau est mauvaise. Consulte toujours les interdictions et alertes locales avant la récolte. Les règles de pêche, les tailles autorisées et les fermetures peuvent varier selon le lieu et la période.",
+  "photo_author": "Par Paul Morris from USA — Littorina littoreaUploaded",
+  "photo_license": "by JoJan, CC BY-SA 2.0,",
+  "photo_credit": "Crédit photo : Auteur : Licence : Nom de la source : URL de la source :",
+  "photo_source_label": "https://fr.vikidia.org/wiki/Fichier:Littorina_littorea_001.jpg",
+  "photo_source_url": "https://commons.wikimedia.org/w/index.php?curid=15221935"
+}
 ]
