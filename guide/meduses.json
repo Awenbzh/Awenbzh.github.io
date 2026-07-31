@@ -1,0 +1,35 @@
+ {
+    "id": "pelagie",
+    "category": "meduses",
+    "title": "Pélagie",
+    "scientific_name": "Pelagia noctiluca",
+    "image_asset": "assets/images/guide/meduses/pelagie.jpg",
+    "danger_level": "fort",
+    "danger_label": "Très urticante",
+    "presence": "Juin à octobre, surtout après les vents d'est",
+    "summary": "Petite méduse rose-violette, fréquemment observée en Bretagne en été.",
+    "recognition": [
+      "Ombrelle translucide rose ou violette, généralement de 5 à 12 cm.",
+      "Tentacules fins et longs pouvant dépasser 1 mètre.",
+      "Sa bioluminescence peut produire de petits éclats verts dans l'eau sombre."
+    ],
+    "elouan_tip": "Évite de la toucher, même échouée : les cellules urticantes peuvent rester actives.",
+    "good_actions": [
+      "Sortir de l'eau calmement.",
+      "Rincer à l'eau de mer.",
+      "Retirer les tentacules avec une pince ou le bord d'une carte.",
+      "Consulter un professionnel de santé si la douleur est importante."
+    ],
+    "avoid_actions": [
+      "Ne pas frotter la zone touchée.",
+      "Ne pas rincer à l'eau douce.",
+      "Ne pas utiliser de vinaigre sans suivre les recommandations locales."
+    ],
+    "warning": "En cas de gêne respiratoire, malaise ou réaction étendue, appeler immédiatement les secours.",
+    "photo_author": null,
+    "photo_license": null,
+    "photo_credit": "Photo : Yoruno — CC BY-SA 3.0",
+    "photo_source_label": "Wikimedia Commons",
+    "photo_source_url": null
+  }
+]
