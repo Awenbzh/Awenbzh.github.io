@@ -1,489 +1,101 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Administration Breizh Plage</title>
-
-<style>
-* {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  margin: 0;
-  background: #eef7fb;
-  color: #173042;
-}
-
-header {
-  background: #0077b6;
-  color: white;
-  padding: 24px 16px;
-  text-align: center;
-}
-
-header h1 {
-  margin: 0;
-}
-
-.container {
-  max-width: 1100px;
-  margin: auto;
-  padding: 25px;
-}
-
-.card {
-  background: white;
-  border-radius: 15px;
-  padding: 22px;
-  margin-bottom: 20px;
-  box-shadow: 0 4px 15px rgba(0,0,0,.12);
-}
-
-h2, h3 {
-  color: #0077b6;
-}
-
-label {
-  display: block;
-  margin-top: 15px;
-  font-weight: bold;
-}
-
-input,
-textarea,
-select {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #cccccc;
-  border-radius: 8px;
-  margin-top: 5px;
-}
-
-textarea {
-  min-height: 90px;
-  resize: vertical;
-}
-
-button {
-  background: #0096c7;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 12px 18px;
-  cursor: pointer;
-  margin-top: 15px;
-  font-size: 16px;
-}
-
-button:hover {
-  background: #0077b6;
-}
-
-button.secondary {
-  background: #5b7080;
-}
-
-button.danger {
-  background: #c0392b;
-}
-
-.actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.list-row {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  margin-top: 8px;
-}
-
-.list-row input {
-  margin-top: 0;
-}
-
-.list-row button {
-  margin-top: 0;
-  padding: 10px 13px;
-}
-
-#jsonResult {
-  width: 100%;
-  min-height: 420px;
-  font-family: Consolas, monospace;
-}
-
-.notice {
-  padding: 12px;
-  border-radius: 8px;
-  margin-top: 12px;
-  display: none;
-}
-
-.notice.success {
-  display: block;
-  background: #dff6e7;
-  color: #176b38;
-}
-
-.notice.error {
-  display: block;
-  background: #ffe2e2;
-  color: #8d2020;
-}
-
-.preview {
-  margin-top: 12px;
-  max-width: 320px;
-  border-radius: 12px;
-  display: none;
-}
-
-@media (max-width: 700px) {
-  .container {
-    padding: 14px;
-  }
-
-  .actions {
-    flex-direction: column;
-  }
-
-  button {
-    width: 100%;
-  }
-}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Breizh Plage | Guide du littoral</title>
+  <style>
+    :root { --ink:#17384a; --muted:#67808b; --ocean:#0d7892; --deep:#07566b; --foam:#edf8f8; --line:#d8e8eb; --sand:#fff8e8; --danger:#d96b39; --shadow:0 16px 45px rgba(9,63,79,.12); }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; background:#f5fafb; color:var(--ink); font:15px/1.45 Inter, ui-sans-serif, system-ui, -apple-system, sans-serif; }
+    button, input, textarea, select { font:inherit; }
+    button { cursor:pointer; border:0; }
+    .topbar { padding:28px clamp(18px,4vw,56px); background:linear-gradient(135deg,#07566b,#0d7892); color:white; display:flex; align-items:center; justify-content:space-between; gap:20px; }
+    .brand { display:flex; align-items:center; gap:14px; } .brand-mark { width:48px;height:48px;display:grid;place-items:center;border-radius:16px;background:rgba(255,255,255,.18);font-size:26px; }
+    h1,h2,h3,p { margin:0; } h1 { font-size:clamp(23px,3vw,34px); letter-spacing:-.02em; } h2 { font-size:21px; } h3 { font-size:16px; }
+    .top-actions { display:flex; flex-wrap:wrap; gap:9px; } .button { padding:10px 14px; border-radius:10px; background:white; color:var(--deep); font-weight:750; } .button.ghost { background:rgba(255,255,255,.13); color:#fff; border:1px solid rgba(255,255,255,.3); }
+    .layout { width:min(1500px,100%); margin:0 auto; padding:24px; display:grid; grid-template-columns:minmax(270px,360px) minmax(0,1fr); gap:22px; }
+    .panel { background:white; border:1px solid var(--line); border-radius:18px; box-shadow:var(--shadow); overflow:hidden; } .panel-head { padding:18px; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; align-items:center; gap:12px; }
+    .category-tabs { padding:12px; display:grid; gap:7px; background:var(--foam); } .category-tab { text-align:left; padding:11px 13px; background:transparent; color:var(--ink); border-radius:10px; font-weight:700; } .category-tab.active { background:white; color:var(--deep); box-shadow:0 4px 12px rgba(9,63,79,.08); }
+    .search { margin:14px 18px; width:calc(100% - 36px); padding:11px 12px; border:1px solid var(--line); border-radius:10px; outline:none; } .search:focus, input:focus, textarea:focus, select:focus { border-color:var(--ocean); box-shadow:0 0 0 3px rgba(13,120,146,.12); }
+    .list { padding:0 12px 14px; max-height:calc(100vh - 300px); overflow:auto; } .article-row { width:100%; text-align:left; background:#fff; border:1px solid transparent; border-radius:12px; padding:12px; margin:5px 0; display:flex; justify-content:space-between; gap:10px; color:var(--ink); } .article-row:hover,.article-row.active { border-color:#a9dbe2; background:var(--foam); } .article-row small { display:block; color:var(--muted); margin-top:2px; }
+    .empty { padding:28px 18px; color:var(--muted); text-align:center; } .form { padding:22px; } .form-head { display:flex; align-items:flex-start; justify-content:space-between; gap:14px; margin-bottom:20px; } .form-head p { color:var(--muted); margin-top:4px; } .form-actions { display:flex; flex-wrap:wrap; gap:8px; }
+    .primary { background:var(--ocean); color:#fff; } .secondary { background:var(--foam); color:var(--deep); } .danger { background:#fff0eb; color:#a84220; } .button.primary:hover { background:var(--deep); }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:15px; } .field { display:grid; gap:6px; } .field.full { grid-column:1/-1; } label { font-size:12px; color:var(--muted); font-weight:800; letter-spacing:.04em; text-transform:uppercase; } input, textarea, select { width:100%; border:1px solid var(--line); border-radius:10px; padding:10px 11px; color:var(--ink); background:#fff; outline:none; } textarea { min-height:92px; resize:vertical; }
+    .section { margin-top:22px; padding-top:19px; border-top:1px solid var(--line); } .section-title { display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; } .repeat-list { display:grid; gap:8px; } .repeat-row { display:flex; gap:8px; align-items:flex-start; } .repeat-row input { flex:1; } .icon-button { width:38px; height:38px; border-radius:9px; background:var(--foam); color:var(--deep); font-size:18px; } .icon-button.remove { background:#fff0eb; color:#a84220; }
+    .preview { margin-top:12px; border:1px dashed #acd0d5; border-radius:12px; overflow:hidden; background:var(--foam); } .preview img { display:block; width:100%; max-height:230px; object-fit:cover; } .preview figcaption { padding:9px 11px; color:var(--muted); font-size:12px; }
+    .toast { position:fixed; right:22px; bottom:22px; max-width:340px; padding:13px 16px; background:#163d4c; color:white; border-radius:12px; box-shadow:var(--shadow); opacity:0; transform:translateY(10px); pointer-events:none; transition:.2s; } .toast.show { opacity:1; transform:none; }
+    @media (max-width:850px) { .layout { grid-template-columns:1fr; padding:14px; } .list { max-height:320px; } .grid { grid-template-columns:1fr; } .field.full { grid-column:auto; } .topbar { align-items:flex-start; flex-direction:column; } .form-head { flex-direction:column; } }
+  </style>
 </head>
-
 <body>
-
-<header>
-  <h1>🌊 Administration Breizh Plage</h1>
-  <p>Création des fiches du Guide du Littoral</p>
-</header>
-
-<div class="container">
-
-  <div class="card">
-    <h2>Nouvelle fiche</h2>
-
-    <label>Type de fiche</label>
-    <select id="category">
-      <option value="meduses">🪼 Méduses</option>
-      <option value="poissons">🐟 Poissons</option>
-      <option value="crustaces">🦀 Crustacés</option>
-      <option value="algues">🌿 Algues</option>
-      <option value="coquillages">🐚 Coquillages</option>
-      <option value="securite">⚠️ Sécurité</option>
-    </select>
-
-    <label>Titre</label>
-    <input id="title" placeholder="Ex : Pélagie">
-
-    <label>ID</label>
-    <input id="id" placeholder="Généré automatiquement si laissé vide">
-
-    <label>Nom scientifique</label>
-    <input id="scientificName">
-
-    <label>Niveau de danger</label>
-    <select id="danger">
-      <option value="faible">Faible</option>
-      <option value="moyen">Moyen</option>
-      <option value="fort">Fort</option>
-      <option value="tres_fort">Très fort</option>
-    </select>
-
-    <label>Libellé du danger</label>
-    <input id="dangerLabel" placeholder="Ex : Très urticante">
-
-    <label>Résumé</label>
-    <textarea id="summary"></textarea>
-
-    <label>Présence en Bretagne</label>
-    <textarea id="presence"></textarea>
-  </div>
-
-  <div class="card">
-    <h2>Comment la reconnaître</h2>
-    <div id="recognitionList"></div>
-    <button type="button" onclick="addRow('recognitionList')">➕ Ajouter une ligne</button>
-  </div>
-
-  <div class="card">
-    <h2>Les bons gestes</h2>
-    <div id="goodActionsList"></div>
-    <button type="button" onclick="addRow('goodActionsList')">➕ Ajouter une ligne</button>
-  </div>
-
-  <div class="card">
-    <h2>À éviter</h2>
-    <div id="avoidActionsList"></div>
-    <button type="button" onclick="addRow('avoidActionsList')">➕ Ajouter une ligne</button>
-  </div>
-
-  <div class="card">
-    <h2>Conseils et avertissement</h2>
-
-    <label>Astuce d’Elouan</label>
-    <textarea id="elouanTip"></textarea>
-
-    <label>Avertissement</label>
-    <textarea id="warning"></textarea>
-  </div>
-
-  <div class="card">
-    <h2>Image</h2>
-
-    <label>URL de l’image distante</label>
-    <input id="imageUrl"
-      placeholder="https://awenhafredrigstudio.bzh/images/guide/meduses/nom.jpg"
-      oninput="updatePreview()">
-
-    <label>Chemin de l’image locale</label>
-    <input id="imageAsset"
-      placeholder="assets/images/guide/meduses/nom.jpg">
-
-    <img id="imagePreview" class="preview" alt="Aperçu">
-  </div>
-
-  <div class="card">
-    <h2>Crédits photo</h2>
-
-    <label>Crédit photo</label>
-    <input id="photoCredit">
-
-    <label>Auteur</label>
-    <input id="photoAuthor">
-
-    <label>Licence</label>
-    <input id="photoLicense">
-
-    <label>Nom de la source</label>
-    <input id="photoSourceLabel">
-
-    <label>URL de la source</label>
-    <input id="photoSourceUrl">
-  </div>
-
-  <div class="card">
-    <div class="actions">
-      <button onclick="generer()">🧠 Générer la fiche</button>
-      <button class="secondary" onclick="copierJson()">📋 Copier le JSON</button>
-      <button class="secondary" onclick="telechargerJson()">💾 Télécharger la fiche</button>
-      <button class="danger" onclick="viderFormulaire()">🗑️ Vider</button>
-    </div>
-
-    <div id="notice" class="notice"></div>
-  </div>
-
-  <div class="card">
-    <h2>JSON généré</h2>
-    <textarea id="jsonResult"></textarea>
-  </div>
-
-</div>
-
-<script>
-function addRow(containerId, value = "") {
-  const container = document.getElementById(containerId);
-
-  const row = document.createElement("div");
-  row.className = "list-row";
-
-  const input = document.createElement("input");
-  input.type = "text";
-  input.value = value;
-  input.placeholder = "Écrire une information";
-
-  const removeButton = document.createElement("button");
-  removeButton.type = "button";
-  removeButton.textContent = "✖";
-  removeButton.className = "danger";
-  removeButton.onclick = () => row.remove();
-
-  row.appendChild(input);
-  row.appendChild(removeButton);
-  container.appendChild(row);
-}
-
-function getListValues(containerId) {
-  return Array.from(
-    document.querySelectorAll(`#${containerId} input`)
-  )
-  .map(input => input.value.trim())
-  .filter(value => value !== "");
-}
-
-function slugify(value) {
-  return value
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
-}
-
-function cleanObject(object) {
-  Object.keys(object).forEach(key => {
-    const value = object[key];
-
-    if (
-      value === "" ||
-      value === null ||
-      value === undefined ||
-      (Array.isArray(value) && value.length === 0)
-    ) {
-      delete object[key];
-    }
-  });
-
-  return object;
-}
-
-function generer() {
-  const title = document.getElementById("title").value.trim();
-
-  if (!title) {
-    showNotice("Le titre est obligatoire.", "error");
-    return;
-  }
-
-  let id = document.getElementById("id").value.trim();
-
-  if (!id) {
-    id = slugify(title);
-    document.getElementById("id").value = id;
-  }
-
-  const fiche = cleanObject({
-    id: id,
-    category: document.getElementById("category").value,
-    title: title,
-    scientific_name: document.getElementById("scientificName").value.trim(),
-    image_url: document.getElementById("imageUrl").value.trim(),
-    image_asset: document.getElementById("imageAsset").value.trim(),
-    danger_level: document.getElementById("danger").value,
-    danger_label: document.getElementById("dangerLabel").value.trim(),
-    presence: document.getElementById("presence").value.trim(),
-    summary: document.getElementById("summary").value.trim(),
-    recognition: getListValues("recognitionList"),
-    elouan_tip: document.getElementById("elouanTip").value.trim(),
-    good_actions: getListValues("goodActionsList"),
-    avoid_actions: getListValues("avoidActionsList"),
-    warning: document.getElementById("warning").value.trim(),
-    photo_author: document.getElementById("photoAuthor").value.trim() || null,
-    photo_license: document.getElementById("photoLicense").value.trim() || null,
-    photo_credit: document.getElementById("photoCredit").value.trim() || null,
-    photo_source_label: document.getElementById("photoSourceLabel").value.trim() || null,
-    photo_source_url: document.getElementById("photoSourceUrl").value.trim() || null
-  });
-
-  document.getElementById("jsonResult").value =
-    JSON.stringify(fiche, null, 2);
-
-  showNotice("La fiche a été générée.", "success");
-}
-
-async function copierJson() {
-  const result = document.getElementById("jsonResult").value.trim();
-
-  if (!result) {
-    generer();
-  }
-
-  const value = document.getElementById("jsonResult").value.trim();
-
-  if (!value) return;
-
-  try {
-    await navigator.clipboard.writeText(value);
-    showNotice("JSON copié dans le presse-papiers.", "success");
-  } catch (error) {
-    showNotice("Impossible de copier automatiquement. Sélectionne le JSON manuellement.", "error");
-  }
-}
-
-function telechargerJson() {
-  if (!document.getElementById("jsonResult").value.trim()) {
-    generer();
-  }
-
-  const result = document.getElementById("jsonResult").value.trim();
-
-  if (!result) return;
-
-  const id = document.getElementById("id").value.trim() || "nouvelle-fiche";
-  const blob = new Blob([result], { type: "application/json;charset=utf-8" });
-  const url = URL.createObjectURL(blob);
-
-  const link = document.createElement("a");
-  link.href = url;
-  link.download = `${id}.json`;
-  link.click();
-
-  URL.revokeObjectURL(url);
-}
-
-function updatePreview() {
-  const image = document.getElementById("imagePreview");
-  const url = document.getElementById("imageUrl").value.trim();
-
-  if (!url) {
-    image.style.display = "none";
-    image.removeAttribute("src");
-    return;
-  }
-
-  image.src = url;
-  image.style.display = "block";
-
-  image.onerror = () => {
-    image.style.display = "none";
-    showNotice("L’image distante ne peut pas être affichée.", "error");
-  };
-}
-
-function viderFormulaire() {
-  if (!confirm("Effacer tous les champs de la fiche ?")) {
-    return;
-  }
-
-  document.querySelectorAll("input, textarea").forEach(element => {
-    element.value = "";
-  });
-
-  document.getElementById("category").value = "meduses";
-  document.getElementById("danger").value = "faible";
-
-  document.getElementById("recognitionList").innerHTML = "";
-  document.getElementById("goodActionsList").innerHTML = "";
-  document.getElementById("avoidActionsList").innerHTML = "";
-
-  addRow("recognitionList");
-  addRow("goodActionsList");
-  addRow("avoidActionsList");
-
-  document.getElementById("imagePreview").style.display = "none";
-  showNotice("Le formulaire a été vidé.", "success");
-}
-
-function showNotice(message, type) {
-  const notice = document.getElementById("notice");
-  notice.textContent = message;
-  notice.className = `notice ${type}`;
-}
-
-addRow("recognitionList");
-addRow("goodActionsList");
-addRow("avoidActionsList");
-</script>
-
+  <header class="topbar">
+    <div class="brand"><div class="brand-mark">🌊</div><div><h1>Guide du littoral</h1><p>Breizh Plage · gestion des fiches</p></div></div>
+    <div class="top-actions"><button class="button ghost" id="importButton">Importer JSON</button><button class="button" id="exportButton">Télécharger le JSON</button><input id="fileInput" type="file" accept="application/json" hidden></div>
+  </header>
+  <main class="layout">
+    <aside class="panel">
+      <div class="panel-head"><div><h2>Catégories</h2><p id="countLabel" style="color:var(--muted);margin-top:3px">0 fiche</p></div><button class="button primary" id="newButton">+ Nouvelle</button></div>
+      <nav class="category-tabs" id="categoryTabs"></nav>
+      <input class="search" id="searchInput" placeholder="Rechercher une fiche…" aria-label="Rechercher une fiche">
+      <div class="list" id="articleList"></div>
+    </aside>
+    <section class="panel form" aria-live="polite">
+      <div class="form-head"><div><h2 id="formTitle">Nouvelle fiche</h2><p id="formSubtitle">Les changements restent en mémoire jusqu'au téléchargement.</p></div><div class="form-actions"><button class="button secondary" id="duplicateButton">Dupliquer</button><button class="button danger" id="deleteButton">Supprimer</button><button class="button primary" id="saveButton">Enregistrer</button></div></div>
+      <form id="articleForm">
+        <div class="grid">
+          <div class="field"><label for="title">Titre</label><input id="title" required></div>
+          <div class="field"><label for="scientificName">Nom scientifique</label><input id="scientificName"></div>
+          <div class="field full"><label for="summary">Résumé</label><textarea id="summary"></textarea></div>
+          <div class="field"><label for="presence">Présence en Bretagne</label><input id="presence"></div>
+          <div class="field"><label for="dangerLevel">Niveau de danger</label><select id="dangerLevel"><option value="">Non précisé</option><option value="faible">Faible</option><option value="modere">Modéré</option><option value="fort">Fort</option></select></div>
+          <div class="field"><label for="dangerLabel">Libellé du danger</label><input id="dangerLabel"></div>
+          <div class="field"><label for="imageRemote">Image distante</label><input id="imageRemote" type="url" placeholder="https://…"></div>
+          <div class="field"><label for="imageAsset">Asset Flutter</label><input id="imageAsset" placeholder="assets/images/guide/…"></div>
+          <div class="field"><label for="photoAuthor">Auteur</label><input id="photoAuthor"></div>
+          <div class="field"><label for="photoLicense">Licence</label><input id="photoLicense"></div>
+          <div class="field"><label for="photoCredit">Crédit photo</label><input id="photoCredit"></div>
+          <div class="field"><label for="photoSourceLabel">Source</label><input id="photoSourceLabel"></div>
+          <div class="field full"><label for="photoSourceUrl">URL source</label><input id="photoSourceUrl" type="url"></div>
+          <div class="field full"><label for="elouanTip">Astuce d'Elouan</label><textarea id="elouanTip"></textarea></div>
+          <div class="field full"><label for="warning">Avertissement</label><textarea id="warning"></textarea></div>
+        </div>
+        <div class="field section"><div class="section-title"><h3>Comment reconnaître</h3><button type="button" class="button secondary" data-add="recognition">+ Ajouter</button></div><div class="repeat-list" id="recognitionList"></div></div>
+        <div class="field section"><div class="section-title"><h3>Les bons gestes</h3><button type="button" class="button secondary" data-add="good_actions">+ Ajouter</button></div><div class="repeat-list" id="goodActionsList"></div></div>
+        <div class="field section"><div class="section-title"><h3>À éviter</h3><button type="button" class="button secondary" data-add="avoid_actions">+ Ajouter</button></div><div class="repeat-list" id="avoidActionsList"></div></div>
+        <figure class="preview" id="preview" hidden><img id="previewImage" alt="Aperçu de l'image"><figcaption id="previewCaption"></figcaption></figure>
+      </form>
+    </section>
+  </main>
+  <div class="toast" id="toast"></div>
+  <script>
+    (() => {
+      const categories = { meduses: '🪼 Méduses', peche_a_pied: '🦀 Pêche à pied', faune_flore: '🌿 Faune & Flore', securite_littoral: '⚠️ Sécurité du littoral' };
+      const fields = ['title','scientificName','summary','presence','dangerLevel','dangerLabel','imageRemote','imageAsset','photoAuthor','photoLicense','photoCredit','photoSourceLabel','photoSourceUrl','elouanTip','warning'];
+      const lists = { recognition: 'recognitionList', good_actions: 'goodActionsList', avoid_actions: 'avoidActionsList' };
+      let category = 'meduses'; let articles = {}; let selected = null;
+      const $ = id => document.getElementById(id); const clean = value => String(value ?? '').trim();
+      const slug = title => clean(title).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'') || 'fiche';
+      const blank = () => ({ id:'', category, title:'', scientific_name:'', summary:'', presence:'', danger_level:'', danger_label:'', image_remote:'', image_asset:'', photo_author:'', photo_license:'', photo_credit:'', photo_source_label:'', photo_source_url:'', elouan_tip:'', warning:'', recognition:[], good_actions:[], avoid_actions:[] });
+      const showToast = message => { $('toast').textContent=message; $('toast').classList.add('show'); setTimeout(()=>$('toast').classList.remove('show'),2200); };
+      function normalize(item) { const result=blank(); Object.keys(result).forEach(key => { if(key in (item||{})) result[key]=Array.isArray(item[key]) ? item[key].map(clean).filter(Boolean) : clean(item[key]); }); result.id=clean(item?.id)||slug(result.title); result.category=category; return result; }
+      function renderCategories() { $('categoryTabs').innerHTML=Object.entries(categories).map(([key,label])=>`<button class="category-tab ${key===category?'active':''}" data-category="${key}">${label}</button>`).join(''); document.querySelectorAll('[data-category]').forEach(button=>button.onclick=()=>{category=button.dataset.category; selected=null; render();}); }
+      function renderList() { const query=clean($('searchInput').value).toLowerCase(); const values=(articles[category]||[]).filter(item=>!query||`${item.title} ${item.summary}`.toLowerCase().includes(query)); $('countLabel').textContent=`${values.length} fiche${values.length>1?'s':''}`; $('articleList').innerHTML=values.length?values.map(item=>`<button class="article-row ${item.id===selected?'active':''}" data-id="${item.id}"><span><strong>${escapeHtml(item.title||'Sans titre')}</strong><small>${escapeHtml(item.danger_label||'Fiche du guide')}</small></span><span>›</span></button>`).join(''):`<div class="empty">Aucune fiche dans cette catégorie.</div>`; document.querySelectorAll('[data-id]').forEach(button=>button.onclick=()=>{selected=button.dataset.id; loadForm(articles[category].find(item=>item.id===selected)); renderList();}); }
+      function escapeHtml(value) { return clean(value).replace(/[&<>"']/g, character=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[character])); }
+      function renderRepeater(key, values) { const target=$(lists[key]); target.innerHTML=(values||[]).map((value,index)=>`<div class="repeat-row"><input data-repeat="${key}" data-index="${index}" value="${escapeHtml(value)}"><button type="button" class="icon-button remove" data-remove="${key}" data-index="${index}" aria-label="Supprimer">×</button></div>`).join(''); target.querySelectorAll('[data-remove]').forEach(button=>button.onclick=()=>{ const item=readForm(); item[button.dataset.remove].splice(Number(button.dataset.index),1); loadForm(item); }); }
+      function loadForm(item=blank()) { fields.forEach(field=>$(field).value=item[field.replace(/[A-Z]/g,m=>'_'+m.toLowerCase())] ?? item[field] ?? ''); Object.entries(lists).forEach(([key])=>renderRepeater(key,item[key]||[])); updatePreview(); $('formTitle').textContent=item.id?'Modifier la fiche':'Nouvelle fiche'; $('formSubtitle').textContent=item.id?`ID : ${item.id}`:'Les changements restent en mémoire jusqu\'au téléchargement.'; }
+      function readForm() { const item=blank(); fields.forEach(field=>{ const key=field.replace(/[A-Z]/g,m=>'_'+m.toLowerCase()); item[key]=$(field).value; }); item.id=selected||slug(item.title); Object.keys(lists).forEach(key=>item[key]=[...document.querySelectorAll(`[data-repeat="${key}"]`)].map(input=>clean(input.value)).filter(Boolean)); return item; }
+      function updatePreview() { const url=clean($('imageRemote').value)||clean($('imageAsset').value); $('preview').hidden=!url; $('previewImage').src=url; $('previewCaption').textContent=url?`Aperçu : ${url}`:''; }
+      function render() { renderCategories(); renderList(); loadForm(selected?articles[category].find(item=>item.id===selected):blank()); }
+      $('searchInput').oninput=renderList; $('imageRemote').oninput=updatePreview; $('imageAsset').oninput=updatePreview; $('newButton').onclick=()=>{selected=null;loadForm();renderList();};
+      $('saveButton').onclick=event=>{event.preventDefault(); const item=readForm(); if(!item.title){showToast('Ajoutez un titre avant d’enregistrer.');return;} const list=articles[category]||[]; const index=list.findIndex(value=>value.id===item.id); if(index<0) list.push(item); else list[index]=item; articles[category]=list; selected=item.id; render(); showToast('Fiche enregistrée');};
+      $('duplicateButton').onclick=()=>{ const item=readForm(); item.id=''; item.title=`${item.title||'Fiche'} (copie)`; selected=null; loadForm(item); showToast('Copie prête à être enregistrée'); };
+      $('deleteButton').onclick=()=>{if(!selected)return showToast('Sélectionnez une fiche.'); if(!confirm('Supprimer définitivement cette fiche de l’éditeur ?'))return; articles[category]=articles[category].filter(item=>item.id!==selected); selected=null; render(); showToast('Fiche supprimée');};
+      document.querySelectorAll('[data-add]').forEach(button=>button.onclick=()=>{const item=readForm();item[button.dataset.add].push('');loadForm(item);});
+      $('importButton').onclick=()=>$('fileInput').click(); $('fileInput').onchange=async event=>{const file=event.target.files[0];if(!file)return;try{const json=JSON.parse(await file.text());const values=Array.isArray(json)?json:json.articles||[];articles[category]=values.map(normalize);selected=null;render();showToast('JSON importé');}catch(error){showToast(`Import impossible : ${error.message}`);}};
+      $('exportButton').onclick=()=>{const payload=JSON.stringify(articles[category]||[],null,2);const blob=new Blob([payload],{type:'application/json'});const link=document.createElement('a');link.href=URL.createObjectURL(blob);link.download=`${category}.json`;link.click();URL.revokeObjectURL(link.href);showToast('JSON téléchargé');};
+      Object.keys(categories).forEach(key=>articles[key]=[]); render();
+    })();
+  </script>
 </body>
 </html>
