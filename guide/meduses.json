@@ -4,10 +4,8 @@
     "category": "meduses",
     "title": "Pélagie",
     "scientific_name": "Pelagia noctiluca",
-    "image_asset": {
-  "image_url": "https://awenhafredrigstudio.bzh/images/guide/meduses/pelagie.jpg",
-  "image_asset": "assets/images/guide/meduses/pelagie.jpg"
-}
+    "image_asset":"image_url": "https://awenhafredrigstudio.bzh/images/guide/meduses/pelagie.jpg",
+                  "image_asset": "assets/images/guide/meduses/pelagie.jpg",
     "danger_level": "fort",
     "danger_label": "Très urticante",
     "presence": "Juin à octobre, surtout après les vents d'est",
