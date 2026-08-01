@@ -41,6 +41,48 @@
       "photo_credit": "Photo : Paul Morris — CC BY-SA 2.0",
       "photo_source_label": "Wikimedia Commons",
       "photo_source_url": "https://commons.wikimedia.org/w/index.php?curid=15221935"
+    },
+    {
+      "id": "palourde-commune",
+      "category": "peche_a_pied",
+      "title": "Palourde commune",
+      "scientific_name": "Ruditapes decussatus",
+      "summary": "La palourde commune est un coquillage bivalve très apprécié des pêcheurs à pied. Elle vit enfouie de quelques centimètres dans le sable ou les vasières des baies et estuaires. Sa coquille présente un aspect quadrillé caractéristique.",
+      "presence": "Très présente sur les côtes bretonnes, notamment dans les baies, les estuaires et les plages de sable fin découvertes à marée basse. Elle vit enfouie dans les sédiments meubles où elle filtre l’eau de mer pour se nourrir.",
+      "danger_level": "faible",
+      "danger_label": "Comestible – respecter les tailles minimales et les interdictions sanitaires.",
+      "image_url": "https://awenhafredrigstudio.bzh/images/guide/peche_a_pied/palourde-commune.jpg",
+      "image_asset": "assets/images/guide/peche_a_pied/palourde-commune.jpg",
+      "photo_author": "Hans Hillewaert",
+      "photo_license": "CC BY-SA 1.0",
+      "photo_credit": "Photo : Hans Hillewaert — CC BY-SA 1.0",
+      "photo_source_label": "Wikimedia Commons",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Palourde.jpg",
+      "elouan_tip": "Demat ! Cherche les petits trous en forme de huit ou les légers jets d’eau sur le sable humide. Ils trahissent souvent la présence d’une palourde juste en dessous !",
+      "warning": "Les palourdes peuvent concentrer des bactéries, virus ou toxines présents dans leur environnement. Avant toute récolte, vérifie toujours les interdictions temporaires et les avis sanitaires.",
+      "recognition": [
+        "Coquille ovale, épaisse et solide.",
+        "Couleur variant du blanc crème au gris ou au brun.",
+        "Fines stries radiales et concentriques formant un aspect quadrillé.",
+        "Deux valves de taille identique.",
+        "Taille adulte généralement comprise entre 4 et 5 cm.",
+        "Se trouve enfouie sous quelques centimètres de sable ou de vase."
+      ],
+      "good_actions": [
+        "Vérifier que la zone est autorisée à la pêche à pied.",
+        "Utiliser un outil adapté sans retourner excessivement le sédiment.",
+        "Respecter la taille minimale réglementaire.",
+        "Reboucher les trous après la récolte.",
+        "Prélever uniquement la quantité nécessaire.",
+        "Consulter les bulletins sanitaires avant toute consommation."
+      ],
+      "avoid_actions": [
+        "Ne pas ramasser de palourdes dans une zone fermée pour raisons sanitaires.",
+        "Ne pas prélever d’individus trop petits.",
+        "Ne pas retourner inutilement les bancs de sable.",
+        "Ne pas laisser de trous ouverts après la pêche.",
+        "Ne pas conserver les coquillages dans de l’eau douce."
+      ]
     }
   ]
 }
