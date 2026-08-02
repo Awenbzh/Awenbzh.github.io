@@ -76,4 +76,87 @@
   "photo_source_label": "https://fr.vikidia.org/wiki/Fichier:Littorina_littorea_001.jpg",
   "photo_source_url": "https://commons.wikimedia.org/w/index.php?curid=15221935"
 }
+  [
+  {
+    "id": "baines-et-courants-d-arrachement",
+    "category": "meduses",
+    "title": "Baïnes et courants d’arrachement",
+    "scientific_name": "",
+    "summary": "Une baïne est une cuvette formée entre la plage et un banc de sable. Lorsque l’eau accumulée rejoint la mer, elle peut créer un courant d’arrachement puissant, capable d’éloigner rapidement un baigneur du rivage. Ce phénomène est particulièrement connu sur les grandes plages sableuses de la façade atlantique.",
+    "presence": "Des courants d’arrachement peuvent apparaître sur les plages sableuses soumises aux vagues, notamment lorsque des bancs de sable et des chenaux se forment. Il faut toujours respecter la signalisation locale, les drapeaux de baignade et les consignes des sauveteurs.",
+    "danger_level": "fort",
+    "danger_label": "Courant puissant pouvant entraîner rapidement vers le large",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/securite_littoral/baines-courant-arrachement.jpg",
+    "image_asset": "",
+    "photo_author": "",
+    "photo_license": "",
+    "photo_credit": "",
+    "photo_source_label": "Préfecture de la Gironde",
+    "photo_source_url": "",
+    "elouan_tip": "Hopala ! Une zone très calme entre deux lignes de vagues n’est pas toujours rassurante : elle peut cacher un courant qui part vers le large. Le plus sûr reste de se baigner près du poste de secours et de demander conseil aux sauveteurs !",
+    "warning": "Un courant d’arrachement peut surprendre même un bon nageur et entraîner rapidement vers le large. Si tu es emporté, garde ton calme, économise tes forces, signale-toi aux sauveteurs et évite de lutter directement contre le courant. En cas de doute, ne te baigne pas.",
+    "recognition": [
+      "Zone d’eau qui semble plus calme entre deux secteurs où les vagues déferlent.",
+      "Couleur de l’eau parfois plus sombre ou chargée de sable.",
+      "Écume, algues ou débris qui semblent partir vers le large.",
+      "Chenaux ou creux visibles entre la plage et un banc de sable.",
+      "Courant parfois difficile à repérer depuis l’eau."
+    ],
+    "good_actions": [
+      "Se baigner uniquement dans une zone surveillée et respecter les drapeaux.",
+      "Demander aux sauveteurs où la baignade est la plus sûre.",
+      "Surveiller les enfants en permanence et rester à leurs côtés.",
+      "Tenir compte de sa condition physique et ne pas surestimer ses capacités.",
+      "Tenir compte de sa condition physique et ne pas surestimer ses capacités.",
+      "Prévenir un proche avant d’entrer dans l’eau.",
+      "En cas de danger immédiat, appeler le 112 ou le 196 pour une urgence en mer."
+    ],
+    "avoid_actions": [
+      "Ne pas se baigner dans une zone interdite ou non surveillée lorsque les conditions sont mauvaises.",
+      "Ne pas lutter longtemps directement contre le courant au risque de s’épuiser.",
+      "Ne pas laisser un enfant seul au bord de l’eau, même quelques secondes.",
+      "Ne pas entrer dans l’eau après avoir consommé de l’alcool.",
+      "Ne pas ignorer les panneaux, les drapeaux ou les consignes des sauveteurs."
+  },
+  {
+    "id": "physalie",
+    "category": "meduses",
+    "title": "Physalie",
+    "scientific_name": "Physalia physalis",
+    "summary": "La physalie, surnommée « galère portugaise », n'est pas une véritable méduse mais une colonie d'organismes vivant ensemble. Elle flotte grâce à une vessie remplie de gaz et peut dériver sur de très longues distances. Ses tentacules peuvent dépasser 20 mètres et provoquer des brûlures très douloureuses, même lorsqu'elle est échouée sur la plage.",
+    "presence": "La physalie est rare en Bretagne mais peut être observée après de forts vents océaniques. Des arrivages sont parfois signalés sur les plages bretonnes, principalement en automne et en hiver, mais aussi à d'autres périodes selon les conditions météorologiques.",
+    "danger_level": "fort",
+    "danger_label": "Ne jamais toucher, même échouée.",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/meduses/physalie.jpg",
+    "image_asset": "",
+    "photo_author": "",
+    "photo_license": "",
+    "photo_credit": "",
+    "photo_source_label": "",
+    "photo_source_url": "",
+    "elouan_tip": "\"Na stok ket ouzh ar physalie, zoken pa'z eo war an traezh !\"\n\n(Ne touche jamais une physalie, même lorsqu'elle est échouée sur la plage !)\n\n Même si elle paraît inoffensive, la physalie peut encore piquer plusieurs jours après son échouage. Le mieux, c'est de l'admirer de loin et de prévenir les sauveteurs.",
+    "warning": "Les piqûres de physalie sont très douloureuses et peuvent provoquer des réactions importantes, parfois graves chez les personnes sensibles. En cas de difficulté respiratoire, de malaise ou de réaction généralisée, appelez immédiatement le 15 ou le 112.",
+    "recognition": [
+      "Flotteur bleu violacé en forme de voile.",
+      "Aspect brillant et translucide.",
+      "Longs tentacules bleus ou violets.",
+      "Dérive à la surface de l'eau.",
+      "Peut être retrouvée échouée sur le sable.",
+      "Même morte, elle reste dangereuse."
+    ],
+    "good_actions": [
+      "Garder une distance de sécurité.",
+      "Prévenir les autres usagers de la plage.",
+      "Signaler sa présence aux sauveteurs ou à la mairie.",
+      "Surveiller les enfants et les animaux.",
+      "En cas de contact, rincer abondamment à l'eau de mer.",
+      "Consulter rapidement un professionnel de santé si la douleur est importante ou en cas de malaise."
+    ],
+    "avoid_actions": [
+      "Ne jamais toucher une physalie, même morte.",
+      "Ne pas la ramasser avec les mains.",
+      "Ne pas rincer la peau à l'eau douce.",
+      "Ne pas frotter la zone touchée.",
+      "Ne pas laisser les enfants jouer à proximité."
+    } 
 ]
