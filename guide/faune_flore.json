@@ -1,0 +1,45 @@
+[
+  {
+    "id": "mouette-rieuse",
+    "category": "faune_flore",
+    "title": "Mouette rieuse",
+    "scientific_name": "Chroicocephalus ridibundus",
+    "summary": "La mouette rieuse est un oiseau marin très commun sur le littoral breton. Facilement reconnaissable à ses pattes rouges et à son bec rouge foncé, elle fréquente les plages, les ports, les estuaires et les plans d'eau. Son célèbre cri lui a donné son nom.",
+    "presence": "Présente toute l'année sur les côtes bretonnes. Elle fréquente les plages, les ports, les estuaires, les marais, les rivières et certains plans d'eau intérieurs. En hiver, elle se rassemble souvent en grands groupes.",
+    "danger_level": "faible",
+    "danger_label": "Inoffensive – ne pas la nourrir ni déranger les colonies.",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/faune_flore/mouette-rieuse.jpg",
+    "image_asset": "",
+    "photo_author": "Claire Cimmino",
+    "photo_license": "Tous droits réservés",
+    "photo_credit": "",
+    "photo_source_label": "photo personnelle",
+    "photo_source_url": "",
+    "elouan_tip": "« Sell mat ouzh ar vouedenn, met na ro ket boued dezhi ! » (Regarde bien la mouette, mais ne lui donne pas à manger !) Les mouettes trouvent naturellement leur nourriture. Les nourrir les rend moins sauvages et peut perturber leur comportement.",
+    "warning": "Même si elle paraît familière, la mouette rieuse reste un animal sauvage. Pendant la période de reproduction, certaines colonies peuvent défendre leurs nids. Il est important de garder ses distances et de respecter les zones protégées.",
+    "recognition": [
+      "Tête brun chocolat en plumage nuptial (printemps-été).",
+      "Tête blanche avec une petite tache sombre derrière l'œil en hiver.",
+      "Bec rouge foncé.",
+      "Pattes rouges.",
+      "Dos gris clair.",
+      "Extrémités des ailes noires avec des marques blanches.",
+      "Taille d'environ 35 à 39 cm."
+    ],
+    "good_actions": [
+      "Observer les oiseaux à distance.",
+      "Respecter les zones de nidification.",
+      "Ramasser ses déchets.",
+      "Tenir les chiens en laisse près des colonies.",
+      "Utiliser des jumelles pour les observer.",
+      "Préserver les dunes et les habitats naturels."
+    ],
+    "avoid_actions": [
+      "Ne pas nourrir les mouettes.",
+      "Ne pas s'approcher des nids.",
+      "Ne pas toucher les poussins.",
+      "Ne pas laisser de nourriture sur la plage.",
+      "Ne pas jeter de déchets alimentaires."
+    ]
+  }
+]
