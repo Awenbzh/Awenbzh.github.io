@@ -34,7 +34,7 @@
     "photo_source_label": "Wikimedia Commons",
     "photo_source_url": null
   },
-  
+  {
     "id": "physalie",
     "category": "meduses",
     "title": "Physalie",
@@ -43,14 +43,14 @@
     "presence": "La physalie est rare en Bretagne mais peut être observée après de forts vents océaniques. Des arrivages sont parfois signalés sur les plages bretonnes, principalement en automne et en hiver, mais aussi à d'autres périodes selon les conditions météorologiques.",
     "danger_level": "fort",
     "danger_label": "Ne jamais toucher, même échouée.",
-    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/meduses/physalie.jpg",
+    "image_url": "https://awenhafredrigstudio.bzh/images/guide/meduses/physalie.jpg",
     "image_asset": "",
     "photo_author": "",
     "photo_license": "",
     "photo_credit": "",
     "photo_source_label": "",
     "photo_source_url": "",
-    "elouan_tip": "\"Na stok ket ouzh ar physalie, zoken pa'z eo war an traezh !\"\n\n(Ne touche jamais une physalie, même lorsqu'elle est échouée sur la plage !)\n\n Même si elle paraît inoffensive, la physalie peut encore piquer plusieurs jours après son échouage. Le mieux, c'est de l'admirer de loin et de prévenir les sauveteurs.",
+    "elouan_tip": "\"Na stok ket ouzh ar physalie, zoken pa'z eo war an traezh !\"\n\n(Ne touche jamais une physalie, même lorsqu'elle est échouée sur la plage !)\n\nMême si elle paraît inoffensive, la physalie peut encore piquer plusieurs jours après son échouage. Le mieux, c'est de l'admirer de loin et de prévenir les sauveteurs.",
     "warning": "Les piqûres de physalie sont très douloureuses et peuvent provoquer des réactions importantes, parfois graves chez les personnes sensibles. En cas de difficulté respiratoire, de malaise ou de réaction généralisée, appelez immédiatement le 15 ou le 112.",
     "recognition": [
       "Flotteur bleu violacé en forme de voile.",
@@ -73,8 +73,7 @@
       "Ne pas la ramasser avec les mains.",
       "Ne pas rincer la peau à l'eau douce.",
       "Ne pas frotter la zone touchée.",
-      "Ne pas laisser les enfants jouer à proximité." 
-     ]
-    }
-  ]
-}
+      "Ne pas laisser les enfants jouer à proximité."
+    ]
+  }
+]
