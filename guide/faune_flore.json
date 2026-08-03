@@ -13,7 +13,7 @@
     "photo_author": "Claire Cimmino",
     "photo_license": "Tous droits réservés",
     "photo_credit": "",
-    "photo_source_label": "photo personnelle",
+    "photo_source_label": "Photo personnelle",
     "photo_source_url": "",
     "elouan_tip": "« Sell mat ouzh ar vouedenn, met na ro ket boued dezhi ! » (Regarde bien la mouette, mais ne lui donne pas à manger !) Les mouettes trouvent naturellement leur nourriture. Les nourrir les rend moins sauvages et peut perturber leur comportement.",
     "warning": "Même si elle paraît familière, la mouette rieuse reste un animal sauvage. Pendant la période de reproduction, certaines colonies peuvent défendre leurs nids. Il est important de garder ses distances et de respecter les zones protégées.",
@@ -40,6 +40,50 @@
       "Ne pas toucher les poussins.",
       "Ne pas laisser de nourriture sur la plage.",
       "Ne pas jeter de déchets alimentaires."
+    ]
+  },
+  {
+    "id": "phoque-gris",
+    "category": "faune_flore",
+    "title": "Phoque gris",
+    "scientific_name": "Halichoerus grypus",
+    "summary": "Le phoque gris est le plus grand mammifère marin régulièrement observé sur les côtes bretonnes. Curieux mais sauvage, il vient parfois se reposer sur les plages, les rochers ou les îlots. Il ne doit jamais être approché ni dérangé.",
+    "presence": "Le phoque gris est présent toute l'année sur le littoral breton, notamment dans l'archipel des Sept-Îles, la mer d'Iroise, la baie de Morlaix, la presqu'île de Crozon, la baie d'Audierne, le golfe du Morbihan et plusieurs îlots rocheux. Il peut également être observé isolé sur de nombreuses plages.",
+    "danger_level": "faible",
+    "danger_label": "Animal sauvage : garder ses distances.",
+    "image_url": "https://awenhafredrigstudio.bzh/images/guide/faune_flore/phoque-gris.jpg",
+    "image_asset": "",
+    "photo_author": "LeBourgmestre",
+    "photo_license": "Creative Commons Attribution-ShareAlike 4.0 International",
+    "photo_credit": "",
+    "photo_source_label": "Wikipédia",
+    "photo_source_url": "https://fr.wikipedia.org/wiki/Fichier:Phoque_gris_Dunkerque.jpg",
+    "elouan_tip": "\"Leuskel ar fok da ziskuizhañ ! Arabat mont tost dezhañ.\"\n\n(Laisse le phoque se reposer ! N'approche pas de lui.)\n\nDemat ! Un phoque allongé sur une plage n'est pas forcément malade. Il fait souvent simplement une pause entre deux sorties en mer. Le meilleur réflexe est de l'observer de loin.",
+    "warning": "Même calme, un phoque reste un animal sauvage. Il peut mordre s'il se sent menacé. Garde au moins 100 mètres de distance, tiens les chiens en laisse et ne tente jamais de le remettre à l'eau. Si l'animal paraît blessé ou en détresse, préviens les sauveteurs, l'Office français de la biodiversité (OFB) ou un centre de soins de la faune sauvage, sans t'en approcher.",
+    "recognition": [
+      "Grand corps fuselé gris à brun.",
+      "Pelage tacheté, très variable selon les individus.",
+      "Tête allongée avec un profil presque droit.",
+      "Grandes narines parallèles.",
+      "Grands yeux noirs.",
+      "Longueur de 1,8 à 2,5 mètres.",
+      "Poids pouvant dépasser 300 kg chez les mâles."
+    ],
+    "good_actions": [
+      "Observer à bonne distance.",
+      "Tenir les chiens en laisse.",
+      "Utiliser des jumelles ou un zoom pour les photos.",
+      "Respecter les zones protégées.",
+      "Prévenir les autorités si un animal semble réellement blessé.",
+      "Laisser le phoque décider seul de retourner à l'eau."
+    ],
+    "avoid_actions": [
+      "Ne jamais toucher un phoque.",
+      "Ne pas nourrir l'animal.",
+      "Ne pas essayer de le remettre à l'eau.",
+      "Ne pas s'approcher pour un selfie.",
+      "Ne pas laisser les enfants s'en approcher.",
+      "Ne pas laisser un chien courir vers lui."
     ]
   }
 ]
