@@ -1,88 +1,44 @@
-{
-  "articles": [
-    {
-      "id": "bigorneau-commun",
-      "category": "peche_a_pied",
-      "title": "Bigorneau commun",
-      "scientific_name": "Littorina littorea",
-      "image_url": "https://awenhafredrigstudio.bzh/images/guide/peche_a_pied/bigorneau-commun.jpg",
-      "image_asset": "assets/images/guide/peche_a_pied/bigorneau-commun.jpg",
-      "danger_level": "faible",
-      "danger_label": "Comestible – vérifier la qualité sanitaire du lieu de pêche",
-      "presence": "Très fréquent sur le littoral breton, notamment sur les estrans rocheux, sous les algues, dans les fissures et dans les mares découvertes à marée basse.",
-      "summary": "Petit gastéropode marin très commun sur les côtes bretonnes. Sa coquille sombre et spiralée cache un mollusque herbivore qui se nourrit de microalgues.",
-      "recognition": [
-        "Coquille conique, spiralée et légèrement bombée, terminée par une pointe.",
-        "Couleur généralement noire, gris foncé ou brunâtre chez l’adulte.",
-        "Présence de fines stries sombres et claires autour de la coquille.",
-        "Ouverture ovale pouvant être fermée par un petit opercule corné.",
-        "Taille adulte généralement comprise entre 2,5 et 3 centimètres.",
-        "Les jeunes peuvent être plus clairs, du crème au brun roux."
-      ],
-      "elouan_tip": "Demat ! Cherche-moi sous les algues et dans les petites fissures des rochers à marée basse. Soulève doucement les pierres et remets-les toujours comme tu les as trouvées !",
-      "good_actions": [
-        "Vérifier avant toute récolte que la zone est autorisée et ouverte à la pêche à pied.",
-        "Ne prélever que la quantité nécessaire à sa consommation personnelle.",
-        "Laisser sur place les individus les plus petits.",
-        "Soulever les pierres avec précaution et toujours les remettre dans leur position d’origine.",
-        "Conserver les bigorneaux au frais et les consommer rapidement après la récolte.",
-        "Les rincer soigneusement à l’eau de mer propre avant la cuisson."
-      ],
-      "avoid_actions": [
-        "Ne pas ramasser de bigorneaux dans une zone interdite ou touchée par une alerte sanitaire.",
-        "Ne pas consommer un coquillage dont l’odeur ou l’aspect paraît anormal.",
-        "Ne pas retourner durablement les pierres.",
-        "Ne pas prélever tous les individus présents au même endroit.",
-        "Ne pas conserver les coquillages dans de l’eau douce."
-      ],
-      "warning": "La consommation de coquillages ramassés à pied peut présenter un risque lorsque la qualité sanitaire de l’eau est mauvaise. Consulte toujours les interdictions et alertes locales avant la récolte.",
-      "photo_author": "Paul Morris",
-      "photo_license": "CC BY-SA 2.0",
-      "photo_credit": "Photo : Paul Morris — CC BY-SA 2.0",
-      "photo_source_label": "Wikimedia Commons",
-      "photo_source_url": "https://commons.wikimedia.org/w/index.php?curid=15221935"
-    },
-    {
-      "id": "palourde-commune",
-      "category": "peche_a_pied",
-      "title": "Palourde commune",
-      "scientific_name": "Ruditapes decussatus",
-      "summary": "La palourde commune est un coquillage bivalve très apprécié des pêcheurs à pied. Elle vit enfouie de quelques centimètres dans le sable ou les vasières des baies et estuaires. Sa coquille présente un aspect quadrillé caractéristique.",
-      "presence": "Très présente sur les côtes bretonnes, notamment dans les baies, les estuaires et les plages de sable fin découvertes à marée basse. Elle vit enfouie dans les sédiments meubles où elle filtre l’eau de mer pour se nourrir.",
-      "danger_level": "faible",
-      "danger_label": "Comestible – respecter les tailles minimales et les interdictions sanitaires.",
-      "image_url": "https://awenhafredrigstudio.bzh/images/guide/peche_a_pied/palourde-commune.jpg",
-      "image_asset": "assets/images/guide/peche_a_pied/palourde-commune.jpg",
-      "photo_author": "Hans Hillewaert",
-      "photo_license": "CC BY-SA 1.0",
-      "photo_credit": "Photo : Hans Hillewaert — CC BY-SA 1.0",
-      "photo_source_label": "Wikimedia Commons",
-      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Palourde.jpg",
-      "elouan_tip": "Demat ! Cherche les petits trous en forme de huit ou les légers jets d’eau sur le sable humide. Ils trahissent souvent la présence d’une palourde juste en dessous !",
-      "warning": "Les palourdes peuvent concentrer des bactéries, virus ou toxines présents dans leur environnement. Avant toute récolte, vérifie toujours les interdictions temporaires et les avis sanitaires.",
-      "recognition": [
-        "Coquille ovale, épaisse et solide.",
-        "Couleur variant du blanc crème au gris ou au brun.",
-        "Fines stries radiales et concentriques formant un aspect quadrillé.",
-        "Deux valves de taille identique.",
-        "Taille adulte généralement comprise entre 4 et 5 cm.",
-        "Se trouve enfouie sous quelques centimètres de sable ou de vase."
-      ],
-      "good_actions": [
-        "Vérifier que la zone est autorisée à la pêche à pied.",
-        "Utiliser un outil adapté sans retourner excessivement le sédiment.",
-        "Respecter la taille minimale réglementaire.",
-        "Reboucher les trous après la récolte.",
-        "Prélever uniquement la quantité nécessaire.",
-        "Consulter les bulletins sanitaires avant toute consommation."
-      ],
-      "avoid_actions": [
-        "Ne pas ramasser de palourdes dans une zone fermée pour raisons sanitaires.",
-        "Ne pas prélever d’individus trop petits.",
-        "Ne pas retourner inutilement les bancs de sable.",
-        "Ne pas laisser de trous ouverts après la pêche.",
-        "Ne pas conserver les coquillages dans de l’eau douce."
-      ]
-    }
-  ]
-}
+[
+  {
+    "id": "patelle-commune",
+    "category": "peche_a_pied",
+    "title": "Patelle commune",
+    "scientific_name": "Patella vulgata",
+    "summary": "La patelle commune, souvent appelée bernique en Bretagne, est un mollusque fixé aux rochers grâce à un puissant pied musculaire. Sa coquille en forme de cône lui permet de résister aux vagues et aux marées. Elle broute les algues microscopiques présentes sur les rochers et joue un rôle important dans l'équilibre du littoral.",
+    "presence": "Très commune sur l'ensemble du littoral breton, la patelle vit sur les rochers découverts à marée basse, des hauts de plage jusqu'à la zone battue par les vagues. On la rencontre toute l'année.",
+    "danger_level": "faible",
+    "danger_label": "Comestible – respecter la réglementation de la pêche à pied.",
+    "image_url": "https://awenhafredrigstudio.bzh/images/guide/peche_a_pied/patelle-commune.jpg",
+    "image_asset": "",
+    "photo_author": "Tango22",
+    "photo_license": "CC BY-SA 3.0",
+    "photo_credit": "",
+    "photo_source_label": "Wikimedia Commons",
+    "photo_source_url": "https://commons.wikimedia.org/wiki/File:Common_limpets1.jpg",
+    "elouan_tip": "\"Na zastum ket an holl verniged ! Leuskel lod anezho da greskiñ ha da en em atavout.\"\n\n(Ne ramasse pas toutes les berniques ! Laisse-en grandir et se reproduire.)\n\nLes berniques sont très utiles pour les rochers. Elles broutent les algues et participent à l'équilibre du littoral. Si tu en prélèves, fais-le avec modération et uniquement là où la réglementation l'autorise.",
+    "warning": "La pêche des patelles est réglementée. Selon les secteurs, des tailles minimales, des quotas ou des interdictions peuvent s'appliquer. Certaines zones peuvent également être fermées temporairement pour des raisons sanitaires. Vérifie toujours la réglementation locale avant toute récolte et respecte les éventuelles fermetures sanitaires.",
+    "recognition": [
+      "Coquille conique en forme de petit chapeau.",
+      "Couleur gris clair, brun ou verdâtre.",
+      "Côtes rayonnantes bien visibles sur la coquille.",
+      "Fixée solidement aux rochers.",
+      "Taille généralement comprise entre 3 et 6 cm.",
+      "Très difficile à décoller lorsqu'elle est vivante."
+    ],
+    "good_actions": [
+      "Vérifier que la pêche est autorisée.",
+      "Respecter les tailles minimales et les quotas en vigueur.",
+      "Prélever uniquement la quantité nécessaire.",
+      "Utiliser un outil adapté pour éviter d'abîmer les rochers.",
+      "Laisser les plus petites patelles sur place.",
+      "Respecter les autres espèces vivant sur les rochers."
+    ],
+    "avoid_actions": [
+      "Ne pas arracher toutes les patelles d'un même secteur.",
+      "Ne pas retourner ou casser les rochers.",
+      "Ne pas prélever des individus trop petits.",
+      "Ne pas ramasser dans une zone interdite ou fermée.",
+      "Ne pas laisser de déchets sur l'estran."
+    ]
+  }
+]
