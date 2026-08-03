@@ -1,38 +1,45 @@
 [
   {
-    "id": "pelagie",
+    "id": "baines-et-courants-d-arrachement",
     "category": "meduses",
-    "title": "Pélagie",
-    "scientific_name": "Pelagia noctiluca",
-    "image_url": "https://awenhafredrigstudio.bzh/images/guide/meduses/pelagie.jpg",
-    "image_asset": "assets/images/guide/meduses/pelagie.jpg",
+    "title": "Baïnes et courants d’arrachement",
+    "scientific_name": "",
+    "summary": "Une baïne est une cuvette formée entre la plage et un banc de sable. Lorsque l’eau accumulée rejoint la mer, elle peut créer un courant d’arrachement puissant, capable d’éloigner rapidement un baigneur du rivage. Ce phénomène est particulièrement connu sur les grandes plages sableuses de la façade atlantique.",
+    "presence": "Des courants d’arrachement peuvent apparaître sur les plages sableuses soumises aux vagues, notamment lorsque des bancs de sable et des chenaux se forment. Il faut toujours respecter la signalisation locale, les drapeaux de baignade et les consignes des sauveteurs.",
     "danger_level": "fort",
-    "danger_label": "Très urticante",
-    "presence": "Juin à octobre, surtout après les vents d'est",
-    "summary": "Petite méduse rose-violette, fréquemment observée en Bretagne en été.",
+    "danger_label": "Courant puissant pouvant entraîner rapidement vers le large",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/securite_littoral/baines-courant-arrachement.jpg",
+    "image_asset": "",
+    "photo_author": "",
+    "photo_license": "",
+    "photo_credit": "",
+    "photo_source_label": "Préfecture de la Gironde",
+    "photo_source_url": "",
+    "elouan_tip": "Hopala ! Une zone très calme entre deux lignes de vagues n’est pas toujours rassurante : elle peut cacher un courant qui part vers le large. Le plus sûr reste de se baigner près du poste de secours et de demander conseil aux sauveteurs !",
+    "warning": "Un courant d’arrachement peut surprendre même un bon nageur et entraîner rapidement vers le large. Si tu es emporté, garde ton calme, économise tes forces, signale-toi aux sauveteurs et évite de lutter directement contre le courant. En cas de doute, ne te baigne pas.",
     "recognition": [
-      "Ombrelle translucide rose ou violette, généralement de 5 à 12 cm.",
-      "Tentacules fins et longs pouvant dépasser 1 mètre.",
-      "Sa bioluminescence peut produire de petits éclats verts dans l'eau sombre."
+      "Zone d’eau qui semble plus calme entre deux secteurs où les vagues déferlent.",
+      "Couleur de l’eau parfois plus sombre ou chargée de sable.",
+      "Écume, algues ou débris qui semblent partir vers le large.",
+      "Chenaux ou creux visibles entre la plage et un banc de sable.",
+      "Courant parfois difficile à repérer depuis l’eau."
     ],
-    "elouan_tip": "Hopala ! Évite de la toucher, même échouée : les cellules urticantes peuvent rester actives.",
     "good_actions": [
-      "Sortir de l'eau calmement.",
-      "Rincer à l'eau de mer.",
-      "Retirer les tentacules avec une pince ou le bord d'une carte.",
-      "Consulter un professionnel de santé si la douleur est importante."
+      "Se baigner uniquement dans une zone surveillée et respecter les drapeaux.",
+      "Demander aux sauveteurs où la baignade est la plus sûre.",
+      "Surveiller les enfants en permanence et rester à leurs côtés.",
+      "Tenir compte de sa condition physique et ne pas surestimer ses capacités.",
+      "Tenir compte de sa condition physique et ne pas surestimer ses capacités.",
+      "Prévenir un proche avant d’entrer dans l’eau.",
+      "En cas de danger immédiat, appeler le 112 ou le 196 pour une urgence en mer."
     ],
     "avoid_actions": [
-      "Ne pas frotter la zone touchée.",
-      "Ne pas rincer à l'eau douce.",
-      "Ne pas utiliser de vinaigre sans suivre les recommandations locales."
-    ],
-    "warning": "En cas de gêne respiratoire, malaise ou réaction étendue, appeler immédiatement les secours.",
-    "photo_author": null,
-    "photo_license": null,
-    "photo_credit": "Photo : Yoruno — CC BY-SA 3.0",
-    "photo_source_label": "Wikimedia Commons",
-    "photo_source_url": null
+      "Ne pas se baigner dans une zone interdite ou non surveillée lorsque les conditions sont mauvaises.",
+      "Ne pas lutter longtemps directement contre le courant au risque de s’épuiser.",
+      "Ne pas laisser un enfant seul au bord de l’eau, même quelques secondes.",
+      "Ne pas entrer dans l’eau après avoir consommé de l’alcool.",
+      "Ne pas ignorer les panneaux, les drapeaux ou les consignes des sauveteurs."
+    ]
   },
   {
     "id": "physalie",
@@ -43,14 +50,14 @@
     "presence": "La physalie est rare en Bretagne mais peut être observée après de forts vents océaniques. Des arrivages sont parfois signalés sur les plages bretonnes, principalement en automne et en hiver, mais aussi à d'autres périodes selon les conditions météorologiques.",
     "danger_level": "fort",
     "danger_label": "Ne jamais toucher, même échouée.",
-    "image_url": "https://awenhafredrigstudio.bzh/images/guide/meduses/physalie.jpg",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/meduses/physalie.jpg",
     "image_asset": "",
     "photo_author": "",
     "photo_license": "",
     "photo_credit": "",
     "photo_source_label": "",
     "photo_source_url": "",
-    "elouan_tip": "\"Na stok ket ouzh ar physalie, zoken pa'z eo war an traezh !\"\n\n(Ne touche jamais une physalie, même lorsqu'elle est échouée sur la plage !)\n\nMême si elle paraît inoffensive, la physalie peut encore piquer plusieurs jours après son échouage. Le mieux, c'est de l'admirer de loin et de prévenir les sauveteurs.",
+    "elouan_tip": "\"Na stok ket ouzh ar physalie, zoken pa'z eo war an traezh !\"\n\n(Ne touche jamais une physalie, même lorsqu'elle est échouée sur la plage !)\n\n Même si elle paraît inoffensive, la physalie peut encore piquer plusieurs jours après son échouage. Le mieux, c'est de l'admirer de loin et de prévenir les sauveteurs.",
     "warning": "Les piqûres de physalie sont très douloureuses et peuvent provoquer des réactions importantes, parfois graves chez les personnes sensibles. En cas de difficulté respiratoire, de malaise ou de réaction généralisée, appelez immédiatement le 15 ou le 112.",
     "recognition": [
       "Flotteur bleu violacé en forme de voile.",
@@ -74,6 +81,47 @@
       "Ne pas rincer la peau à l'eau douce.",
       "Ne pas frotter la zone touchée.",
       "Ne pas laisser les enfants jouer à proximité."
+    ]
+  },
+  {
+    "id": "aurelie",
+    "category": "meduses",
+    "title": "Aurélie",
+    "scientific_name": "Aurelia aurita",
+    "summary": "L'Aurélie, aussi appelée méduse lune, est l'une des méduses les plus communes sur les côtes bretonnes. Facilement reconnaissable à son ombrelle transparente marquée de quatre anneaux violets, elle dérive au gré des courants. Son contact est généralement peu douloureux pour l'être humain.",
+    "presence": "Présente du printemps à l'automne sur les côtes bretonnes, particulièrement dans les baies, les estuaires et les eaux calmes. Des rassemblements importants peuvent parfois être observés selon les courants et les vents.",
+    "danger_level": "faible",
+    "danger_label": "Faiblement urticante – éviter tout contact.",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/meduses/aurelie.jpg",
+    "image_asset": "",
+    "photo_author": "Kakidai",
+    "photo_license": "CC BY-SA 3.0",
+    "photo_credit": "",
+    "photo_source_label": "wikimedia",
+    "photo_source_url": "https://commons.wikimedia.org/wiki/File:Aurelia_aurita_II.jpg",
+    "elouan_tip": "\"Na stok ket ouzh ar meduzenn, zoken m'eo kaer da welet !\"\n\n(Ne touche pas la méduse, même si elle est belle à regarder !)\n\nDemat ! L'Aurélie est souvent inoffensive, mais chaque personne réagit différemment. Le plus prudent est toujours de l'observer sans la toucher.",
+    "warning": "Même si ses piqûres sont généralement bénignes, certaines personnes peuvent présenter une réaction plus importante. En cas de douleur persistante, de malaise ou de réaction allergique, consulte rapidement un professionnel de santé.",
+    "recognition": [
+      "Ombrelle totalement transparente.",
+      "Quatre anneaux violets ou rosés très visibles au centre.",
+      "Forme ronde rappelant une pleine lune.",
+      "Tentacules très courts et fins sur le pourtour.",
+      "Tentacules très courts et fins sur le pourtour.",
+      "Dérive lentement avec les courants."
+    ],
+    "good_actions": [
+      "Observer sans toucher.",
+      "Prévenir les enfants de ne pas jouer avec les méduses échouées.",
+      "Rincer à l'eau de mer en cas de contact.",
+      "Retirer délicatement les éventuels fragments de tentacules.",
+      "Se renseigner auprès des sauveteurs si plusieurs méduses sont présentes."
+    ],
+    "avoid_actions": [
+      "Ne pas toucher une méduse échouée.",
+      "Ne pas toucher une méduse échouée.",
+      "Ne pas rincer à l'eau douce.",
+      "Ne pas rincer à l'eau douce.",
+      "Ne pas paniquer : les piqûres sont généralement peu graves."
     ]
   }
 ]
