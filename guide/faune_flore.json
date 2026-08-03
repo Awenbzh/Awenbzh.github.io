@@ -8,12 +8,12 @@
     "presence": "Présente toute l'année sur les côtes bretonnes. Elle fréquente les plages, les ports, les estuaires, les marais, les rivières et certains plans d'eau intérieurs. En hiver, elle se rassemble souvent en grands groupes.",
     "danger_level": "faible",
     "danger_label": "Inoffensive – ne pas la nourrir ni déranger les colonies.",
-    "image_url": "https://awenhafredrigstudio.bzh/images/guide/faune_flore/mouette-rieuse.jpg",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/faune_flore/mouette-rieuse.jpg",
     "image_asset": "",
     "photo_author": "Claire Cimmino",
     "photo_license": "Tous droits réservés",
     "photo_credit": "",
-    "photo_source_label": "Photo personnelle",
+    "photo_source_label": "photo personnelle",
     "photo_source_url": "",
     "elouan_tip": "« Sell mat ouzh ar vouedenn, met na ro ket boued dezhi ! » (Regarde bien la mouette, mais ne lui donne pas à manger !) Les mouettes trouvent naturellement leur nourriture. Les nourrir les rend moins sauvages et peut perturber leur comportement.",
     "warning": "Même si elle paraît familière, la mouette rieuse reste un animal sauvage. Pendant la période de reproduction, certaines colonies peuvent défendre leurs nids. Il est important de garder ses distances et de respecter les zones protégées.",
@@ -51,15 +51,15 @@
     "presence": "Le phoque gris est présent toute l'année sur le littoral breton, notamment dans l'archipel des Sept-Îles, la mer d'Iroise, la baie de Morlaix, la presqu'île de Crozon, la baie d'Audierne, le golfe du Morbihan et plusieurs îlots rocheux. Il peut également être observé isolé sur de nombreuses plages.",
     "danger_level": "faible",
     "danger_label": "Animal sauvage : garder ses distances.",
-    "image_url": "https://awenhafredrigstudio.bzh/images/guide/faune_flore/phoque-gris.jpg",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/faune_flore/phoque-gris.jpg",
     "image_asset": "",
     "photo_author": "LeBourgmestre",
-    "photo_license": "Creative Commons Attribution-ShareAlike 4.0 International",
+    "photo_license": " Creative Commons Attribution-ShareAlike 4.0 International ",
     "photo_credit": "",
-    "photo_source_label": "Wikipédia",
+    "photo_source_label": "wikipédia",
     "photo_source_url": "https://fr.wikipedia.org/wiki/Fichier:Phoque_gris_Dunkerque.jpg",
-    "elouan_tip": "\"Leuskel ar fok da ziskuizhañ ! Arabat mont tost dezhañ.\"\n\n(Laisse le phoque se reposer ! N'approche pas de lui.)\n\nDemat ! Un phoque allongé sur une plage n'est pas forcément malade. Il fait souvent simplement une pause entre deux sorties en mer. Le meilleur réflexe est de l'observer de loin.",
-    "warning": "Même calme, un phoque reste un animal sauvage. Il peut mordre s'il se sent menacé. Garde au moins 100 mètres de distance, tiens les chiens en laisse et ne tente jamais de le remettre à l'eau. Si l'animal paraît blessé ou en détresse, préviens les sauveteurs, l'Office français de la biodiversité (OFB) ou un centre de soins de la faune sauvage, sans t'en approcher.",
+    "elouan_tip": "\"Leuskel ar fok da ziskuizhañ ! Arabat mont tost dezhañ.\"\n\n(Laisse le phoque se reposer ! N'approche pas de lui.)\n\nDemat ! Un phoque allongé sur une plage n'est pas forcément malade. Il fait souvent simplement une pause entre deux sorties en mer. Le meilleur réflexe est de l'observer de loin",
+    "warning": "Même calme, un phoque reste un animal sauvage. Il peut mordre s'il se sent menacé. Garde au moins 100 mètres de distance, tiens les chiens en laisse et ne tente jamais de le remettre à l'eau. Si l'animal paraît blessé ou en détresse, préviens les services compétents sans t'en approcher.",
     "recognition": [
       "Grand corps fuselé gris à brun.",
       "Pelage tacheté, très variable selon les individus.",
@@ -84,6 +84,47 @@
       "Ne pas s'approcher pour un selfie.",
       "Ne pas laisser les enfants s'en approcher.",
       "Ne pas laisser un chien courir vers lui."
+    ]
+  },
+  {
+    "id": "laitue-de-mer",
+    "category": "faune_flore",
+    "title": "Laitue de mer",
+    "scientific_name": "Ulva lactuca",
+    "summary": "La laitue de mer est une algue verte très commune sur les côtes bretonnes. Fine, souple et translucide, elle ressemble à une feuille de salade flottant dans l'eau. Elle joue un rôle important dans l'écosystème marin en servant d'abri et de nourriture à de nombreuses espèces.\n💡 Le savais-tu ?\n\nLa laitue de mer pousse très rapidement. Dans de bonnes conditions, elle peut doubler de taille en quelques jours. Elle est aussi utilisée en cuisine, notamment dans les salades, les tartares d'algues, les soupes ou en accompagnement de poissons.",
+    "presence": "Présente toute l'année sur le littoral breton, principalement sur les rochers, dans les mares et les zones découvertes à marée basse. Elle est particulièrement abondante au printemps et en été.",
+    "danger_level": "faible",
+    "danger_label": "Comestible – récolter uniquement dans une zone saine.",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/faune_flore/laitue-de-mer.jpg",
+    "image_asset": "",
+    "photo_author": "Lorangeo",
+    "photo_license": "",
+    "photo_credit": "",
+    "photo_source_label": "",
+    "photo_source_url": "http://commons.wikimedia.org/wiki/File:Ulva_lactuca.jpeg",
+    "elouan_tip": "\"Na zastum nemet bezhin glan ha nevez ! Ar mor a rank bezañ yac'h ivez.\"\n\n(Ne ramasse que des algues propres et fraîches ! Et assure-toi que la mer est de bonne qualité.)\n\nDemat ! La laitue de mer est délicieuse en cuisine, mais uniquement si elle provient d'une zone non polluée. Choisis toujours des algues bien vertes, fraîches et récoltées loin des ports ou des rejets d'eau.",
+    "warning": "Même si elle est comestible, la laitue de mer peut accumuler certains polluants présents dans son environnement. Récolte uniquement dans des secteurs autorisés et réputés pour leur bonne qualité des eaux.",
+    "recognition": [
+      "Couleur vert vif.",
+      "Aspect très fin et translucide.",
+      "Aspect très fin et translucide.",
+      "Bord souvent ondulé.",
+      "Très souple lorsqu'elle est dans l'eau.",
+      "Fixée aux rochers par un petit crampon."
+    ],
+    "good_actions": [
+      "Récolter uniquement les algues bien vertes et fraîches.",
+      "Couper délicatement sans arracher le crampon.",
+      "Prélever avec modération.",
+      "Rincer à l'eau de mer avant le transport.",
+      "Respecter les éventuelles réglementations locales."
+    ],
+    "avoid_actions": [
+      "Ne pas ramasser des algues échouées depuis longtemps.",
+      "Ne pas ramasser des algues échouées depuis longtemps.",
+      "Ne pas arracher entièrement les algues fixées.",
+      "Ne pas prélever dans une zone interdite.",
+      "Ne pas laisser de déchets sur l'estran."
     ]
   }
 ]
