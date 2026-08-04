@@ -126,5 +126,47 @@
       "Ne pas prélever dans une zone interdite.",
       "Ne pas laisser de déchets sur l'estran."
     ]
+  },
+  {
+    "id": "oyat",
+    "category": "faune_flore",
+    "title": "Oyat",
+    "scientific_name": "Ammophila arenaria",
+    "summary": "L'oyat est une grande graminée qui pousse naturellement sur les dunes du littoral breton. Grâce à ses longues racines, il fixe le sable et joue un rôle essentiel dans la formation et la protection des dunes. Sans lui, les dunes seraient beaucoup plus fragiles face au vent et aux tempêtes.\nLe savais-tu ?\n\nLes racines de l'oyat peuvent s'étendre sur plus de 10 mètres sous le sable. En retenant les grains de sable apportés par le vent, cette plante permet aux dunes de grandir naturellement et protège le littoral contre l'érosion et les tempêtes.",
+    "presence": "L'oyat est présent sur l'ensemble du littoral breton, principalement sur les dunes bordant les plages de sable. Il pousse toute l'année et supporte très bien le vent, le sel et la sécheresse.",
+    "danger_level": "faible",
+    "danger_label": "Espèce protégée – ne pas piétiner les dunes.",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/faune_flore/oyat.jpg",
+    "image_asset": "",
+    "photo_author": "Malene Thyssen",
+    "photo_license": "CC BY-SA 3.0view terms",
+    "photo_credit": "",
+    "photo_source_label": "",
+    "photo_source_url": "https://en.wikipedia.org/wiki/Ammophila_arenaria#/media/File:Hvid_klit.jpg",
+    "elouan_tip": "\"Na gerzh ket war an tevennoù ! An oyat a warez hon aodoù.\"\n\n(Ne marche pas sur les dunes ! L'oyat protège nos côtes.)\n\nDemat ! Quand tu empruntes les passerelles ou les sentiers balisés, tu aides l'oyat à maintenir les dunes en bonne santé. C'est grâce à lui que les plages résistent mieux au vent et aux tempêtes.",
+    "warning": "L'oyat est indispensable à la stabilité des dunes. Le piétinement répété fragilise ses racines et favorise l'érosion du sable. Respecte toujours les chemins aménagés et les panneaux de protection.",
+    "recognition": [
+      "Grandes feuilles longues et étroites.",
+      "Couleur vert grisâtre.",
+      "Feuilles qui s'enroulent lorsqu'il fait sec.",
+      "Épis dressés de couleur beige à brun en été.",
+      "Touffes denses poussant directement dans le sable.",
+      "Longues racines pouvant s'étendre sur plusieurs mètres."
+    ],
+    "good_actions": [
+      "Utiliser les passerelles pour traverser les dunes.",
+      "Respecter les sentiers balisés.",
+      "Observer les plantes sans les cueillir.",
+      "Sensibiliser les enfants à la protection des dunes.",
+      "Respecter les zones protégées.",
+      "Ramasser ses déchets."
+    ],
+    "avoid_actions": [
+      "Ne pas piétiner les dunes.",
+      "Ne pas arracher les plantes.",
+      "Ne pas créer de nouveaux passages.",
+      "Ne pas circuler avec un véhicule sur les dunes.",
+      "Ne pas jeter de déchets dans les espaces naturels."
+    ]
   }
 ]
