@@ -116,5 +116,46 @@
       "Ne pas laisser les enfants manipuler les méduses.",
       "Ne pas paniquer : les piqûres sont généralement peu graves."
     ]
+},
+  {
+    "id": "rhizostome",
+    "category": "meduses",
+    "title": "Rhizostome",
+    "scientific_name": "Rhizostoma octopus ",
+    "summary": "Le rhizostome est l'une des plus grandes méduses observées sur les côtes bretonnes. Son ombrelle blanchâtre peut atteindre près d'un mètre de diamètre. Contrairement aux idées reçues, cette méduse est généralement peu urticante pour l'être humain, même s'il est préférable d'éviter tout contact.\n\nLe rhizostome est la plus grande méduse régulièrement observée sur les côtes bretonnes. Malgré son apparence impressionnante, il se nourrit principalement de plancton et de petits organismes marins grâce à ses bras buccaux. Il joue un rôle important dans l'équilibre de l'écosystème marin.",
+    "presence": "Le rhizostome est présent sur les côtes bretonnes principalement de l'été jusqu'au début de l'automne. Il est régulièrement observé dans les baies, les estuaires et le long des plages, où il peut parfois s'échouer après des épisodes de vent.",
+    "danger_level": "faible",
+    "danger_label": "Faiblement urticante – éviter tout contact.",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/meduses/rhizostome.jpg",
+    "image_asset": "",
+    "photo_author": " Nanosanchez ",
+    "photo_license": "",
+    "photo_credit": "",
+    "photo_source_label": "",
+    "photo_source_url": "",
+    "elouan_tip": "\"Bras eo ar meduzenn-mañ, met gwelloc'h eo bezañ war evezh ha chom pell diouti !\"\n\n(Cette méduse est grande, mais le mieux est de rester prudent et de garder ses distances !)\n\nDemat ! Le rhizostome est impressionnant par sa taille, mais il est rarement dangereux. Observe-le tranquillement sans le toucher : même échoué sur la plage, il peut encore provoquer une légère irritation",
+    "warning": "Même si ses piqûres sont généralement bénignes, le contact avec un rhizostome peut provoquer une irritation de la peau chez certaines personnes sensibles. En cas de réaction importante ou de douleur persistante, consulte un professionnel de santé.",
+    "recognition": [
+      "Très grande ombrelle blanche à bleu clair.",
+      "Peut atteindre jusqu'à 90 cm de diamètre.",
+      "Bord de l'ombrelle épais et arrondi.",
+      "Absence de longs tentacules visibles.",
+      "Longs bras buccaux épais et frisés sous l'ombrelle.",
+      "Flotte lentement près de la surface."
+    ],
+    "good_actions": [
+      "Observer sans toucher.",
+      "Prévenir les enfants de ne pas manipuler les méduses échouées.",
+      "Rincer à l'eau de mer en cas de contact.",
+      "Demander conseil aux sauveteurs en cas de présence importante de méduses.",
+      "Respecter la faune marine."
+    ],
+    "avoid_actions": [
+      "Ne pas toucher un rhizostome échoué.",
+      "Ne pas frotter la peau après un contact.",
+      "Ne pas rincer la peau à l'eau douce.",
+      "Ne pas laisser les enfants jouer avec une méduse.",
+      "Ne pas remettre une méduse à la mer."
+    ]
   }
 ]
