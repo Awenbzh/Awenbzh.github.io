@@ -1,4 +1,123 @@
 [
+  {
+    "id": "pelagie",
+    "category": "meduses",
+    "title": "Pélagie",
+    "scientific_name": "Pelagia noctiluca",
+    "summary": "Petite méduse rose-violette, fréquemment observée en Bretagne en été.",
+    "presence": "Juin à octobre, surtout après les vents d'est.",
+    "danger_level": "fort",
+    "danger_label": "Très urticante",
+    "image_url": "https://awenhafredrigstudio.bzh/images/guide/meduses/pelagie.jpg",
+    "image_asset": "assets/images/guide/meduses/pelagie.jpg",
+    "photo_author": null,
+    "photo_license": null,
+    "photo_credit": "Photo : Yoruno — CC BY-SA 3.0",
+    "photo_source_label": "Wikimedia Commons",
+    "photo_source_url": null,
+    "elouan_tip": "Évite de la toucher, même échouée : les cellules urticantes peuvent rester actives.",
+    "warning": "En cas de gêne respiratoire, malaise ou réaction étendue, appeler immédiatement les secours.",
+    "recognition": [
+      "Ombrelle translucide rose ou violette, généralement de 5 à 12 cm.",
+      "Tentacules fins et longs pouvant dépasser 1 mètre.",
+      "Sa bioluminescence peut produire de petits éclats verts dans l'eau sombre."
+    ],
+    "good_actions": [
+      "Sortir de l'eau calmement.",
+      "Rincer à l'eau de mer.",
+      "Retirer les tentacules avec une pince ou le bord d'une carte.",
+      "Consulter un professionnel de santé si la douleur est importante."
+    ],
+    "avoid_actions": [
+      "Ne pas frotter la zone touchée.",
+      "Ne pas rincer à l'eau douce.",
+      "Ne pas utiliser de vinaigre sans suivre les recommandations locales."
+    ]
+  },
+  {
+    "id": "physalie",
+    "category": "meduses",
+    "title": "Physalie",
+    "scientific_name": "Physalia physalis",
+    "summary": "La physalie, surnommée « galère portugaise », n'est pas une véritable méduse mais une colonie d'organismes vivant ensemble. Elle flotte grâce à une vessie remplie de gaz et peut dériver sur de très longues distances. Ses tentacules peuvent dépasser 20 mètres et provoquer des brûlures très douloureuses, même lorsqu'elle est échouée sur la plage.",
+    "presence": "La physalie est rare en Bretagne mais peut être observée après de forts vents océaniques. Des arrivages sont parfois signalés sur les plages bretonnes, principalement en automne et en hiver, mais aussi à d'autres périodes selon les conditions météorologiques.",
+    "danger_level": "fort",
+    "danger_label": "Ne jamais toucher, même échouée.",
+    "image_url": "https://awenhafredrigstudio.bzh/images/guide/meduses/physalie.jpg",
+    "image_asset": "",
+    "photo_author": "",
+    "photo_license": "",
+    "photo_credit": "",
+    "photo_source_label": "",
+    "photo_source_url": "",
+    "elouan_tip": "\"Na stok ket ouzh ar physalie, zoken pa'z eo war an traezh !\"\n\n(Ne touche jamais une physalie, même lorsqu'elle est échouée sur la plage !)\n\nMême si elle paraît inoffensive, la physalie peut encore piquer plusieurs jours après son échouage. Le mieux, c'est de l'admirer de loin et de prévenir les sauveteurs.",
+    "warning": "Les piqûres de physalie sont très douloureuses et peuvent provoquer des réactions importantes, parfois graves chez les personnes sensibles. En cas de difficulté respiratoire, de malaise ou de réaction généralisée, appelez immédiatement le 15 ou le 112.",
+    "recognition": [
+      "Flotteur bleu violacé en forme de voile.",
+      "Aspect brillant et translucide.",
+      "Longs tentacules bleus ou violets.",
+      "Dérive à la surface de l'eau.",
+      "Peut être retrouvée échouée sur le sable.",
+      "Même morte, elle reste dangereuse."
+    ],
+    "good_actions": [
+      "Garder une distance de sécurité.",
+      "Prévenir les autres usagers de la plage.",
+      "Signaler sa présence aux sauveteurs ou à la mairie.",
+      "Surveiller les enfants et les animaux.",
+      "En cas de contact, rincer abondamment à l'eau de mer.",
+      "Consulter rapidement un professionnel de santé si la douleur est importante ou en cas de malaise."
+    ],
+    "avoid_actions": [
+      "Ne jamais toucher une physalie, même morte.",
+      "Ne pas la ramasser avec les mains.",
+      "Ne pas rincer la peau à l'eau douce.",
+      "Ne pas frotter la zone touchée.",
+      "Ne pas laisser les enfants jouer à proximité."
+    ]
+  },
+  {
+    "id": "aurelie",
+    "category": "meduses",
+    "title": "Aurélie",
+    "scientific_name": "Aurelia aurita",
+    "summary": "L'Aurélie, aussi appelée méduse lune, est l'une des méduses les plus communes sur les côtes bretonnes. Facilement reconnaissable à son ombrelle transparente marquée de quatre anneaux violets, elle dérive au gré des courants. Son contact est généralement peu douloureux pour l'être humain.",
+    "presence": "Présente du printemps à l'automne sur les côtes bretonnes, particulièrement dans les baies, les estuaires et les eaux calmes. Des rassemblements importants peuvent parfois être observés selon les courants et les vents.",
+    "danger_level": "faible",
+    "danger_label": "Faiblement urticante – éviter tout contact.",
+    "image_url": "https://awenhafredrigstudio.bzh/images/guide/meduses/aurelie.jpg",
+    "image_asset": "",
+    "photo_author": "Kakidai",
+    "photo_license": "CC BY-SA 3.0",
+    "photo_credit": "",
+    "photo_source_label": "Wikimedia Commons",
+    "photo_source_url": "https://commons.wikimedia.org/wiki/File:Aurelia_aurita_II.jpg",
+    "elouan_tip": "\"Na stok ket ouzh ar meduzenn, zoken m'eo kaer da welet !\"\n\n(Ne touche pas la méduse, même si elle est belle à regarder !)\n\nDemat ! L'Aurélie est souvent inoffensive, mais chaque personne réagit différemment. Le plus prudent est toujours de l'observer sans la toucher.",
+    "warning": "Même si ses piqûres sont généralement bénignes, certaines personnes peuvent présenter une réaction plus importante. En cas de douleur persistante, de malaise ou de réaction allergique, consulte rapidement un professionnel de santé.",
+    "recognition": [
+      "Ombrelle totalement transparente.",
+      "Quatre anneaux violets ou rosés très visibles au centre.",
+      "Forme ronde rappelant une pleine lune.",
+      "Tentacules très courts et fins sur le pourtour.",
+      "Taille généralement comprise entre 15 et 35 cm.",
+      "Dérive lentement avec les courants."
+    ],
+    "good_actions": [
+      "Observer sans toucher.",
+      "Prévenir les enfants de ne pas jouer avec les méduses échouées.",
+      "Rincer à l'eau de mer en cas de contact.",
+      "Retirer délicatement les éventuels fragments de tentacules.",
+      "Se renseigner auprès des sauveteurs si plusieurs méduses sont présentes."
+    ],
+    "avoid_actions": [
+      "Ne pas toucher une méduse échouée.",
+      "Ne pas frotter la peau après un contact.",
+      "Ne pas rincer à l'eau douce.",
+      "Ne pas laisser les enfants manipuler les méduses.",
+      "Ne pas paniquer : les piqûres sont généralement peu graves."
+    ]
+  }
+][
  {
     "id": "pelagie",
     "category": "meduses",
