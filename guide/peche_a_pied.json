@@ -41,48 +41,7 @@
     "photo_source_label": "Wikimedia Commons",
     "photo_source_url": "https://commons.wikimedia.org/w/index.php?curid=15221935"
   },
-  {
-    "id": "palourde-commune",
-    "category": "peche_a_pied",
-    "title": "Palourde commune",
-    "scientific_name": "Ruditapes decussatus",
-    "summary": "La palourde commune est un coquillage bivalve très apprécié des pêcheurs à pied. Elle vit enfouie de quelques centimètres dans le sable ou les vasières des baies et estuaires. Sa coquille présente un aspect quadrillé caractéristique.",
-    "presence": "Très présente sur les côtes bretonnes, notamment dans les baies, les estuaires et les plages de sable fin découvertes à marée basse. Elle vit enfouie dans les sédiments meubles où elle filtre l’eau de mer pour se nourrir.",
-    "danger_level": "faible",
-    "danger_label": "Comestible – respecter les tailles minimales et les interdictions sanitaires.",
-    "image_url": "https://awenhafredrigstudio.bzh/images/guide/peche_a_pied/palourde-commune.jpg",
-    "image_asset": "assets/images/guide/peche_a_pied/palourde-commune.jpg",
-    "photo_author": "Hans Hillewaert",
-    "photo_license": "CC BY-SA 1.0",
-    "photo_credit": "Photo : Hans Hillewaert — CC BY-SA 1.0",
-    "photo_source_label": "Wikimedia Commons",
-    "photo_source_url": "https://commons.wikimedia.org/wiki/File:Palourde.jpg",
-    "elouan_tip": "Demat ! Cherche les petits trous en forme de huit ou les légers jets d’eau sur le sable humide. Ils trahissent souvent la présence d’une palourde juste en dessous !",
-    "warning": "Les palourdes peuvent concentrer des bactéries, virus ou toxines présents dans leur environnement. Avant toute récolte, vérifie toujours les interdictions temporaires et les avis sanitaires.",
-    "recognition": [
-      "Coquille ovale, épaisse et solide.",
-      "Couleur variant du blanc crème au gris ou au brun.",
-      "Fines stries radiales et concentriques formant un aspect quadrillé.",
-      "Deux valves de taille identique.",
-      "Taille adulte généralement comprise entre 4 et 5 cm.",
-      "Se trouve enfouie sous quelques centimètres de sable ou de vase."
-    ],
-    "good_actions": [
-      "Vérifier que la zone est autorisée à la pêche à pied.",
-      "Utiliser un outil adapté sans retourner excessivement le sédiment.",
-      "Respecter la taille minimale réglementaire.",
-      "Reboucher les trous après la récolte.",
-      "Prélever uniquement la quantité nécessaire.",
-      "Consulter les bulletins sanitaires avant toute consommation."
-    ],
-    "avoid_actions": [
-      "Ne pas ramasser de palourdes dans une zone fermée pour raisons sanitaires.",
-      "Ne pas prélever d’individus trop petits.",
-      "Ne pas retourner inutilement les bancs de sable.",
-      "Ne pas laisser de trous ouverts après la pêche.",
-      "Ne pas conserver les coquillages dans de l’eau douce."
-    ]
-  },
+  
   {
     "id": "patelle-commune",
     "category": "peche_a_pied",
@@ -165,6 +124,50 @@
       "Ne pas retourner définitivement les rochers.",
       "Ne pas dépasser les quotas autorisés.",
       "Ne pas laisser de déchets sur l'estran."
+    ]
+  },
+  {
+    "id": "etrille",
+    "category": "peche_a_pied",
+    "title": "Étrille",
+    "scientific_name": "Necora puber",
+    "summary": "L’étrille est un crabe très courant sur les côtes bretonnes. Rapide et plutôt combative lorsqu’elle est dérangée, elle se cache sous les rochers et dans les anfractuosités à marée basse. Elle est facilement reconnaissable à ses yeux rouges et à sa dernière paire de pattes aplaties, qui lui permet également de nager.\n\n\n💡 Le savais-tu ?\n\nContrairement au tourteau, l’étrille est une excellente nageuse ! Ses deux dernières pattes sont aplaties et fonctionnent comme de petites palettes. Et quand elle se sent menacée… elle n’est pas du genre à demander gentiment qu’on la repose. 😂🦀",
+    "presence": "L’étrille est présente toute l’année sur le littoral breton. Elle affectionne particulièrement les zones rocheuses, les champs de blocs, les failles et les flaques découvertes à marée basse.",
+    "danger_level": "faible",
+    "danger_label": "Pinces puissantes – manipuler avec précaution.",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/peche_a_pied/etrille.jpg",
+    "image_asset": "",
+    "photo_author": " Matthieu Sontag ",
+    "photo_license": "CC BY-SA 3.0",
+    "photo_credit": "",
+    "photo_source_label": "",
+    "photo_source_url": "https://fr.wikipedia.org/wiki/%C3%89trille#/media/Fichier:Necora_puber_Saint-Quay.jpg",
+    "elouan_tip": "Breton :\n\n“Diwall ouzh he c'hrabanoù ! Kreñv eo an estrilh !”\n\n(Attention à ses pinces ! L’étrille est costaud !)\n\nDemat ! Si tu trouves une étrille sous un rocher, regarde d’abord sa taille avant de la garder. Et surtout, remets toujours le rocher exactement comme tu l’as trouvé : tout un petit monde vit dessous !",
+    "warning": "L’étrille possède des pinces capables de pincer fortement. Manipule-la avec précaution. En pêche de loisir, sa taille minimale réglementaire est de 6,5 cm en Manche et Atlantique. Des règles locales plus contraignantes peuvent toutefois s’appliquer : il faut donc toujours vérifier la réglementation du secteur avant de pêcher.",
+    "recognition": [
+      "Carapace aplatie, généralement brunâtre à verdâtre.",
+      "Yeux rouges caractéristiques.",
+      "Corps recouvert d’un aspect légèrement velouté.",
+      "Pinces puissantes.",
+      "Cinq dents bien marquées de chaque côté de la carapace.",
+      "Dernière paire de pattes aplatie en forme de palette.",
+      "Capable de se déplacer rapidement et de nager."
+    ],
+    "good_actions": [
+      "Ne conserver que les étrilles mesurant au minimum 6,5 cm.",
+      "Mesurer l’animal avant de le conserver.",
+      "Relâcher immédiatement les individus trop petits.",
+      "Soulever les pierres avec précaution.",
+      "Remettre chaque pierre dans sa position d’origine.",
+      "Prélever uniquement ce que l’on compte consommer.",
+      "Vérifier les éventuelles restrictions locales avant la pêche."
+    ],
+    "avoid_actions": [
+      "Ne pas conserver une étrille de moins de 6,5 cm.",
+      "Ne pas arracher ses pinces.",
+      "Ne pas laisser les rochers retournés.",
+      "Ne pas prélever inutilement de grandes quantités.",
+      "Ne pas pêcher dans une zone interdite ou temporairement fermée."
     ]
   }
 ]
