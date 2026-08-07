@@ -168,5 +168,47 @@
       "Ne pas circuler avec un véhicule sur les dunes.",
       "Ne pas jeter de déchets dans les espaces naturels."
     ]
+  },
+  {
+    "id": "etoile-de-mer-commune",
+    "category": "faune_flore",
+    "title": "Étoile de mer commune",
+    "scientific_name": "Asterias rubens",
+    "summary": "L’étoile de mer commune est l’une des espèces les plus faciles à observer sur l’estran breton à marée basse. Malgré son nom, ce n’est pas un poisson mais un échinoderme, proche des oursins. Elle possède généralement cinq bras et se déplace lentement grâce à de nombreux petits pieds situés sous son corps.\n\nL’étoile de mer commune est un prédateur ! Elle se nourrit notamment de moules et d’autres mollusques. Elle peut entrouvrir leur coquille avec ses bras puis faire sortir une partie de son estomac pour digérer sa proie. 😳\nEt oui… derrière son petit air de décoration marine toute mignonne se cache le mini-monstre de l’estran. 😂⭐",
+    "presence": "Présente sur l’ensemble du littoral breton, elle vit principalement sur les fonds rocheux, sous les pierres, dans les flaques laissées par la marée et parmi les coquillages. Elle peut être observée toute l’année, notamment lors des marées basses.",
+    "danger_level": "faible",
+    "danger_label": "Inoffensive – observer sans la sortir de son milieu.",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/faune_flore/etoile-de-mer-commune.jpg",
+    "image_asset": "",
+    "photo_author": "Sdegroisse",
+    "photo_license": "Creative Commons ",
+    "photo_credit": "",
+    "photo_source_label": "",
+    "photo_source_url": "https://fr.wikipedia.org/wiki/Fichier:Etoile-de-mer_Asterias-rubens_Port-Vendres_France_%282%29.jpg",
+    "elouan_tip": "“Sell ouzh ar steredenn-vor en dour, met laosk anezhi en he lec’h !”\n(Observe l’étoile de mer dans l’eau, mais laisse-la à sa place !)\nDemat ! Même si elle paraît solide, l’étoile de mer est un animal marin. Le mieux est de l’observer là où elle se trouve, sans la sortir de l’eau ni la ramener à la maison. Et puis une étoile, c’est quand même plus joli dans la mer que sur une étagère ! ⭐😄",
+    "warning": "L’étoile de mer commune est inoffensive pour l’être humain. Évite cependant de la manipuler inutilement, de la sortir de l’eau ou de la déplacer. Lors d’une sortie à marée basse, respecte son habitat et remets délicatement en place les pierres éventuellement soulevées.",
+    "recognition": [
+      "Généralement cinq bras disposés autour d’un disque central.",
+      "Couleur très variable : orange, rougeâtre, brunâtre ou parfois violacée.",
+      "Surface du corps rugueuse avec de petites épines.",
+      "Face inférieure munie de nombreux petits pieds appelés pieds ambulacraires.",
+      "Peut atteindre plusieurs dizaines de centimètres de diamètre.",
+      "Souvent observée sur les rochers ou à proximité de moules et autres coquillages."
+    ],
+    "good_actions": [
+      "L’observer directement dans son milieu naturel.",
+      "Éviter de la sortir de l’eau.",
+      "Photographier sans la déplacer.",
+      "Remettre les pierres soulevées dans leur position d’origine.",
+      "Expliquer aux enfants qu’il s’agit d’un animal vivant.",
+      "Respecter les flaques et les petits habitats de l’estran."
+    ],
+    "avoid_actions": [
+      "Ne pas ramasser une étoile de mer pour la conserver.",
+      "Ne pas tirer sur ses bras.",
+      "Ne pas la laisser hors de l’eau pour prendre des photos.",
+      "Ne pas la déplacer loin de l’endroit où elle se trouvait.",
+      "Ne pas retourner les rochers sans les remettre ensuite en place."
+    ]
   }
 ]
