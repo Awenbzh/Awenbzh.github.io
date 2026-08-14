@@ -26039,7 +26039,16 @@
       "restaurant": "",
       "bar": "",
       "espace_jeux": "",
-      "activites_nautiques": ""
+      "activites_nautiques": "",
+      "photos": [
+        {
+          "url": "https://ylwvzkijjqxyoztamytg.supabase.co/storage/v1/object/public/beach-photos/nevez_plage_de_tahiti_raguenez/a8e1d88b-aaec-42a4-93f9-c9249651977e.png",
+          "caption": "",
+          "credit": "",
+          "source": "",
+          "primary": true
+        }
+      ]
     },
     {
       "id": "nevez_port_manech",
