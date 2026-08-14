@@ -69848,7 +69848,16 @@
       "restaurant": "",
       "bar": "",
       "espace_jeux": "",
-      "activites_nautiques": ""
+      "activites_nautiques": "",
+      "photos": [
+        {
+          "url": "https://ylwvzkijjqxyoztamytg.supabase.co/storage/v1/object/public/beach-photos/concarneau_plage_du_porzou/08f0ba02-f9a3-4e62-82bf-35a3509563b2.jpg",
+          "caption": "",
+          "credit": "",
+          "source": "",
+          "primary": true
+        }
+      ]
     },
     {
       "id": "concarneau_plage_rodel",
