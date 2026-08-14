@@ -17213,7 +17213,16 @@
       "restaurant": "",
       "bar": "",
       "espace_jeux": "",
-      "activites_nautiques": ""
+      "activites_nautiques": "",
+      "photos": [
+        {
+          "url": "https://ylwvzkijjqxyoztamytg.supabase.co/storage/v1/object/public/beach-photos/concarneau_plage_des_bouchers/02c1bcdb-d760-46e4-a9a3-41be1d35d6fc.jpg",
+          "caption": "",
+          "credit": "",
+          "source": "",
+          "primary": true
+        }
+      ]
     },
     {
       "id": "concarneau_plage_des_sables_blancs",
