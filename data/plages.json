@@ -69731,12 +69731,12 @@
       "hippocampe": "",
       "chiens": "",
       "type_regle_chiens": "",
-      "chiens_periode": "",
-      "chiens_detail": "",
-      "chiens_source": "",
+      "chiens_periode": "Du 15 mars au 15 novembre",
+      "chiens_detail": "Interdiction du 15 mars au 15 novembre.En dehors de cette période (du 16 novembre au 14 mars), l'accès est permis à la condition stricte de garder son chien en laisse",
+      "chiens_source": "https://www.concarneau.fr/app/uploads/2024/08/arrete-2018-285-concarneau-chiens-plage.pdf",
       "debut_interdiction_chiens": "",
       "fin_interdiction_chiens": "",
-      "date_arrete_chiens": "",
+      "date_arrete_chiens": "ARRETE PERMANENT N° 2018-285",
       "reference_arrete_chiens": "",
       "derniere_verification": "2026-07-19",
       "naturisme": "",
@@ -69782,7 +69782,16 @@
       "restaurant": "",
       "bar": "",
       "espace_jeux": "",
-      "activites_nautiques": ""
+      "activites_nautiques": "",
+      "photos": [
+        {
+          "url": "https://ylwvzkijjqxyoztamytg.supabase.co/storage/v1/object/public/beach-photos/concarneau_plage_tinou/e38d9367-47a8-481b-b054-d33b32479b1c.jpg",
+          "caption": "",
+          "credit": "",
+          "source": "",
+          "primary": true
+        }
+      ]
     },
     {
       "id": "concarneau_plage_du_porzou",
