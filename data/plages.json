@@ -17417,7 +17417,16 @@
       "restaurant": "",
       "bar": "",
       "espace_jeux": "",
-      "activites_nautiques": ""
+      "activites_nautiques": "",
+      "photos": [
+        {
+          "url": "https://ylwvzkijjqxyoztamytg.supabase.co/storage/v1/object/public/beach-photos/concarneau_plage_du_large/185e3c63-5195-4254-bdea-f8f846bddce1.jpg",
+          "caption": "",
+          "credit": "",
+          "source": "",
+          "primary": true
+        }
+      ]
     },
     {
       "id": "crozon_crique_de_l_ile_vierge",
