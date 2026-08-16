@@ -331,6 +331,45 @@
       "price": "gratuit",
       "difficulty": "moyenne",
       "conditions": "Attention, chasse ouverte les mardis et samedis de fin septembre à fin février en Forêt du Mesnil. Voir le site de l'ONF, rubrique \"Chasse\"/ Calendriers de chasse en foret domaniale\nLes mardis et jeudis sont des journées interdites toute l’année à la cueillette des champignons sur l’ensemble des forêts domaniales du département d’Ille-et-Vilaine."
+    },
+    {
+      "id": "activite-1786912225768",
+      "name": " Le mont Garrot",
+      "category": "balade_randonnee",
+      "commune": "Saint-Suliac",
+      "department": "35",
+      "description": "Le mont Garrot se situe sur la commune de Saint Suliac dans la vallée de la Rance en Bretagne.\nVous allez découvrir Saint-Suliac, un des Plus Beaux Villages de France, qui possède trois espaces naturels :\n    le mont Garrot au sud,\n    les pointes de Garel,\n    les pointes du Puits au nord.\n6 000 objets de l’époque paléolithique ont été trouvés sur ce site peuplé depuis des temps très anciens. Il  fut utilisé comme lieu de production de sel entre 1736 et 1880.",
+      "dog_status": "autorise",
+      "leash_required": "inconnu",
+      "active": true,
+      "latitude": "48.571466",
+      "longitude": "-1.966528 ",
+      "photo_url": "https://api.cloudly.space/resize/clip/1920/1200/75/aHR0cHM6Ly9jZHQzNS5tZWRpYS50b3VyaW5zb2Z0LmV1L3VwbG9hZC8tYUxhbW91cmV1eC0tLVZ1ZS1hZXJpZW5uZS1TYWludC1TdWxpYWMtLTMwLS5qcGc=/image.webp",
+      "last_verified": "2026-08-16",
+      "period": "toute l'année",
+      "price": "gratuit",
+      "source_url": "https://www.ille-et-vilaine-tourisme.bzh/partez-a-la-decouverte-de-lille-et-vilaine/nature-et-detente/espaces-naturels-et-sauvages/le-mont-garrot-et-les-pointes-de-garel-et-du-puits-saint-suliac-fr-2728052/",
+      "source_name": "Ille et Vilaine Tourisme"
+    },
+    {
+      "id": "activite-1786912538130",
+      "name": " Micro Zoo",
+      "category": "autre",
+      "commune": "SAINT-MALO",
+      "department": "35",
+      "description": "Découvrez le Micro Zoo avec votre chien lors de votre séjour à Saint-Malo en Bretagne. Les chiens sont les bienvenus tenus en laisse.\n\nVous allez découvrir de nombreuses espèces présentés en cohabitation dans des habitats naturels reconstitués:\n\n    reptiles,\n    fourmis,\n    poissons,\n    amphibiens,\n    oiseaux,\n    crocodiles nains.\n\nUn dépaysement, émerveillement et sensibilisation à la nature qui vous invite à un voyage naturaliste autour du monde.",
+      "dog_status": "autorise",
+      "leash_required": "oui",
+      "active": true,
+      "latitude": "48.6516317",
+      "longitude": "-2.0240893 ",
+      "source_url": "https://microzoo.fr/",
+      "source_name": "Micro zoo",
+      "period": "OUVERT TOUS LES JOURS",
+      "hours": "Suivant saison",
+      "price": "de 10.90€ à 7.90€",
+      "photo_url": "data:image/jpeg;base64,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",
+      "last_verified": "2026-08-16"
     }
   ]
 }
