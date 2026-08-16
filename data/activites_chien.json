@@ -36,6 +36,36 @@
       "source_name": "",
       "source_url": "https://levillagegaulois.org/php/home.php",
       "last_verified": "2026-08-16"
+    },
+    {
+      "id": "activite-1786894756578",
+      "name": "Plouaret - Commune du patrimoine rural de Bretagne",
+      "category": "patrimoine_visite",
+      "commune": "Plouaret",
+      "department": "22",
+      "description": "Découvrez Plouaret, commune de caractère au cœur du Trégor, entre patrimoine, nature et traditions bretonnes. 🌿 Parcourez ses chemins creux et circuits de randonnée, découvrez son patrimoine historique et l’univers des contes de Basse-Bretagne. La commune propose également de nombreux loisirs gratuits pour petits et grands : jeux, accrobranche, BMX, skatepark, pumptrack et équipements sportifs. Les animaux sont acceptés. 🐶",
+      "dog_status": "autorise",
+      "leash_required": "oui",
+      "active": true,
+      "source_url": "https://www.tourismebretagne.com/selon-mes-envies/culture-et-patrimoine-de-bretagne/les-communes-du-patrimoine-rural-de-bretagne/plouaret/",
+      "last_verified": "2026-08-16"
+    },
+    {
+      "id": "activite-1786907251441",
+      "name": " Abbaye de Beauport ",
+      "category": "patrimoine_visite",
+      "commune": "Paimpol",
+      "department": "22",
+      "description": "Découvrez l’Abbaye de Beauport, un site chargé de huit siècles d’histoire face à la mer. Entre architecture gothique, jardins, vergers et paysages préservés, le domaine invite à la balade et à la découverte. Visites, parcours artistiques, spectacles et festival de musique rythment également la saison culturelle dans ce lieu au charme romantique. 🌿🏛️🌊",
+      "dog_status": "autorise",
+      "leash_required": "oui",
+      "active": true,
+      "period": "Du 1 mars 2026 au 11 novembre 2026 ",
+      "hours": "Ouvert pendant les vcs de Noël. En juillet et août, ouvert tous les jours de 10h30 à 19h00. ",
+      "parking": "oui",
+      "source_url": "https://abbayebeauport.com/fr/",
+      "photo_url": "https://abbayebeauport.com/fileadmin/_processed_/3/4/csm_CREDIT_L_Oeil_de_Paco_-_Abbaye_de_Beauport_2020__12__5fd66f7451.jpg",
+      "last_verified": "2026-08-16"
     }
   ]
 }
