@@ -76124,7 +76124,16 @@
       "restaurant": "",
       "bar": "",
       "espace_jeux": "",
-      "activites_nautiques": ""
+      "activites_nautiques": "",
+      "photos": [
+        {
+          "url": "https://ylwvzkijjqxyoztamytg.supabase.co/storage/v1/object/public/beach-photos/correctif-chiens-plage-du-rieul-lancieux/c1e932ae-9d98-401f-a1c6-61b7f09a324a.jpg",
+          "caption": "",
+          "credit": "",
+          "source": "",
+          "primary": true
+        }
+      ]
     },
     {
       "id": "correctif-chiens-plage-du-palus-plouha",
