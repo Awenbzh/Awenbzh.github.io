@@ -19,6 +19,23 @@
       "source_name": "All Trails",
       "photo_url": "https://www.alltrails.com/fr/randonnee/france/finistere/boucle-de-la-pointe-de-trevignon",
       "last_verified": "2026-08-16"
+    },
+    {
+      "id": "activite-1786894393678",
+      "name": " Le Village Gaulois ",
+      "category": "loisirs_activite",
+      "commune": " Pleumeur-Bodou",
+      "department": "22",
+      "description": "Plongez dans l’univers du Village Gaulois, un parc de loisirs original niché dans une vallée verdoyante. Jeux en bois, manèges à énergie humaine, balade en barque sur le lac et crêperie rythment cette sortie conviviale et familiale. Un lieu nature, ludique et solidaire où les animaux sont acceptés. 🐶🌿",
+      "dog_status": "autorise",
+      "leash_required": "oui",
+      "active": true,
+      "period": "Du 4 juillet 2026 au 31 août 2026 ",
+      "hours": "    Lundi de 10h30 à 19h00     Mardi de 10h30 à 19h00     Mercredi de 10h30 à 19h00     Jeudi de 10h30 à 19h00     Vendredi de 10h30 à 19h00     Samedi de 10h30 à 19h00     Dimanche de 10h30 à 19h00",
+      "conditions": "",
+      "source_name": "",
+      "source_url": "https://levillagegaulois.org/php/home.php",
+      "last_verified": "2026-08-16"
     }
   ]
 }
