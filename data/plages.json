@@ -30097,7 +30097,7 @@
       "longitude": "-4.49907",
       "nom_breton": "",
       "nom_fr_alternatif": "",
-      "statut_fiche": "À compléter",
+      "statut_fiche": "",
       "source_principale": "base_plages_bretagne_historique_maitre.csv",
       "source_origine": "Base Finistère consolidée",
       "source_url": "https://www.plouhinec.bzh/les-plages/",
@@ -30108,19 +30108,19 @@
       "site_internet": "",
       "surface": "",
       "acces": "",
-      "pmr": "non",
-      "toilettes": "non",
+      "pmr": "oui",
+      "toilettes": "oui",
       "douche": "Inconnu",
       "parking_voiture": "oui",
       "parking_velo": "oui",
       "parking_camping_car": "non",
       "table_de_pique_nique": "Inconnu",
       "sentiers_littoraux": "",
-      "surveillance": "Non",
-      "periode_surveillance": "",
+      "surveillance": "oui",
+      "periode_surveillance": " juillet-aout de 13h à 19h par 4 SNSM",
       "source_surveillance": "",
-      "poste_secours": "",
-      "tiralo": "Inconnu",
+      "poste_secours": "oui",
+      "tiralo": "1 tiralo, accès de plain-pied, roulements aménagés (Label Handiplage)",
       "description_tiralo": "",
       "hippocampe": "",
       "chiens": "Interdits en saison estivale",
@@ -30176,7 +30176,16 @@
       "restaurant": "",
       "bar": "",
       "espace_jeux": "",
-      "activites_nautiques": ""
+      "activites_nautiques": "",
+      "photos": [
+        {
+          "url": "https://ylwvzkijjqxyoztamytg.supabase.co/storage/v1/object/public/beach-photos/plouhinec_plage_de_mesperleuc/b8a19b84-2b5b-46b2-933b-e932270be9d6.jpg",
+          "caption": "",
+          "credit": "",
+          "source": "",
+          "primary": true
+        }
+      ]
     },
     {
       "id": "plouhinec_plage_saint_julien",
