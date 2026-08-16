@@ -76589,7 +76589,16 @@
       "restaurant": "",
       "bar": "",
       "espace_jeux": "",
-      "activites_nautiques": ""
+      "activites_nautiques": "",
+      "photos": [
+        {
+          "url": "https://ylwvzkijjqxyoztamytg.supabase.co/storage/v1/object/public/beach-photos/correctif-chiens-plage-de-sables-d-or-les-pins-frehel/8ccde5ff-b3dd-4433-adaa-c7edd659a79e.jpg",
+          "caption": "",
+          "credit": "",
+          "source": "",
+          "primary": true
+        }
+      ]
     },
     {
       "id": "correctif-chiens-plage-de-bon-abri-hillion",
