@@ -1,4 +1,24 @@
 {
   "schema_version": 1,
-  "activities": []
+  "activities": [
+    {
+      "id": "activite-1786890629749",
+      "name": "Boucle de la Pointe de la Jument – Pouldohan",
+      "category": "balade_randonnee",
+      "commune": "Trégunc",
+      "department": "29",
+      "description": "Balade côtière entre la Pointe de la Jument et Pouldohan, entre sentier littoral, dunes et étangs. Une jolie façon de découvrir le littoral de Trégunc avec son chien.",
+      "dog_status": "autorise",
+      "leash_required": "oui",
+      "active": true,
+      "distance_km": "6.8",
+      "duration_minutes": "90-120",
+      "difficulty": "facile",
+      "parking": "oui",
+      "source_url": "https://www.alltrails.com/fr/randonnee/france/finistere/boucle-de-la-pointe-de-trevignon",
+      "source_name": "All Trails",
+      "photo_url": "https://www.alltrails.com/fr/randonnee/france/finistere/boucle-de-la-pointe-de-trevignon",
+      "last_verified": "2026-08-16"
+    }
+  ]
 }
