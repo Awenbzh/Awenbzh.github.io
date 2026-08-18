@@ -26,8 +26,8 @@
     const DATA_URL='/data/plages.json', VERSION_URL='/data/version.json', STORAGE='breizh-plage-beaches-draft-v1';
     // Remplir uniquement avec l'URL du projet et la Publishable key Supabase.
     // Ne jamais mettre de Secret key ou de service_role dans cette page statique.
-    const SUPABASE_URL='https://ylwvzkijjqxyoztamytg.supabase.co';
-    const SUPABASE_PUBLISHABLE_KEY='sb_publishable_mtlbGTeCqoQL4ns0k5COrQ_MNXuA_QC';
+    const SUPABASE_URL='';
+    const SUPABASE_PUBLISHABLE_KEY='';
     const SUPABASE_BUCKET='beach-photos';
     const supabase = SUPABASE_URL && SUPABASE_PUBLISHABLE_KEY
       ? window.supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY)
@@ -97,6 +97,7 @@
     $('search').oninput=renderList;$('department').onchange=renderList;$('dog').onchange=renderList;$('saveBtn').onclick=saveCurrent;$('addBtn').onclick=addBeach;$('publishBtn').onclick=publish;$('signInBtn').onclick=signIn;$('signOutBtn').onclick=signOut;$('resetBtn').onclick=()=>{if(!confirm('Abandonner toutes les modifications locales ?'))return;localStorage.removeItem(STORAGE);location.reload()};$('importBtn').onclick=()=>$('fileInput').click();$('fileInput').onchange=async event=>{const file=event.target.files[0];if(!file)return;try{const payload=parsePayload(JSON.parse(await file.text()));schemaVersion=payload.schema_version;beaches=payload.beaches;version={beachesVersion:0};markLoaded();uniqueKeys();dirty=true;localStorage.setItem(STORAGE,JSON.stringify({schema_version:schemaVersion,beaches,version}));render();showStatus(`Import termine : ${beaches.length} plages.`,true)}catch(error){showStatus(`Import impossible : ${error.message}`)}};initAuth();load();
     $('duplicatesBtn').onclick=renderDuplicates;$('deleteCurrentBtn').onclick=deleteCurrent;
   })();
+  window.publish=window.publish||function(){const button=document.getElementById('publishBtn');if(button?.onclick)button.onclick()};
   </script>
 </body>
 </html>
