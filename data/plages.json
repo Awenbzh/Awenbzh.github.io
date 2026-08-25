@@ -1461,7 +1461,7 @@
       "chiens": "Autorisés",
       "type_regle_chiens": "Autorisation avec laisse obligatoire",
       "chiens_periode": "Toute l'année",
-      "chiens_detail": "lage accessible aux chiens tenus en laisse toute l'année.",
+      "chiens_detail": "Plage accessible aux chiens tenus en laisse toute l'année.",
       "chiens_source": "https://www.cotesdarmor.com/fr/fiche/equipements-de-loisirs/greve-du-vauglin-lamballe-armor_TFOLOIBRE022V54GF2X/",
       "debut_interdiction_chiens": "",
       "fin_interdiction_chiens": "",
@@ -1514,7 +1514,7 @@
       "activites_nautiques": "",
       "photos": [
         {
-          "url": "https://cdn.laetis.fr/i/cad/full/https://bretagne.media.tourinsoft.eu/upload/greve-du-vauglin-lamballe-armor-credit-otceva.jpg",
+          "url": "https://ylwvzkijjqxyoztamytg.supabase.co/storage/v1/object/public/beach-photos/cd22-greve-du-vauglin-13266746900/7944e834-3cb1-44bf-807a-48b2bc661323.jpg",
           "caption": "",
           "credit": "",
           "source": "",
