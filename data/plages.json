@@ -1423,9 +1423,9 @@
     {
       "id": "cd22-greve-du-vauglin-13266746900",
       "nom": "grève du Vauglin",
-      "commune": "Commune non renseignee",
-      "code_insee": "",
-      "code_postal": "",
+      "commune": "Lamballe-Armor",
+      "code_insee": "22093",
+      "code_postal": "22400 ",
       "departement": "Côtes-d’Armor",
       "code_departement": "22",
       "latitude": "48.5649993",
@@ -1458,11 +1458,11 @@
       "tiralo": "",
       "description_tiralo": "",
       "hippocampe": "",
-      "chiens": "",
-      "type_regle_chiens": "",
-      "chiens_periode": "",
-      "chiens_detail": "",
-      "chiens_source": "",
+      "chiens": "Autorisés",
+      "type_regle_chiens": "Autorisation avec laisse obligatoire",
+      "chiens_periode": "Toute l'année",
+      "chiens_detail": "lage accessible aux chiens tenus en laisse toute l'année.",
+      "chiens_source": "https://www.cotesdarmor.com/fr/fiche/equipements-de-loisirs/greve-du-vauglin-lamballe-armor_TFOLOIBRE022V54GF2X/",
       "debut_interdiction_chiens": "",
       "fin_interdiction_chiens": "",
       "date_arrete_chiens": "",
@@ -1511,7 +1511,16 @@
       "restaurant": "",
       "bar": "",
       "espace_jeux": "",
-      "activites_nautiques": ""
+      "activites_nautiques": "",
+      "photos": [
+        {
+          "url": "https://cdn.laetis.fr/i/cad/full/https://bretagne.media.tourinsoft.eu/upload/greve-du-vauglin-lamballe-armor-credit-otceva.jpg",
+          "caption": "",
+          "credit": "",
+          "source": "",
+          "primary": true
+        }
+      ]
     },
     {
       "id": "cd22-greve-rose-3621775",
