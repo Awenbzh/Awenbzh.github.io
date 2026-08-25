@@ -913,7 +913,7 @@
     {
       "id": "cd22-greve-de-l-isnain-3615216",
       "nom": "Grève de l'Isnain",
-      "commune": "Saint-Brieuc",
+      "commune": "Saint-Quay-Portrieux ",
       "code_insee": "22278",
       "code_postal": "22410",
       "departement": "Côtes-d’Armor",
@@ -936,7 +936,7 @@
       "pmr": "",
       "toilettes": "",
       "douche": "",
-      "parking_voiture": "",
+      "parking_voiture": "oui",
       "parking_velo": "",
       "parking_camping_car": "",
       "table_de_pique_nique": "",
@@ -948,11 +948,11 @@
       "tiralo": "",
       "description_tiralo": "",
       "hippocampe": "",
-      "chiens": "",
-      "type_regle_chiens": "",
-      "chiens_periode": "",
-      "chiens_detail": "",
-      "chiens_source": "",
+      "chiens": "Autorisés",
+      "type_regle_chiens": "Autorisation permanente",
+      "chiens_periode": "Toute l'année",
+      "chiens_detail": "Chiens autorisés toute l'année et sans restriction",
+      "chiens_source": "https://www.cotesdarmor.com/fr/fiche/equipements-de-loisirs/greve-de-l-isnain-saint-quay-portrieux_TFOLOIBRE022V53F76P/",
       "debut_interdiction_chiens": "",
       "fin_interdiction_chiens": "",
       "date_arrete_chiens": "",
@@ -1001,12 +1001,21 @@
       "restaurant": "",
       "bar": "",
       "espace_jeux": "",
-      "activites_nautiques": ""
+      "activites_nautiques": "",
+      "photos": [
+        {
+          "url": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNTAzNzEzNzUvNDE5YWZmMDU4M2VjMWIwNzcxNzE3Y2UzNjNjZTA2ZmQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiMjA0OCIsImhlaWdodCI6IjIwNDgiLCJmaXQiOiJpbnNpZGUifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0=",
+          "caption": "",
+          "credit": "",
+          "source": "alltrails.com",
+          "primary": true
+        }
+      ]
     },
     {
       "id": "cd22-greve-de-la-fontaine-saint-quay-3615220",
-      "nom": "Grève de la Fontaine Saint-Quay",
-      "commune": "Saint-Brieuc",
+      "nom": "La Grève de Fonteny",
+      "commune": "Saint-Quay-Portrieux ",
       "code_insee": "22278",
       "code_postal": "22410",
       "departement": "Côtes-d’Armor",
@@ -1029,10 +1038,10 @@
       "pmr": "",
       "toilettes": "",
       "douche": "",
-      "parking_voiture": "",
+      "parking_voiture": "oui",
       "parking_velo": "",
       "parking_camping_car": "",
-      "table_de_pique_nique": "",
+      "table_de_pique_nique": "oui",
       "sentiers_littoraux": "",
       "surveillance": "",
       "periode_surveillance": "",
@@ -1041,11 +1050,11 @@
       "tiralo": "",
       "description_tiralo": "",
       "hippocampe": "",
-      "chiens": "",
-      "type_regle_chiens": "",
-      "chiens_periode": "",
-      "chiens_detail": "",
-      "chiens_source": "",
+      "chiens": "Interdit",
+      "type_regle_chiens": "Interdiction permanente",
+      "chiens_periode": "Toute l'année",
+      "chiens_detail": "Chiens interdits toute l'année.",
+      "chiens_source": "https://www.saintquayportrieux.com/voir-faire/les-plages/",
       "debut_interdiction_chiens": "",
       "fin_interdiction_chiens": "",
       "date_arrete_chiens": "",
@@ -1094,7 +1103,16 @@
       "restaurant": "",
       "bar": "",
       "espace_jeux": "",
-      "activites_nautiques": ""
+      "activites_nautiques": "",
+      "photos": [
+        {
+          "url": "https://bord-de-mer.com/wp-content/uploads/2024/07/httpslh3.googleusercontent.complacesANXAkqEeSyJmVz6RgYAcADQeUA1mgb8JSWWRMMI9YK3OL69sYpDMKVIsOzj2x-mzPwRr8pSp17ZJPml2-ULLzMM_nFhEolep6-w3358s1600-w1600.jpeg.webp",
+          "caption": "",
+          "credit": "",
+          "source": "bord de mer.com",
+          "primary": true
+        }
+      ]
     },
     {
       "id": "cd22-greve-de-minieu-46505869",
