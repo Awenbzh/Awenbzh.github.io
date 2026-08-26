@@ -820,7 +820,7 @@
     {
       "id": "cd22-greve-de-fonteny-3615215",
       "nom": "Grève de Fonteny",
-      "commune": "Saint-Brieuc",
+      "commune": "Saint-Quay-Portrieux",
       "code_insee": "22278",
       "code_postal": "22410",
       "departement": "Côtes-d’Armor",
@@ -855,10 +855,10 @@
       "tiralo": "",
       "description_tiralo": "",
       "hippocampe": "",
-      "chiens": "",
-      "type_regle_chiens": "",
-      "chiens_periode": "",
-      "chiens_detail": "",
+      "chiens": "Interdits",
+      "type_regle_chiens": "Interdiction permanente",
+      "chiens_periode": "Toute l'année",
+      "chiens_detail": "Chiens interdits toute l'année",
       "chiens_source": "",
       "debut_interdiction_chiens": "",
       "fin_interdiction_chiens": "",
@@ -908,7 +908,16 @@
       "restaurant": "",
       "bar": "",
       "espace_jeux": "",
-      "activites_nautiques": ""
+      "activites_nautiques": "",
+      "photos": [
+        {
+          "url": "https://www.baiedesaintbrieuc.com/app/uploads/tourinsoft/5fb128330f6e3fe55993c40ec26df093-Aire-de-St-Marc--1--2-265x149.jpg",
+          "caption": "",
+          "credit": "",
+          "source": "",
+          "primary": true
+        }
+      ]
     },
     {
       "id": "cd22-greve-de-l-isnain-3615216",
