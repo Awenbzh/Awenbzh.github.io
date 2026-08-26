@@ -1627,9 +1627,9 @@
     {
       "id": "cd22-greve-saint-pierre-224249828",
       "nom": "Grève Saint Pierre",
-      "commune": "Commune non renseignee",
-      "code_insee": "",
-      "code_postal": "",
+      "commune": "Perros-Guire",
+      "code_insee": "22168",
+      "code_postal": "22700 ",
       "departement": "Côtes-d’Armor",
       "code_departement": "22",
       "latitude": "48.8230445",
@@ -1662,13 +1662,13 @@
       "tiralo": "",
       "description_tiralo": "",
       "hippocampe": "",
-      "chiens": "",
-      "type_regle_chiens": "",
-      "chiens_periode": "",
-      "chiens_detail": "",
-      "chiens_source": "",
-      "debut_interdiction_chiens": "",
-      "fin_interdiction_chiens": "",
+      "chiens": "Interdits selon période",
+      "type_regle_chiens": "Interdiction saisonnière",
+      "chiens_periode": "Du 1er avril au 31 octobre",
+      "chiens_detail": "Par arrêté municipal, les chiens, même tenus en laisse, sont interdits sur les plages de la commune du 1er avril au 31 octobre.",
+      "chiens_source": "https://www.perros-guirec.com/accueil/preparer-mon-sejour/sortir-et-bouger/perros-guirec-avec-mon-chien/",
+      "debut_interdiction_chiens": "01/04",
+      "fin_interdiction_chiens": "31/10",
       "date_arrete_chiens": "",
       "reference_arrete_chiens": "",
       "derniere_verification": "",
@@ -1715,7 +1715,16 @@
       "restaurant": "",
       "bar": "",
       "espace_jeux": "",
-      "activites_nautiques": ""
+      "activites_nautiques": "",
+      "photos": [
+        {
+          "url": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNzUyMjA4MDYvM2JhNmRlYjEyYjgyYWI2M2I0ZjY4Njg1MzJhOWI3MWYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiMjA0OCIsImhlaWdodCI6IjIwNDgiLCJmaXQiOiJpbnNpZGUifSwicm90YXRlIjpudWxsLCJqcGVnIjp7InRyZWxsaXNRdWFudGlzYXRpb24iOnRydWUsIm92ZXJzaG9vdERlcmluZ2luZyI6dHJ1ZSwib3B0aW1pc2VTY2FucyI6dHJ1ZSwicXVhbnRpc2F0aW9uVGFibGUiOjN9fX0=",
+          "caption": "",
+          "credit": "",
+          "source": "all trails",
+          "primary": true
+        }
+      ]
     },
     {
       "id": "cd22-greves-de-kerroc-h-576075962",
