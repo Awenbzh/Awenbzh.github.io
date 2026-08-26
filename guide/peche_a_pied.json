@@ -169,7 +169,7 @@
       "Ne pas prélever inutilement de grandes quantités.",
       "Ne pas pêcher dans une zone interdite ou temporairement fermée."
     ]
-  },
+  }
   {
     "id": "la-crevette-rose-le-bouquet",
     "category": "peche_a_pied",
@@ -179,7 +179,7 @@
     "presence": "Fréquente sur les côtes bretonnes, principalement dans les zones rocheuses, les flaques et les petits trous d'eau de l'estran.",
     "danger_level": "",
     "danger_label": "Aucun danger",
-    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/peche_a_pied/crevette.JPG",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/peche_a_pied/crevette.jpg",
     "image_asset": "",
     "photo_author": "Gronk",
     "photo_license": "",
@@ -210,6 +210,52 @@
       "Conserver des bouquets de moins de 5 cm.",
       "Pêcher dans une zone temporairement interdite.",
       "Se laisser surprendre par la marée montante."
+    ]
+ },
+  {
+    "id": "le-homard-breton-le-homard-bleu",
+    "category": "peche_a_pied",
+    "title": "Le homard breton — Le homard bleu",
+    "scientific_name": "Homarus gammarus",
+    "summary": "Le homard européen, souvent appelé homard bleu ou homard breton, est l’un des crustacés emblématiques de nos côtes. Puissant et plutôt discret, il passe une grande partie de son temps caché dans les failles rocheuses et les anfractuosités.",
+    "presence": "Très présent sur le littoral breton, le homard affectionne particulièrement les fonds rocheux, les failles, les blocs et les zones offrant des abris. À grande marée, il peut parfois être observé dans des trous ou sous des rochers restant humides à marée basse.",
+    "danger_level": "faible",
+    "danger_label": "Pinces très puissantes — manipuler avec précaution.",
+    "image_remote": "",
+    "image_asset": "https://awenhafredrigstudio.bzh/images/guide/peche_a_pied/homard.jpg",
+    "photo_author": "",
+    "photo_license": "",
+    "photo_credit": "",
+    "photo_source_label": "",
+    "photo_source_url": "",
+    "elouan_tip": "🦞 Demat ! Si tu aperçois deux longues antennes qui dépassent d’une faille, ne mets pas les doigts dedans au hasard… le propriétaire des lieux possède deux pinces et il sait très bien s’en servir ! 😄",
+    "warning": "📏 Taille minimale de capture : 9 cm de longueur de carapace.\n\nLa mesure se fait sur la carapace, de l’arrière de l’œil jusqu’au bord postérieur du céphalothorax.\n\nLe homard fait également partie des espèces soumises au marquage pour la pêche maritime de loisir.\n\nVérifie toujours les éventuelles restrictions locales avant toute capture.",
+    "recognition": [
+      "Grande carapace robuste de couleur bleu foncé à bleu-noir.",
+      "Deux pinces très développées et généralement différentes l’une de l’autre.",
+      "Une pince massive servant à broyer.",
+      "Une pince plus fine permettant notamment de saisir et couper.",
+      "Très longues antennes.",
+      "Abdomen articulé terminé par une large queue.",
+      "Se cache souvent dans une faille rocheuse en laissant dépasser ses antennes."
+    ],
+    "good_actions": [
+      "Mesurer le homard avant de le conserver.",
+      "Relâcher immédiatement tout individu inférieur à la taille réglementaire.",
+      "Manipuler le homard avec précaution en restant éloigné de ses pinces.",
+      "Ne prélever que ce qui sera réellement consommé.",
+      "Respecter les habitats rocheux et remettre les pierres déplacées en place.",
+      "Vérifier les réglementations et interdictions locales avant la sortie.",
+      "Effectuer le marquage réglementaire lorsqu’un homard est conservé."
+    ],
+    "avoid_actions": [
+      "Ne jamais conserver un homard trop petit.",
+      "Ne pas introduire les doigts dans une faille où se cache un homard.",
+      "Ne pas arracher ou casser les rochers pour atteindre un animal.",
+      "Ne pas laisser les pierres retournées.",
+      "Ne pas multiplier les prélèvements inutilement.",
+      "Ne pas pêcher dans une zone interdite.",
+      "Ne jamais vendre le produit d’une pêche de loisir."
     ]
   }
 ]
