@@ -1752,10 +1752,10 @@
       "pmr": "",
       "toilettes": "",
       "douche": "",
-      "parking_voiture": "",
+      "parking_voiture": "oui",
       "parking_velo": "",
       "parking_camping_car": "",
-      "table_de_pique_nique": "",
+      "table_de_pique_nique": "oui",
       "sentiers_littoraux": "",
       "surveillance": "",
       "periode_surveillance": "",
@@ -1764,13 +1764,13 @@
       "tiralo": "",
       "description_tiralo": "",
       "hippocampe": "",
-      "chiens": "",
-      "type_regle_chiens": "",
-      "chiens_periode": "",
-      "chiens_detail": "",
-      "chiens_source": "",
-      "debut_interdiction_chiens": "",
-      "fin_interdiction_chiens": "",
+      "chiens": "Interdits selon période",
+      "type_regle_chiens": "Interdiction saisonnière avec horaires",
+      "chiens_periode": "Du 15 juin au 15 septembre",
+      "chiens_detail": "Du 15 juin au 15 septembre, les chiens sont interdits sur la grève de Kerroc'h de 10h à 19h.",
+      "chiens_source": "Peuple Animal – Carte des plages",
+      "debut_interdiction_chiens": "15/06",
+      "fin_interdiction_chiens": "15/09",
       "date_arrete_chiens": "",
       "reference_arrete_chiens": "",
       "derniere_verification": "",
@@ -1817,7 +1817,16 @@
       "restaurant": "",
       "bar": "",
       "espace_jeux": "",
-      "activites_nautiques": ""
+      "activites_nautiques": "",
+      "photos": [
+        {
+          "url": "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTA2NDY0MjAyL2ExNTFhNTQ3OTQ2Njc1NTY1NGZmNzUxZTBjNDNjZWIwLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0Ijoid2VicCIsInJlc2l6ZSI6eyJ3aWR0aCI6IjIwNDgiLCJoZWlnaHQiOiIyMDQ4IiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19",
+          "caption": "",
+          "credit": "",
+          "source": "",
+          "primary": true
+        }
+      ]
     },
     {
       "id": "cd22-greves-de-kerroc-h-576075963",
