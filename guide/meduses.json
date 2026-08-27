@@ -202,5 +202,49 @@
       "Ne pas poursuivre la baignade en cas de douleur importante ou de malaise."
     ],
     "image_remote": "https://awenhafredrigstudio.bzh/images/guide/meduses/meduse-boussole.jpg"
+  },
+  {
+    "id": "la-cyanee-bleue-cyanee-de-lamarck",
+    "category": "meduses",
+    "title": "La cyanée bleue — Cyanée de Lamarck",
+    "scientific_name": "Cyanea lamarckii",
+    "summary": "La cyanée bleue est une méduse reconnaissable à sa belle coloration bleue et à sa multitude de tentacules très fins. Elle peut être observée sur les côtes de l’Atlantique et de la Manche, notamment lorsqu’elle est poussée vers le rivage par les courants. Jolie à regarder… mais clairement pas à caresser.",
+    "presence": "Elle peut être rencontrée sur les côtes bretonnes, surtout entre le printemps et le début de l’automne. Elle vit normalement en pleine mer mais peut être ramenée près des plages par les courants.",
+    "danger_level": "modere",
+    "danger_label": "Méduse urticante — contact douloureux.",
+    "image_url": "",
+    "image_asset": "",
+    "photo_author": " \tW.carter",
+    "photo_license": "",
+    "photo_credit": "",
+    "photo_source_label": " \tOwn work",
+    "photo_source_url": "",
+    "elouan_tip": "🪼 Demat deoc’h ! Sellit mat ouzh he liv glas !\nRegardez bien sa couleur bleue : elle est superbe, mais gardez vos distances.\n\nNa stokit ket outi ! Même échouée sur le sable, ne la touchez pas : ses tentacules peuvent encore être urticants.",
+    "warning": "⚠️ La cyanée bleue possède de très nombreux tentacules porteurs de cellules urticantes.\n\nUn contact peut provoquer douleur, rougeur, irritation et sensation de brûlure. Une réaction allergique importante reste possible chez certaines personnes.\n\nEn cas de malaise, de réaction généralisée ou de difficulté respiratoire, contactez rapidement les secours.",
+    "recognition": [
+      "Ombrelle généralement bleue à bleu-violet.",
+      "Diamètre souvent compris entre environ 15 et 30 cm.",
+      "Bord de l’ombrelle découpé en lobes.",
+      "Très nombreux tentacules fins ressemblant à une chevelure.",
+      "Quatre longs bras oraux ondulés sous l’ombrelle.",
+      "Tentacules pouvant être beaucoup plus longs que le diamètre de la méduse."
+    ],
+    "good_actions": [
+      "Observer la méduse sans la toucher.",
+      "Garder ses distances lorsqu’elle est dans l’eau.",
+      "Empêcher les enfants de manipuler une méduse échouée.",
+      "En cas de contact, sortir calmement de l’eau.",
+      "Rincer la zone avec de l’eau de mer.",
+      "Retirer avec précaution les éventuels fragments de tentacules sans les toucher directement.",
+      "Surveiller l’évolution de la réaction."
+    ],
+    "avoid_actions": [
+      "Ne pas toucher une cyanée, même échouée ou apparemment morte.",
+      "Ne pas frotter la zone piquée.",
+      "Ne pas manipuler les tentacules avec les doigts.",
+      "Ne pas poursuivre la baignade si la douleur est importante.",
+      "Ne pas remettre une méduse à l’eau à mains nues."
+    ],
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/meduses/cyanee-bleue.jpg"
   }
 ]
