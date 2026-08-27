@@ -10,11 +10,11 @@
     "danger_label": "Très urticante",
     "image_url": "https://awenhafredrigstudio.bzh/images/guide/meduses/pelagie.jpg",
     "image_asset": "assets/images/guide/meduses/pelagie.jpg",
-    "photo_author": null,
-    "photo_license": null,
+    "photo_author": "",
+    "photo_license": "",
     "photo_credit": "Photo : Yoruno — CC BY-SA 3.0",
     "photo_source_label": "Wikimedia Commons",
-    "photo_source_url": null,
+    "photo_source_url": "",
     "elouan_tip": "Évite de la toucher, même échouée : les cellules urticantes peuvent rester actives.",
     "warning": "En cas de gêne respiratoire, malaise ou réaction étendue, appeler immédiatement les secours.",
     "recognition": [
@@ -116,19 +116,19 @@
       "Ne pas laisser les enfants manipuler les méduses.",
       "Ne pas paniquer : les piqûres sont généralement peu graves."
     ]
-},
+  },
   {
     "id": "rhizostome",
     "category": "meduses",
     "title": "Rhizostome",
-    "scientific_name": "Rhizostoma octopus ",
+    "scientific_name": "Rhizostoma octopus",
     "summary": "Le rhizostome est l'une des plus grandes méduses observées sur les côtes bretonnes. Son ombrelle blanchâtre peut atteindre près d'un mètre de diamètre. Contrairement aux idées reçues, cette méduse est généralement peu urticante pour l'être humain, même s'il est préférable d'éviter tout contact.\n\nLe rhizostome est la plus grande méduse régulièrement observée sur les côtes bretonnes. Malgré son apparence impressionnante, il se nourrit principalement de plancton et de petits organismes marins grâce à ses bras buccaux. Il joue un rôle important dans l'équilibre de l'écosystème marin.",
     "presence": "Le rhizostome est présent sur les côtes bretonnes principalement de l'été jusqu'au début de l'automne. Il est régulièrement observé dans les baies, les estuaires et le long des plages, où il peut parfois s'échouer après des épisodes de vent.",
     "danger_level": "faible",
     "danger_label": "Faiblement urticante – éviter tout contact.",
-    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/meduses/rhizostome.jpg",
+    "image_url": "https://awenhafredrigstudio.bzh/images/guide/meduses/rhizostome.jpg",
     "image_asset": "",
-    "photo_author": " Nanosanchez ",
+    "photo_author": "Nanosanchez",
     "photo_license": "",
     "photo_credit": "",
     "photo_source_label": "",
@@ -157,5 +157,50 @@
       "Ne pas laisser les enfants jouer avec une méduse.",
       "Ne pas remettre une méduse à la mer."
     ]
+  },
+  {
+    "id": "la-meduse-boussole",
+    "category": "meduses",
+    "title": "La méduse boussole",
+    "scientific_name": "Chrysaora hysoscella",
+    "summary": "La méduse boussole doit son nom aux motifs bruns caractéristiques qui rayonnent sur son ombrelle et rappellent les points d’une boussole. Élégante à observer, elle possède cependant des tentacules urticants capables de provoquer une réaction douloureuse au contact de la peau.",
+    "presence": "Elle peut être observée sur les côtes bretonnes, principalement au printemps et en été, parfois poussée vers les plages par les courants et les vents.",
+    "danger_level": "modere",
+    "danger_label": "Méduse urticante — contact douloureux.",
+    "image_url": "",
+    "image_asset": "",
+    "photo_author": "Anna Fiolek",
+    "photo_license": " NOAA Photo Library: expl1606",
+    "photo_credit": "",
+    "photo_source_label": "wikipédia",
+    "photo_source_url": "",
+    "elouan_tip": "🌊 Demat deoc’h ! Sellit mat !\nRegardez bien ses dessins bruns en forme de rayons : ils permettent souvent de reconnaître la méduse boussole.\n\nEt même échouée sur le sable… na stokit ket outi ! Ne la touchez pas ! Ses tentacules peuvent encore piquer. 🪼",
+    "warning": "⚠️ Les tentacules de la méduse boussole sont urticants.\n\nUn contact peut provoquer une sensation de brûlure, des rougeurs et une douleur locale.\n\nUne méduse échouée ou apparemment morte peut rester urticante : ne la manipulez jamais à mains nues.\n\nEn cas de réaction importante, de malaise ou de difficulté respiratoire, contactez rapidement les secours.",
+    "recognition": [
+      "Ombrelle généralement translucide, blanche à jaunâtre.",
+      "Motifs bruns caractéristiques disposés en rayons sur l’ombrelle.",
+      "Ces dessins peuvent rappeler une étoile ou une rose des vents.",
+      "Longs tentacules fins sous l’ombrelle.",
+      "Présence de bras buccaux plus épais et ondulés.",
+      "Taille pouvant atteindre plusieurs dizaines de centimètres."
+    ],
+    "good_actions": [
+      "Garder ses distances lorsqu’une méduse est observée dans l’eau.",
+      "Prévenir les enfants de ne pas toucher les méduses échouées.",
+      "En cas de contact, sortir calmement de l’eau.",
+      "Rincer la zone touchée avec de l’eau de mer.",
+      "Retirer avec précaution les éventuels fragments de tentacules sans les toucher directement.",
+      "Surveiller l’apparition d’une réaction importante.",
+      "Respecter les consignes données par les sauveteurs ou les autorités locales."
+    ],
+    "avoid_actions": [
+      "Ne pas toucher une méduse, même échouée ou morte.",
+      "Ne pas frotter la zone piquée.",
+      "Ne pas rincer immédiatement avec de l’eau douce.",
+      "Ne pas gratter les tentacules avec les doigts.",
+      "Ne pas remettre volontairement une méduse à l’eau à mains nues.",
+      "Ne pas poursuivre la baignade en cas de douleur importante ou de malaise."
+    ],
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/meduses_physalies/meduse-boussole.jpg"
   }
 ]
