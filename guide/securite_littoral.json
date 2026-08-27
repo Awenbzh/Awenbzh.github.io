@@ -211,5 +211,54 @@
       "Ne pas ignorer une évolution rapide de la météo ou du vent."
     ],
     "image_remote": "https://awenhafredrigstudio.bzh/images/guide/securite_littoral/vent-de-terre.png"
+  },
+  {
+    "id": "le-choc-thermique-quand-l-eau-froide-surprend-le-corps",
+    "category": "securite_littoral",
+    "title": "Le choc thermique — Quand l’eau froide surprend le corps",
+    "scientific_name": "",
+    "summary": "Entrer brutalement dans une eau froide peut provoquer un choc thermique. Le corps réagit soudainement à la différence de température : respiration incontrôlée, sensation d’étouffement, crampes, panique ou malaise peuvent survenir. Même un bon nageur peut être surpris.",
+    "presence": "Le risque existe sur l’ensemble du littoral breton. Même lorsque l’air est chaud et ensoleillé, la température de la mer peut rester nettement plus basse.",
+    "danger_level": "fort",
+    "danger_label": "Risque de malaise, perte de contrôle respiratoire et noyade.",
+    "image_url": "",
+    "image_asset": "",
+    "photo_author": "",
+    "photo_license": "",
+    "photo_credit": "",
+    "photo_source_label": "",
+    "photo_source_url": "",
+    "elouan_tip": "🌊 Demat deoc’h ! Ar mor zo brav, met yen e c’hall bezañ !\nLa mer est belle, mais elle peut être bien fraîche 😄\n\nKit e-barzh tamm-ha-tamm : entre doucement dans l’eau, mouille-toi progressivement et laisse ton corps s’habituer avant de nager.\n\nPas besoin de faire le dauphin dès la première seconde… surtout en Bretagne ! 🦐🌊",
+    "warning": "⚠️ Une immersion brutale dans une eau froide peut provoquer un choc thermique.\n\nLe risque est notamment plus important lorsque le corps est très chaud après une longue exposition au soleil ou un effort physique.\n\nEn cas de malaise ou de difficulté respiratoire, sortez de l’eau si cela peut être fait sans danger et alertez rapidement les secours.\n\nEn mer : 196\nUrgences : 112",
+    "recognition": [
+      "Sensation brutale de froid à l’entrée dans l’eau.",
+      "Inspiration soudaine et difficile à contrôler.",
+      "Respiration très rapide.",
+      "Sensation d’étouffement ou de panique.",
+      "Frissons importants.",
+      "Crampes ou engourdissement.",
+      "Difficulté à coordonner ses mouvements.",
+      "Vertiges ou sensation de malaise.",
+      "Dans les cas graves, perte de connaissance."
+    ],
+    "good_actions": [
+      "Entrer progressivement dans l’eau.",
+      "Mouiller progressivement le corps avant de s’immerger complètement.",
+      "Prendre quelques instants pour s’habituer à la température.",
+      "Éviter de se jeter brutalement dans l’eau après être resté longtemps au soleil.",
+      "Privilégier les zones de baignade surveillées.",
+      "Ne pas surestimer ses capacités de nage.",
+      "Sortir de l’eau dès l’apparition d’un malaise, de frissons importants ou d’une difficulté respiratoire.",
+      "Surveiller particulièrement les enfants et les personnes fragiles."
+    ],
+    "avoid_actions": [
+      "Ne pas plonger brutalement dans une eau froide lorsque le corps est très chaud.",
+      "Ne pas entrer dans l’eau après une consommation importante d’alcool.",
+      "Ne pas continuer à nager lorsqu’un malaise apparaît.",
+      "Ne pas s’éloigner du rivage dès les premières minutes de baignade.",
+      "Ne pas se baigner seul dans une zone isolée.",
+      "Ne jamais se mettre soi-même en danger pour porter secours à quelqu’un."
+    ],
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/securite_littoral/choc-thermique.png"
   }
 ]
