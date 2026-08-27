@@ -246,5 +246,51 @@
       "Ne pas remettre une méduse à l’eau à mains nues."
     ],
     "image_remote": "https://awenhafredrigstudio.bzh/images/guide/meduses/cyanee-bleue.jpg"
+  },
+  {
+    "id": "la-cyanee-capillaire-meduse-a-criniere-de-lion",
+    "category": "meduses",
+    "title": "La cyanée capillaire — Méduse à crinière de lion",
+    "scientific_name": "Cyanea capillata",
+    "summary": "La cyanée capillaire est l’une des plus grandes méduses au monde. Ses très nombreux tentacules fins forment une véritable chevelure autour de l’ombrelle, d’où son surnom de « méduse à crinière de lion ». Impressionnante et magnifique, elle est aussi fortement urticante.",
+    "presence": "Espèce surtout présente dans les eaux froides de l’Atlantique Nord, de la Manche et de la mer du Nord. Les courants et les vents peuvent pousser certains individus vers les côtes françaises et jusqu’au golfe de Gascogne. Elle peut donc être observée occasionnellement sur le littoral breton.",
+    "danger_level": "fort",
+    "danger_label": "Méduse très urticante — garder une grande distance.",
+    "image_url": "",
+    "image_asset": "",
+    "photo_author": "W.carter",
+    "photo_license": "",
+    "photo_credit": "",
+    "photo_source_label": "wikipedia commons",
+    "photo_source_url": "",
+    "elouan_tip": "🪼 Demat deoc’h ! Sellit ouzh he blev hir !\nRegardez sa longue « chevelure » de tentacules… mais de loin !\n\nNa stokit ket outi ! Ne la touchez jamais, même échouée : ses tentacules peuvent rester urticants",
+    "warning": "⚠️ La cyanée capillaire est une méduse très urticante.\n\nSes tentacules peuvent être extrêmement longs et provoquer des brûlures importantes, des rougeurs et des douleurs parfois intenses.\n\nUn individu échoué ou apparemment mort peut rester dangereux.\n\nEn cas de réaction importante, malaise ou difficulté respiratoire, contactez immédiatement les secours.",
+    "recognition": [
+      "Ombrelle généralement brun-jaune, orangée ou rougeâtre.",
+      "Très grande taille possible.",
+      "Bord de l’ombrelle découpé en lobes.",
+      "Très nombreux tentacules extrêmement fins.",
+      "Tentacules pouvant mesurer plusieurs mètres.",
+      "Aspect général rappelant une longue chevelure ou une crinière.",
+      "Quatre grands bras oraux ondulés sous l’ombrelle."
+    ],
+    "good_actions": [
+      "Garder une grande distance avec la méduse.",
+      "Prévenir les enfants de ne pas s’en approcher.",
+      "Sortir calmement de l’eau si une cyanée est observée à proximité.",
+      "Rincer une zone touchée avec de l’eau de mer.",
+      "Retirer les fragments de tentacules avec précaution, sans contact direct.",
+      "Surveiller l’apparition d’une réaction importante.",
+      "Respecter les consignes des sauveteurs et les éventuelles interdictions de baignade."
+    ],
+    "avoid_actions": [
+      "Ne jamais toucher une cyanée capillaire.",
+      "Ne pas manipuler une méduse échouée.",
+      "Ne pas frotter une zone piquée.",
+      "Ne pas toucher les tentacules avec les doigts.",
+      "Ne pas poursuivre la baignade après une piqûre importante.",
+      "Ne pas remettre une méduse à l’eau à mains nues."
+    ],
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/meduses/cyanee-capillaire.jpg"
   }
 ]
