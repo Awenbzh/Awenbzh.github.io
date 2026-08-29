@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Breizh Kalon — Rejoignez les premiers</title>
+  <meta name="description"
+        content="Breizh Kalon, les rencontres en Bretagne autrement. Rejoignez la liste d'attente avant le lancement.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at top, #fff7fb 0%, #ffffff 45%, #f5f8fb 100%);
+      color: #17324d;
+      min-height: 100vh;
+    }
+
+    .page {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 35px 20px 55px;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .heart {
+      font-size: 46px;
+      margin-bottom: 5px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(42px, 9vw, 70px);
+      color: #173b5d;
+      line-height: 1;
+    }
+
+    .kalon {
+      color: #c03c78;
+    }
+
+    .subtitle {
+      margin: 15px auto 0;
+      max-width: 580px;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1.35;
+    }
+
+    .intro {
+      margin: 14px auto 0;
+      max-width: 590px;
+      color: #526477;
+      font-size: 17px;
+      line-height: 1.55;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin: 30px 0;
+    }
+
+    .feature {
+      background: white;
+      border: 1px solid #e7e7ed;
+      border-radius: 16px;
+      padding: 17px;
+      box-shadow: 0 5px 20px rgba(20, 48, 75, 0.06);
+    }
+
+    .feature strong {
+      display: block;
+      margin-bottom: 5px;
+      color: #173b5d;
+    }
+
+    .card {
+      background: white;
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: 0 12px 40px rgba(20, 48, 75, 0.12);
+      border: 1px solid #eeeef3;
+    }
+
+    .card h2 {
+      margin: 0 0 7px;
+      text-align: center;
+      color: #173b5d;
+    }
+
+    .card-intro {
+      text-align: center;
+      margin: 0 0 24px;
+      color: #667788;
+    }
+
+    label {
+      display: block;
+      font-weight: 700;
+      margin: 17px 0 7px;
+    }
+
+    input,
+    select {
+      width: 100%;
+      padding: 14px 15px;
+      border: 1px solid #ccd4dc;
+      border-radius: 12px;
+      font-size: 16px;
+      background: white;
+      color: #17324d;
+    }
+
+    input:focus,
+    select:focus {
+      outline: 2px solid #d9699c;
+      border-color: transparent;
+    }
+
+    .consent {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-top: 20px;
+      color: #526477;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .consent input {
+      width: 19px;
+      height: 19px;
+      margin-top: 2px;
+      flex: 0 0 auto;
+    }
+
+    button {
+      width: 100%;
+      border: 0;
+      border-radius: 14px;
+      padding: 16px;
+      margin-top: 22px;
+      background: #bd3d77;
+      color: white;
+      font-size: 17px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 0.92;
+    }
+
+    button:disabled {
+      opacity: 0.55;
+      cursor: wait;
+    }
+
+    .founder {
+      margin: 24px 0 0;
+      padding: 17px;
+      border-radius: 16px;
+      background: #fff2f7;
+      text-align: center;
+      line-height: 1.45;
+    }
+
+    .founder strong {
+      color: #a92f66;
+    }
+
+    .message {
+      display: none;
+      margin-top: 18px;
+      padding: 16px;
+      border-radius: 12px;
+      text-align: center;
+      line-height: 1.5;
+    }
+
+    .success {
+      background: #edf9f0;
+      color: #24643a;
+    }
+
+    .error {
+      background: #fff0f0;
+      color: #9c2929;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      color: #788694;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    footer a {
+      color: #526b82;
+    }
+
+    @media (max-width: 600px) {
+      .page {
+        padding: 25px 15px 40px;
+      }
+
+      .features {
+        grid-template-columns: 1fr;
+      }
+
+      .card {
+        padding: 22px 18px;
+      }
+
+      .subtitle {
+        font-size: 19px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<main class="page">
+
+  <section class="hero">
+    <div class="heart">❤️</div>
+
+    <h1>Breizh <span class="kalon">Kalon</span></h1>
+
+    <p class="subtitle">
+      Et si votre prochaine rencontre ne commençait pas par une photo ?
+    </p>
+
+    <p class="intro">
+      Une nouvelle façon de faire des rencontres arrive en Bretagne.
+      Ici, on prend le temps de découvrir une personne, ses affinités
+      et ce qui peut vraiment créer une connexion.
+    </p>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <strong>🧩 Des affinités qui comptent</strong>
+      Découvrez des personnes avec lesquelles vous avez réellement des points communs.
+    </div>
+
+    <div class="feature">
+      <strong>❤️ Une découverte progressive</strong>
+      La personne avant la photo.
+    </div>
+
+    <div class="feature">
+      <strong>🚫 Pas de swipe à la chaîne</strong>
+      Breizh Kalon veut remettre un peu d'humain dans les rencontres.
+    </div>
+
+    <div class="feature">
+      <strong>🌊 En Bretagne</strong>
+      Pour les rencontres en Bretagne historique.
+    </div>
+  </section>
+
+  <section class="card">
+
+    <h2>Rejoignez les premiers ❤️</h2>
+
+    <p class="card-intro">
+      Inscrivez-vous gratuitement à la liste d'attente et soyez informé(e)
+      de l'ouverture de Breizh Kalon.
+    </p>
+
+    <form id="waitlistForm">
+
+      <label for="prenom">Votre prénom</label>
+      <input
+        id="prenom"
+        name="prenom"
+        type="text"
+        maxlength="80"
+        autocomplete="given-name"
+        required
+      >
+
+      <label for="email">Votre adresse e-mail</label>
+      <input
+        id="email"
+        name="email"
+        type="email"
+        maxlength="254"
+        autocomplete="email"
+        required
+      >
+
+      <label for="departement">Votre département</label>
+      <select id="departement" name="departement" required>
+        <option value="">Choisissez votre département</option>
+        <option value="22">22 — Côtes-d'Armor</option>
+        <option value="29">29 — Finistère</option>
+        <option value="35">35 — Ille-et-Vilaine</option>
+        <option value="44">44 — Loire-Atlantique</option>
+        <option value="56">56 — Morbihan</option>
+      </select>
+
+      <label class="consent">
+        <input id="consentement" type="checkbox" required>
+        <span>
+          J'accepte que mon adresse e-mail soit utilisée par
+          Awen ha Fredrig Studio pour m'informer du lancement
+          et des actualités liées à Breizh Kalon.
+          Je pourrai demander la suppression de mes données à tout moment.
+        </span>
+      </label>
+
+      <button id="submitButton" type="submit">
+        ❤️ Je rejoins les premiers
+      </button>
+
+      <div id="successMessage" class="message success">
+        <strong>Degemer mat ❤️</strong><br>
+        Votre inscription est enregistrée.
+        Nous vous préviendrons lors du lancement de Breizh Kalon.
+      </div>
+
+      <div id="errorMessage" class="message error"></div>
+
+    </form>
+
+    <div class="founder">
+      🎁 <strong>Offre fondateur</strong><br>
+      Les 200 premiers pourront bénéficier du tarif fondateur
+      de <strong>4,99 € / mois</strong> lors du lancement.
+      L'inscription à cette liste est gratuite et ne déclenche aucun abonnement.
+    </div>
+
+  </section>
+
+  <footer>
+    Breizh Kalon — Awen ha Fredrig Studio<br>
+    <a href="politique-confidentialite.html">Politique de confidentialité</a>
+    ·
+    <a href="mentions-legales.html">Mentions légales</a>
+  </footer>
+
+</main>
+
+<script>
+  const SUPABASE_URL = "https://ohjoiafoszwqxkvqvuql.supabase.co";
+
+  const SUPABASE_KEY = "sb_publishable_Uthsscqe3xGJzT7DFWas-g_yR5mcsos";
+
+  const form = document.getElementById("waitlistForm");
+  const button = document.getElementById("submitButton");
+  const successMessage = document.getElementById("successMessage");
+  const errorMessage = document.getElementById("errorMessage");
+
+  const params = new URLSearchParams(window.location.search);
+  const source = params.get("source") || "site";
+
+  form.addEventListener("submit", async function(event) {
+    event.preventDefault();
+
+    successMessage.style.display = "none";
+    errorMessage.style.display = "none";
+
+    const prenom = document.getElementById("prenom").value.trim();
+    const email = document.getElementById("email").value.trim().toLowerCase();
+    const departement = document.getElementById("departement").value;
+    const consentement = document.getElementById("consentement").checked;
+
+    if (!consentement) {
+      errorMessage.textContent =
+        "Vous devez accepter l'utilisation de votre e-mail pour rejoindre la liste.";
+      errorMessage.style.display = "block";
+      return;
+    }
+
+    button.disabled = true;
+    button.textContent = "Inscription en cours…";
+
+    try {
+      const response = await fetch(
+        SUPABASE_URL + "/rest/v1/waitlist",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "apikey": SUPABASE_KEY,
+            "Authorization": "Bearer " + SUPABASE_KEY,
+            "Prefer": "return=minimal"
+          },
+          body: JSON.stringify({
+            prenom: prenom,
+            email: email,
+            departement: departement,
+            consentement: true,
+            source: source
+          })
+        }
+      );
+
+      if (response.ok) {
+        form.reset();
+        successMessage.style.display = "block";
+        successMessage.scrollIntoView({
+          behavior: "smooth",
+          block: "center"
+        });
+      } else {
+        const details = await response.text();
+
+        if (
+          response.status === 409 ||
+          details.toLowerCase().includes("duplicate")
+        ) {
+          errorMessage.textContent =
+            "Cette adresse e-mail est déjà inscrite ❤️";
+        } else {
+          errorMessage.textContent =
+            "Oups… l'inscription n'a pas pu être enregistrée. Réessayez dans quelques instants.";
+        }
+
+        errorMessage.style.display = "block";
+      }
+
+    } catch (error) {
+      errorMessage.textContent =
+        "Impossible de contacter le service pour le moment. Vérifiez votre connexion et réessayez.";
+      errorMessage.style.display = "block";
+    }
+
+    button.disabled = false;
+    button.textContent = "❤️ Je rejoins les premiers";
+  });
+</script>
+
+</body>
+</html>
