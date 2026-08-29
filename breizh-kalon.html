@@ -4,9 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Breizh Kalon — Rejoignez les premiers</title>
-  <meta name="description"
-        content="Breizh Kalon, les rencontres en Bretagne autrement. Rejoignez la liste d'attente avant le lancement.">
+  <title>Breizh Kalon — Rencontres en Bretagne</title>
+
+  <meta
+    name="description"
+    content="Breizh Kalon, une nouvelle façon de faire des rencontres en Bretagne historique. Découvrez la personne avant la photo."
+  >
 
   <style>
     * {
@@ -17,115 +20,140 @@
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
       background:
-        radial-gradient(circle at top, #fff7fb 0%, #ffffff 45%, #f5f8fb 100%);
-      color: #17324d;
-      min-height: 100vh;
+        linear-gradient(
+          180deg,
+          #fff8fb 0%,
+          #ffffff 45%,
+          #f8fbfd 100%
+        );
+      color: #0b3557;
+      line-height: 1.5;
     }
 
-    .page {
-      max-width: 760px;
+    main {
+      width: min(100% - 32px, 820px);
       margin: 0 auto;
-      padding: 35px 20px 55px;
+      padding: 45px 0 60px;
     }
+
+    /* -------------------------
+       LOGO
+    -------------------------- */
+
+    .logo-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .logo-breizh-kalon {
+      display: block;
+      width: 230px;
+      height: 230px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin: 0 auto;
+      background: white;
+      box-shadow: 0 8px 30px rgba(11, 53, 87, 0.10);
+    }
+
+    /* -------------------------
+       INTRODUCTION
+    -------------------------- */
 
     .hero {
       text-align: center;
-      margin-bottom: 25px;
     }
 
-    .heart {
-      font-size: 46px;
-      margin-bottom: 5px;
+    .hero h1 {
+      margin: 20px 0 10px;
+      font-size: clamp(28px, 5vw, 38px);
+      line-height: 1.15;
+      color: #0b3557;
     }
 
-    h1 {
-      margin: 0;
-      font-size: clamp(42px, 9vw, 70px);
-      color: #173b5d;
-      line-height: 1;
+    .hero .intro {
+      max-width: 690px;
+      margin: 18px auto 32px;
+      color: #49657c;
+      font-size: 18px;
     }
 
-    .kalon {
-      color: #c03c78;
-    }
-
-    .subtitle {
-      margin: 15px auto 0;
-      max-width: 580px;
-      font-size: 22px;
-      font-weight: 700;
-      line-height: 1.35;
-    }
-
-    .intro {
-      margin: 14px auto 0;
-      max-width: 590px;
-      color: #526477;
-      font-size: 17px;
-      line-height: 1.55;
-    }
+    /* -------------------------
+       AVANTAGES
+    -------------------------- */
 
     .features {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 12px;
-      margin: 30px 0;
+      gap: 14px;
+      margin: 35px 0;
     }
 
     .feature {
-      background: white;
-      border: 1px solid #e7e7ed;
-      border-radius: 16px;
-      padding: 17px;
-      box-shadow: 0 5px 20px rgba(20, 48, 75, 0.06);
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid #e5e9ed;
+      border-radius: 18px;
+      padding: 20px;
+      color: #173b59;
+      box-shadow: 0 5px 18px rgba(11, 53, 87, 0.04);
     }
 
     .feature strong {
       display: block;
+      color: #0b3557;
+      font-size: 17px;
       margin-bottom: 5px;
-      color: #173b5d;
     }
 
-    .card {
+    /* -------------------------
+       LISTE D'ATTENTE
+    -------------------------- */
+
+    .waitlist {
+      margin-top: 35px;
       background: white;
+      border: 1px solid #e5e9ed;
       border-radius: 24px;
-      padding: 28px;
-      box-shadow: 0 12px 40px rgba(20, 48, 75, 0.12);
-      border: 1px solid #eeeef3;
+      padding: 32px;
+      box-shadow: 0 12px 35px rgba(11, 53, 87, 0.07);
     }
 
-    .card h2 {
-      margin: 0 0 7px;
+    .waitlist h2 {
       text-align: center;
-      color: #173b5d;
+      margin: 0 0 8px;
+      color: #0b3557;
+      font-size: 28px;
     }
 
-    .card-intro {
+    .waitlist .subtitle {
       text-align: center;
-      margin: 0 0 24px;
-      color: #667788;
+      color: #64798a;
+      margin: 0 auto 28px;
+      max-width: 600px;
     }
 
     label {
       display: block;
       font-weight: 700;
       margin: 17px 0 7px;
+      color: #173b59;
     }
 
     input,
     select {
       width: 100%;
       padding: 14px 15px;
-      border: 1px solid #ccd4dc;
       border-radius: 12px;
-      font-size: 16px;
+      border: 1px solid #ccd5dc;
       background: white;
-      color: #17324d;
+      font-size: 16px;
+      color: #173b59;
     }
 
     input:focus,
     select:focus {
-      outline: 2px solid #d9699c;
+      outline: 2px solid #c52f6a;
+      outline-offset: 1px;
       border-color: transparent;
     }
 
@@ -133,100 +161,124 @@
       display: flex;
       align-items: flex-start;
       gap: 10px;
-      margin-top: 20px;
-      color: #526477;
+      margin: 22px 0;
+      color: #526b7e;
       font-size: 14px;
-      line-height: 1.45;
     }
 
     .consent input {
-      width: 19px;
-      height: 19px;
-      margin-top: 2px;
-      flex: 0 0 auto;
+      width: auto;
+      margin-top: 4px;
+      flex-shrink: 0;
+    }
+
+    .consent label {
+      margin: 0;
+      font-weight: 400;
     }
 
     button {
       width: 100%;
       border: 0;
       border-radius: 14px;
-      padding: 16px;
-      margin-top: 22px;
-      background: #bd3d77;
-      color: white;
+      padding: 16px 20px;
       font-size: 17px;
-      font-weight: 800;
+      font-weight: 700;
       cursor: pointer;
+      background: #c52f6a;
+      color: white;
+      transition: transform 0.15s ease, opacity 0.15s ease;
     }
 
     button:hover {
-      opacity: 0.92;
+      transform: translateY(-1px);
     }
 
     button:disabled {
-      opacity: 0.55;
-      cursor: wait;
+      opacity: 0.6;
+      cursor: not-allowed;
+      transform: none;
     }
 
-    .founder {
-      margin: 24px 0 0;
-      padding: 17px;
-      border-radius: 16px;
-      background: #fff2f7;
-      text-align: center;
-      line-height: 1.45;
-    }
-
-    .founder strong {
-      color: #a92f66;
-    }
+    /* -------------------------
+       MESSAGES
+    -------------------------- */
 
     .message {
       display: none;
       margin-top: 18px;
-      padding: 16px;
+      padding: 15px;
       border-radius: 12px;
       text-align: center;
-      line-height: 1.5;
+      font-weight: 700;
     }
 
     .success {
-      background: #edf9f0;
-      color: #24643a;
+      background: #eefaf3;
+      color: #17653a;
     }
 
     .error {
-      background: #fff0f0;
-      color: #9c2929;
+      background: #fff1f3;
+      color: #9b1c3e;
     }
 
-    footer {
+    /* -------------------------
+       PETIT TEXTE TERRITOIRE
+    -------------------------- */
+
+    .territory {
       text-align: center;
-      margin-top: 30px;
-      color: #788694;
+      margin: 32px 0 5px;
+      color: #607789;
+      font-size: 14px;
+    }
+
+    .territory strong {
+      color: #0b3557;
+    }
+
+    /* -------------------------
+       FOOTER
+    -------------------------- */
+
+    footer {
+      margin-top: 45px;
+      text-align: center;
+      color: #718493;
       font-size: 13px;
-      line-height: 1.6;
     }
 
     footer a {
-      color: #526b82;
+      color: #0b3557;
+      margin: 0 7px;
     }
 
-    @media (max-width: 600px) {
-      .page {
-        padding: 25px 15px 40px;
+    /* -------------------------
+       MOBILE
+    -------------------------- */
+
+    @media (max-width: 650px) {
+      main {
+        width: min(100% - 24px, 820px);
+        padding-top: 25px;
+      }
+
+      .logo-breizh-kalon {
+        width: 190px;
+        height: 190px;
       }
 
       .features {
         grid-template-columns: 1fr;
       }
 
-      .card {
-        padding: 22px 18px;
+      .waitlist {
+        padding: 24px 18px;
       }
 
-      .subtitle {
-        font-size: 19px;
+      .hero .intro {
+        font-size: 16px;
       }
     }
   </style>
@@ -234,28 +286,45 @@
 
 <body>
 
-<main class="page">
+<main>
+
+  <!-- LOGO BREIZH KALON -->
+
+  <div class="logo-container">
+    <img
+      src="logo-breizh-kalon.png"
+      alt="Breizh Kalon - Le cœur de Bretagne"
+      class="logo-breizh-kalon"
+    >
+  </div>
+
+
+  <!-- PRESENTATION -->
 
   <section class="hero">
-    <div class="heart">❤️</div>
 
-    <h1>Breizh <span class="kalon">Kalon</span></h1>
-
-    <p class="subtitle">
+    <h1>
       Et si votre prochaine rencontre ne commençait pas par une photo ?
-    </p>
+    </h1>
 
     <p class="intro">
-      Une nouvelle façon de faire des rencontres arrive en Bretagne.
-      Ici, on prend le temps de découvrir une personne, ses affinités
-      et ce qui peut vraiment créer une connexion.
+      Une nouvelle façon de faire des rencontres arrive en
+      <strong>Bretagne historique</strong>.
+      Ici, on prend le temps de découvrir une personne,
+      ses affinités et ce qui peut vraiment créer une connexion.
     </p>
+
   </section>
 
+
+  <!-- POINTS FORTS -->
+
   <section class="features">
+
     <div class="feature">
       <strong>🧩 Des affinités qui comptent</strong>
-      Découvrez des personnes avec lesquelles vous avez réellement des points communs.
+      Découvrez des personnes avec lesquelles vous avez réellement
+      des points communs.
     </div>
 
     <div class="feature">
@@ -269,182 +338,355 @@
     </div>
 
     <div class="feature">
-      <strong>🌊 En Bretagne</strong>
-      Pour les rencontres en Bretagne historique.
+      <strong>🌊 En Bretagne historique</strong>
+      Côtes-d'Armor • Finistère • Ille-et-Vilaine •
+      Loire-Atlantique • Morbihan
     </div>
+
   </section>
 
-  <section class="card">
+
+  <!-- FORMULAIRE -->
+
+  <section class="waitlist">
 
     <h2>Rejoignez les premiers ❤️</h2>
 
-    <p class="card-intro">
-      Inscrivez-vous gratuitement à la liste d'attente et soyez informé(e)
-      de l'ouverture de Breizh Kalon.
+    <p class="subtitle">
+      Inscrivez-vous gratuitement à la liste d'attente
+      et soyez informé(e) de l'ouverture de Breizh Kalon.
     </p>
 
     <form id="waitlistForm">
 
       <label for="prenom">Votre prénom</label>
+
       <input
+        type="text"
         id="prenom"
         name="prenom"
-        type="text"
-        maxlength="80"
         autocomplete="given-name"
+        maxlength="60"
         required
       >
+
 
       <label for="email">Votre adresse e-mail</label>
+
       <input
+        type="email"
         id="email"
         name="email"
-        type="email"
-        maxlength="254"
         autocomplete="email"
+        maxlength="254"
         required
       >
 
-      <label for="departement">Votre département</label>
-      <select id="departement" name="departement" required>
-        <option value="">Choisissez votre département</option>
-        <option value="22">22 — Côtes-d'Armor</option>
-        <option value="29">29 — Finistère</option>
-        <option value="35">35 — Ille-et-Vilaine</option>
-        <option value="44">44 — Loire-Atlantique</option>
-        <option value="56">56 — Morbihan</option>
-      </select>
 
-      <label class="consent">
-        <input id="consentement" type="checkbox" required>
-        <span>
-          J'accepte que mon adresse e-mail soit utilisée par
-          Awen ha Fredrig Studio pour m'informer du lancement
-          et des actualités liées à Breizh Kalon.
-          Je pourrai demander la suppression de mes données à tout moment.
-        </span>
+      <label for="departement">
+        Votre département
       </label>
 
-      <button id="submitButton" type="submit">
-        ❤️ Je rejoins les premiers
-      </button>
+      <select
+        id="departement"
+        name="departement"
+        required
+      >
 
-      <div id="successMessage" class="message success">
-        <strong>Degemer mat ❤️</strong><br>
-        Votre inscription est enregistrée.
-        Nous vous préviendrons lors du lancement de Breizh Kalon.
+        <option value="">
+          Choisissez votre département
+        </option>
+
+        <option value="22">
+          22 — Côtes-d'Armor
+        </option>
+
+        <option value="29">
+          29 — Finistère
+        </option>
+
+        <option value="35">
+          35 — Ille-et-Vilaine
+        </option>
+
+        <option value="44">
+          44 — Loire-Atlantique
+        </option>
+
+        <option value="56">
+          56 — Morbihan
+        </option>
+
+      </select>
+
+
+      <div class="consent">
+
+        <input
+          type="checkbox"
+          id="consentement"
+          name="consentement"
+          required
+        >
+
+        <label for="consentement">
+          J'accepte que mon adresse e-mail soit utilisée
+          uniquement pour recevoir des informations concernant
+          le lancement de Breizh Kalon.
+        </label>
+
       </div>
 
-      <div id="errorMessage" class="message error"></div>
+
+      <button
+        type="submit"
+        id="submitButton"
+      >
+        Je rejoins les premiers ❤️
+      </button>
+
+
+      <div
+        id="successMessage"
+        class="message success"
+        role="status"
+      >
+        Degemer mat ❤️<br>
+        Votre inscription est bien enregistrée.
+        Nous vous préviendrons lors de l'ouverture de Breizh Kalon.
+      </div>
+
+
+      <div
+        id="errorMessage"
+        class="message error"
+        role="alert"
+      >
+        Oups ! L'inscription n'a pas pu être enregistrée.
+        Réessayez dans quelques instants.
+      </div>
 
     </form>
 
-    <div class="founder">
-      🎁 <strong>Offre fondateur</strong><br>
-      Les 200 premiers pourront bénéficier du tarif fondateur
-      de <strong>4,99 € / mois</strong> lors du lancement.
-      L'inscription à cette liste est gratuite et ne déclenche aucun abonnement.
-    </div>
-
   </section>
 
+
+  <p class="territory">
+    <strong>Breizh Kalon est destiné à la Bretagne historique :</strong><br>
+    22 • 29 • 35 • 44 • 56
+  </p>
+
+
   <footer>
-    Breizh Kalon — Awen ha Fredrig Studio<br>
-    <a href="politique-confidentialite.html">Politique de confidentialité</a>
-    ·
-    <a href="mentions-legales.html">Mentions légales</a>
+
+    © Awen ha Fredrig Studio
+
+    <br><br>
+
+    <a href="politique-confidentialite.html">
+      Politique de confidentialité
+    </a>
+
+    <a href="mentions-legales.html">
+      Mentions légales
+    </a>
+
   </footer>
 
 </main>
 
+
 <script>
-  const SUPABASE_URL = "https://ohjoiafoszwqxkvqvuql.supabase.co";
 
-  const SUPABASE_KEY = "sb_publishable_Uthsscqe3xGJzT7DFWas-g_yR5mcsos";
+  /*
+   * ============================================================
+   * CONFIGURATION SUPABASE
+   * ============================================================
+   */
 
-  const form = document.getElementById("waitlistForm");
-  const button = document.getElementById("submitButton");
-  const successMessage = document.getElementById("successMessage");
-  const errorMessage = document.getElementById("errorMessage");
+  const SUPABASE_URL =
+    "https://ohjoiafoszwqxkvqvuql.supabase.co";
 
-  const params = new URLSearchParams(window.location.search);
-  const source = params.get("source") || "site";
 
-  form.addEventListener("submit", async function(event) {
-    event.preventDefault();
+  /*
+   * 👇 C'EST ICI QUE TU METS TA PUBLISHABLE KEY SUPABASE
+   *
+   * Garde bien les guillemets.
+   * N'utilise JAMAIS une Secret key / service_role ici.
+   */
 
-    successMessage.style.display = "none";
-    errorMessage.style.display = "none";
+  const SUPABASE_KEY =
+    "sb_publishable_Uthsscqe3xGJzT7DFWas-g_yR5mcsos";
 
-    const prenom = document.getElementById("prenom").value.trim();
-    const email = document.getElementById("email").value.trim().toLowerCase();
-    const departement = document.getElementById("departement").value;
-    const consentement = document.getElementById("consentement").checked;
 
-    if (!consentement) {
-      errorMessage.textContent =
-        "Vous devez accepter l'utilisation de votre e-mail pour rejoindre la liste.";
-      errorMessage.style.display = "block";
-      return;
-    }
+  /*
+   * ============================================================
+   * FORMULAIRE
+   * ============================================================
+   */
 
-    button.disabled = true;
-    button.textContent = "Inscription en cours…";
+  const form =
+    document.getElementById("waitlistForm");
 
-    try {
-      const response = await fetch(
-        SUPABASE_URL + "/rest/v1/waitlist",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            "apikey": SUPABASE_KEY,
-            "Authorization": "Bearer " + SUPABASE_KEY,
-            "Prefer": "return=minimal"
-          },
-          body: JSON.stringify({
-            prenom: prenom,
-            email: email,
-            departement: departement,
-            consentement: true,
-            source: source
-          })
-        }
-      );
+  const button =
+    document.getElementById("submitButton");
 
-      if (response.ok) {
-        form.reset();
-        successMessage.style.display = "block";
-        successMessage.scrollIntoView({
-          behavior: "smooth",
-          block: "center"
-        });
-      } else {
-        const details = await response.text();
+  const successMessage =
+    document.getElementById("successMessage");
 
-        if (
-          response.status === 409 ||
-          details.toLowerCase().includes("duplicate")
-        ) {
-          errorMessage.textContent =
-            "Cette adresse e-mail est déjà inscrite ❤️";
-        } else {
-          errorMessage.textContent =
-            "Oups… l'inscription n'a pas pu être enregistrée. Réessayez dans quelques instants.";
-        }
+  const errorMessage =
+    document.getElementById("errorMessage");
+
+
+  /*
+   * Détermine d'où vient l'inscription.
+   *
+   * Exemple :
+   * breizh-kalon.html?source=facebook
+   *
+   * enregistrera "facebook" dans Supabase.
+   */
+
+  const params =
+    new URLSearchParams(window.location.search);
+
+  const source =
+    params.get("source") || "site";
+
+
+  form.addEventListener(
+    "submit",
+    async function(event) {
+
+      event.preventDefault();
+
+      successMessage.style.display = "none";
+      errorMessage.style.display = "none";
+
+      const prenom =
+        document
+          .getElementById("prenom")
+          .value
+          .trim();
+
+      const email =
+        document
+          .getElementById("email")
+          .value
+          .trim()
+          .toLowerCase();
+
+      const departement =
+        document
+          .getElementById("departement")
+          .value;
+
+      const consentement =
+        document
+          .getElementById("consentement")
+          .checked;
+
+
+      /*
+       * Sécurité supplémentaire côté navigateur.
+       * Supabase possède également sa contrainte SQL.
+       */
+
+      const departementsAutorises =
+        ["22", "29", "35", "44", "56"];
+
+
+      if (
+        !prenom ||
+        !email ||
+        !departementsAutorises.includes(departement) ||
+        !consentement
+      ) {
+
+        errorMessage.textContent =
+          "Merci de remplir tous les champs et d'accepter le consentement.";
 
         errorMessage.style.display = "block";
+
+        return;
       }
 
-    } catch (error) {
-      errorMessage.textContent =
-        "Impossible de contacter le service pour le moment. Vérifiez votre connexion et réessayez.";
-      errorMessage.style.display = "block";
-    }
 
-    button.disabled = false;
-    button.textContent = "❤️ Je rejoins les premiers";
-  });
+      button.disabled = true;
+      button.textContent = "Inscription en cours…";
+
+
+      try {
+
+        const response =
+          await fetch(
+            SUPABASE_URL + "/rest/v1/waitlist",
+            {
+              method: "POST",
+
+              headers: {
+                "Content-Type": "application/json",
+                "apikey": SUPABASE_KEY,
+                "Authorization":
+                  "Bearer " + SUPABASE_KEY,
+                "Prefer": "return=minimal"
+              },
+
+              body: JSON.stringify({
+                prenom: prenom,
+                email: email,
+                departement: departement,
+                consentement: true,
+                source: source
+              })
+            }
+          );
+
+
+        if (!response.ok) {
+
+          const details =
+            await response.text();
+
+          console.error(
+            "Erreur Supabase :",
+            response.status,
+            details
+          );
+
+          throw new Error(
+            "Erreur lors de l'inscription"
+          );
+        }
+
+
+        form.reset();
+
+        successMessage.style.display =
+          "block";
+
+
+      } catch (error) {
+
+        console.error(error);
+
+        errorMessage.textContent =
+          "Oups ! L'inscription n'a pas pu être enregistrée. Réessayez dans quelques instants.";
+
+        errorMessage.style.display =
+          "block";
+
+      } finally {
+
+        button.disabled = false;
+
+        button.textContent =
+          "Je rejoins les premiers ❤️";
+      }
+
+    }
+  );
+
 </script>
 
 </body>
