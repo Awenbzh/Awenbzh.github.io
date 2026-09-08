@@ -353,5 +353,37 @@
       "Ne la confondez pas avec l’Équorée de verre : Aequorea forskalea possède des canaux radiaires bruns ou bleu foncé, tandis que ceux d’Aequorea vitrina sont blancs à bleu pâle.",
       "Même si elle est considérée comme inoffensive pour la peau humaine, évitez de la manipuler et de toucher ensuite les yeux ou la bouche"
     ]
+  },
+  {
+    "id": "lucernaire-campanulee",
+    "category": "meduses",
+    "title": "Lucernaire campanulée",
+    "scientific_name": "Calvadosia campanulata",
+    "summary": "Étonnante petite méduse qui, contrairement aux méduses habituelles, vit fixée aux algues et aux plantes marines. En forme de clochette ou d’entonnoir, elle possède huit bras terminés par de petits bouquets de tentacules. Sa couleur peut varier du vert au rouge.",
+    "presence": "Présente sur les côtes bretonnes, notamment dans les eaux peu profondes riches en végétation marine. Elle vit principalement fixée sur les laminaires et les zostères. Des observations sont notamment documentées à Ploumanac’h dans les Côtes-d’Armor et à Ouessant dans le Finistère.",
+    "danger_level": "faible",
+    "danger_label": "Cnidaire – ne pas manipuler",
+    "image_remote": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Kishinouyea_corbini.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+    "image_asset": "",
+    "photo_author": "A.C. Morandini",
+    "photo_license": "Creative Commons Attribution 4.0 International",
+    "photo_credit": "",
+    "photo_source_label": "wikipedia",
+    "photo_source_url": "",
+    "elouan_tip": "Sell 'ta, ur meduzenn stag eo ! 👀🪼\nRegarde, c’est une méduse accrochée !\n\nEh oui, toutes les méduses ne nagent pas ! Celle-ci préfère rester fixée sur une algue ou une zostère grâce à une sorte de petite ventouse. Mais elle peut quand même se décrocher pour aller s’installer ailleurs !",
+    "warning": "Petite et discrète, cette lucernaire peut facilement passer inaperçue parmi les algues et les zostères. Observez-la sans la toucher ni l’arracher de son support et préservez la végétation marine qui constitue son habitat.",
+    "recognition": [
+      "Elle mesure généralement 3 à 4 cm de haut, jusqu’à environ 5 cm, et présente une forme caractéristique de petite cloche ou d’entonnoir.",
+      "Sa couronne possède huit bras, chacun terminé par un bouquet d’environ 45 petits tentacules. Sa couleur uniforme peut varier du vert au rouge.",
+      "Contrairement aux méduses qui nagent librement, elle est généralement fixée à une algue ou une plante marine par un pédoncule terminé par une ventouse."
+    ],
+    "good_actions": [
+      "Observez-la directement sur son support sans essayer de la décrocher. Une photo rapprochée permet d’admirer ses huit bouquets de tentacules sans la déranger.",
+      "Préservez les laminaires et les herbiers de zostères : ces végétaux constituent un habitat essentiel pour la lucernaire et de nombreuses autres espèces du littoral."
+    ],
+    "avoid_actions": [
+      "Ne l’arrachez pas de l’algue ou de la zostère sur laquelle elle est fixée, même pour l’observer ou la photographier.",
+      "Évitez de piétiner ou d’arracher la végétation marine dans les zones peu profondes où vivent les lucernaires."
+    ]
   }
 ]
