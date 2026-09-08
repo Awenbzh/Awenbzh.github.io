@@ -449,5 +449,37 @@
       "Ne la décrochez pas pour l’observer dans votre main ou la déplacer : malgré son apparence de petite plante, c'est bien un animal.",
       "Évitez de piétiner ou d’arracher les zostères et les algues dans les petites zones d'eau où elle peut se cacher."
     ]
+  },
+  {
+    "id": "meduse-adhesive",
+    "category": "meduses",
+    "title": "Méduse adhésive",
+    "scientific_name": "Gonionemus vertens",
+    "summary": "Petite hydroméduse translucide, jaunâtre à verdâtre, mesurant généralement autour de 2,5 cm. Elle possède de nombreux tentacules munis de petits boutons adhésifs qui lui permettent de s’accrocher aux algues et aux plantes marines. Elle peut également nager librement.",
+    "presence": "Présente dans l’Atlantique Nord-Est et sur les côtes françaises de la Manche et de l’Atlantique. Elle fréquente surtout les zones côtières et les milieux riches en algues, notamment les laminaires. Une observation compatible avec cette espèce a notamment été documentée à Ouessant, dans la baie de Lampaul, en août 2022.",
+    "danger_level": "fort",
+    "danger_label": "Urticante – ne pas toucher",
+    "image_remote": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Gonionemus_vertens_01.jpg?utm_source=fr.wikipedia.org&utm_campaign=index&utm_content=original",
+    "image_asset": "",
+    "photo_author": "Σ64",
+    "photo_license": "CC BY 4.0",
+    "photo_credit": "Σ64 / Wikimedia Commons – CC BY 4.0",
+    "photo_source_label": "Wikimedia Commons",
+    "photo_source_url": "https://fr.wikipedia.org/wiki/Fichier:Gonionemus_vertens_01.jpg?utm_source=chatgpt.com",
+    "elouan_tip": "Sell 'ta, peg ouzh an alg eo ! 👀🪼\nRegarde, elle est accrochée à l’algue !\n\nCherche ses nombreux tentacules : chacun possède un petit bouton adhésif qui lui permet de s’accrocher aux algues. Mais attention, même toute petite, on la regarde sans la toucher !",
+    "warning": "Cette méduse possède des cellules urticantes et peut provoquer une piqûre importante. Ne la touchez pas, même lorsqu’elle semble immobile ou accrochée à une algue. En cas d’observation, gardez également les enfants et les animaux à distance.",
+    "recognition": [
+      "Son ombrelle mesure généralement 23 à 25 mm. Elle est presque transparente, avec une teinte légèrement jaunâtre à verdâtre, et peut être assez plate ou presque hémisphérique.",
+      "Elle possède 60 à 80 tentacules, relativement longs et rigides. À mi-longueur de chaque tentacule se trouve un petit bouton adhésif, qui forme un renflement caractéristique.",
+      "Elle possède quatre canaux radiaires bien visibles. Sur chacun se trouve une gonade plissée ; celles des mâles sont plutôt brunâtres et celles des femelles rougeâtres"
+    ],
+    "good_actions": [
+      "Observez-la à distance et photographiez-la sans la toucher. Si elle est fixée sur une algue, laissez-la exactement où elle se trouve.",
+      "Si vous pensez en observer une en Bretagne, photographiez si possible l’ombrelle et les tentacules : les petits renflements adhésifs constituent un excellent indice pour confirmer l’identification."
+    ],
+    "avoid_actions": [
+      "Ne la prenez jamais dans la main, même si elle ne mesure que quelques centimètres : sa petite taille ne signifie pas qu’elle est inoffensive.",
+      "Ne tirez pas sur une méduse fixée à une algue et ne manipulez pas les tentacules. Ils portent les cellules urticantes de l’animal."
+    ]
   }
 ]
