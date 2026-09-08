@@ -8,7 +8,7 @@
     "presence": "Présente toute l'année sur les côtes bretonnes. Elle fréquente les plages, les ports, les estuaires, les marais, les rivières et certains plans d'eau intérieurs. En hiver, elle se rassemble souvent en grands groupes.",
     "danger_level": "faible",
     "danger_label": "Inoffensive – ne pas la nourrir ni déranger les colonies.",
-    "image_url": "https://awenhafredrigstudio.bzh/images/guide/faune_flore/mouette-rieuse.jpg",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/faune_flore/mouette-rieuse.jpg",
     "image_asset": "",
     "photo_author": "Claire Cimmino",
     "photo_license": "Tous droits réservés",
@@ -51,7 +51,7 @@
     "presence": "Le phoque gris est présent toute l'année sur le littoral breton, notamment dans l'archipel des Sept-Îles, la mer d'Iroise, la baie de Morlaix, la presqu'île de Crozon, la baie d'Audierne, le golfe du Morbihan et plusieurs îlots rocheux. Il peut également être observé isolé sur de nombreuses plages.",
     "danger_level": "faible",
     "danger_label": "Animal sauvage : garder ses distances.",
-    "image_url": "https://awenhafredrigstudio.bzh/images/guide/faune_flore/phoque-gris.jpg",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/faune_flore/phoque-gris.jpg",
     "image_asset": "",
     "photo_author": "LeBourgmestre",
     "photo_license": "Creative Commons Attribution-ShareAlike 4.0 International",
@@ -95,7 +95,7 @@
     "presence": "Présente toute l'année sur le littoral breton, principalement sur les rochers, dans les mares et les zones découvertes à marée basse. Elle est particulièrement abondante au printemps et en été.",
     "danger_level": "faible",
     "danger_label": "Comestible – récolter uniquement dans une zone saine.",
-    "image_url": "https://awenhafredrigstudio.bzh/images/guide/faune_flore/laitue-de-mer.jpg",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/faune_flore/laitue-de-mer.jpg",
     "image_asset": "",
     "photo_author": "Lorangeo",
     "photo_license": "",
@@ -136,7 +136,7 @@
     "presence": "L'oyat est présent sur l'ensemble du littoral breton, principalement sur les dunes bordant les plages de sable. Il pousse toute l'année et supporte très bien le vent, le sel et la sécheresse.",
     "danger_level": "faible",
     "danger_label": "Espèce protégée – ne pas piétiner les dunes.",
-    "image_url": "https://awenhafredrigstudio.bzh/images/guide/faune_flore/oyat.jpg",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/faune_flore/oyat.jpg",
     "image_asset": "",
     "photo_author": "Malene Thyssen",
     "photo_license": "CC BY-SA 3.0view terms",
@@ -178,7 +178,7 @@
     "presence": "Présente sur l’ensemble du littoral breton, elle vit principalement sur les fonds rocheux, sous les pierres, dans les flaques laissées par la marée et parmi les coquillages. Elle peut être observée toute l’année, notamment lors des marées basses.",
     "danger_level": "faible",
     "danger_label": "Inoffensive – observer sans la sortir de son milieu.",
-    "image_url": "https://awenhafredrigstudio.bzh/images/guide/faune_flore/etoile-de-mer-commune.jpg",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/faune_flore/etoile-de-mer-commune.jpg",
     "image_asset": "",
     "photo_author": "Sdegroisse",
     "photo_license": "Creative Commons",
@@ -220,7 +220,7 @@
     "presence": "Présente sur le littoral breton, l’Armérie maritime pousse principalement sur les falaises, les pelouses littorales et les zones rocheuses exposées aux embruns. Elle peut former de petites touffes très visibles lors de sa floraison.",
     "danger_level": "",
     "danger_label": "Sans danger — plante fragile du littoral.",
-    "image_url": "",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/faune_flore/armerie-maritime.jpg",
     "image_asset": "",
     "photo_author": "",
     "photo_license": "",
@@ -251,8 +251,7 @@
       "Ne pas marcher dans les pelouses littorales pour rejoindre une touffe.",
       "Ne pas déplacer la plante pour la replanter chez soi.",
       "Ne pas dégrader les rochers et sols fragiles qui constituent son habitat."
-    ],
-    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/faune_flore/armerie-maritime.jpg"
+    ]
   },
   {
     "id": "queue-de-lievre",
@@ -284,6 +283,38 @@
     "avoid_actions": [
       "Évitez de cueillir ses épis, même s’ils sont très appréciés pour réaliser des bouquets secs.",
       "Ne piétinez pas les zones végétalisées des dunes et n’arrachez pas les plants : ces milieux sont fragiles et sensibles aux passages répétés."
+    ]
+  },
+  {
+    "id": "caragouille-rosee",
+    "category": "faune_flore",
+    "title": "Caragouille rosée",
+    "scientific_name": "Theba pisana",
+    "summary": "Petit escargot très commun sur le littoral, à la coquille claire souvent marquée de fines bandes ou de petits motifs bruns. Lorsqu’il fait chaud et sec, il grimpe sur les tiges des plantes pour s’éloigner du sol brûlant. On peut alors en observer des dizaines regroupés sur les graminées des dunes.",
+    "presence": "Présente sur le littoral breton, principalement dans les milieux secs et ensoleillés : dunes, pelouses littorales, talus et végétation proche des plages.",
+    "danger_level": "",
+    "danger_label": "",
+    "image_remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Caracois_sobre_fiuncho._Praia_de_Carragueiros%2C_Boiro.jpg/500px-Caracois_sobre_fiuncho._Praia_de_Carragueiros%2C_Boiro.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_asset": "",
+    "photo_author": "Luis Miguel Bugallo Sánchez",
+    "photo_license": " Creative Commons Attribution 3.0 Unported",
+    "photo_credit": "CC BY 3.0",
+    "photo_source_label": "wikipedia",
+    "photo_source_url": "",
+    "elouan_tip": "Sell 'ta, malig eo ar falc'hunig-se ! 👀🐌\nRegarde, il est malin ce petit escargot !\n\nQuand le sable et le sol deviennent trop chauds, la caragouille grimpe sur les plantes pour chercher un endroit moins brûlant. C’est pour ça qu’on peut en voir plein perchées sur les tiges en été !",
+    "warning": "Ces petits escargots ne présentent pas de danger. Observez-les sans les décrocher des plantes et évitez de piétiner la végétation des dunes.",
+    "recognition": [
+      "Sa coquille est petite, arrondie et généralement blanche à crème, parfois rosée, avec des bandes ou de petites marques brunes très variables.",
+      "Lors des journées chaudes et sèches, elle grimpe sur les tiges, herbes et autres végétaux, où plusieurs individus peuvent se regrouper.",
+      "On la rencontre surtout dans les milieux ouverts, secs et ensoleillés du littoral, notamment dans les dunes et les pelouses sableuses."
+    ],
+    "good_actions": [
+      "Observez les escargots là où ils se trouvent et profitez-en pour regarder leurs coquilles : les motifs peuvent être très différents d’un individu à l’autre.",
+      "Restez sur les chemins aménagés dans les dunes afin de préserver à la fois les plantes et les petits animaux qui y vivent."
+    ],
+    "avoid_actions": [
+      "Ne décrochez pas les escargots des tiges pour les déplacer ou les collectionner : leur position en hauteur les aide notamment à supporter les périodes chaudes et sèches.",
+      "Évitez de cueillir les plantes couvertes d’escargots ou de traverser les zones végétalisées des dunes."
     ]
   }
 ]
