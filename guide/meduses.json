@@ -385,5 +385,37 @@
       "Ne l’arrachez pas de l’algue ou de la zostère sur laquelle elle est fixée, même pour l’observer ou la photographier.",
       "Évitez de piétiner ou d’arracher la végétation marine dans les zones peu profondes où vivent les lucernaires."
     ]
+  },
+  {
+    "id": "lucernaire-a-court-pedoncule",
+    "category": "meduses",
+    "title": "Lucernaire à court pédoncule",
+    "scientific_name": "Craterolophus convolvulus",
+    "summary": "Petite méduse fixée en forme de gobelet ou d’entonnoir, haute de seulement 2 à 3 cm. Elle vit accrochée aux algues et aux zostères grâce à un pédoncule extrêmement court terminé par un petit disque adhésif. Sa couleur est très variable : grise, brune, verte ou rouge.",
+    "presence": "Espèce nordique très rare, présente jusqu’à la côte nord de la Bretagne, qui constitue la limite sud de sa répartition européenne. Elle affectionne les eaux fraîches et peut être observée de la surface jusqu’à une vingtaine de mètres de profondeur, fixée sur des algues ou des zostères.",
+    "danger_level": "faible",
+    "danger_label": "Cnidaire – ne pas manipuler",
+    "image_remote": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Craterolophus_convolvulus_%28YPM_IZ_029398%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "image_asset": "",
+    "photo_author": " Eric A. Lazo-Wasem",
+    "photo_license": "Creative Commons CC0 1.0 Universal Public Domain Dedication. ",
+    "photo_credit": "",
+    "photo_source_label": "wikipedia",
+    "photo_source_url": "",
+    "elouan_tip": "Sell 'ta, bihan-tout eo ! 👀🪼\nRegarde, elle est toute petite !\n\nNe cherche pas forcément une méduse qui nage : celle-ci vit accrochée aux algues ! Son pédoncule est si court qu’elle semble presque posée directement dessus. Et ouvre l’œil : elle ne mesure que quelques centimètres !",
+    "warning": "Cette espèce est très rare et discrète. Si vous avez la chance d’en observer une, ne la décrochez pas de son support. Photographiez-la sur place sans manipuler l’animal ni arracher l’algue qui l’abrite.",
+    "recognition": [
+      "Elle ne dépasse généralement pas 2 à 3 cm de hauteur et son ombrelle forme un petit gobelet profond, plus haut que large.",
+      "Son pédoncule, de section carrée, est particulièrement court : au maximum environ 8 mm. Il se termine par un petit disque qui lui permet de rester fixée à son support.",
+      "Elle possède huit bras, chacun terminé par un bouquet d’environ 80 petits tentacules. À l’intérieur, quatre structures plus pâles et plumeuses sont également caractéristiques. Sa couleur peut être grise, brune, verte ou rouge."
+    ],
+    "good_actions": [
+      "Si vous pensez en avoir trouvé une, prenez plusieurs photos sans la déplacer : une vue générale et une photo de l’intérieur de l’ombrelle faciliteront son identification.",
+      "Préservez les algues et les herbiers de zostères auxquels les lucernaires se fixent : ils constituent leur habitat et abritent de nombreuses autres espèces."
+    ],
+    "avoid_actions": [
+      "Ne décrochez jamais une lucernaire de son support pour mieux l’observer ou la photographier.",
+      "Évitez d’arracher ou de piétiner les algues et les zostères dans lesquelles ces animaux minuscules peuvent facilement passer inaperçus"
+    ]
   }
 ]
