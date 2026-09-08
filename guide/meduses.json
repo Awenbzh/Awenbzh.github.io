@@ -481,5 +481,37 @@
       "Ne la prenez jamais dans la main, même si elle ne mesure que quelques centimètres : sa petite taille ne signifie pas qu’elle est inoffensive.",
       "Ne tirez pas sur une méduse fixée à une algue et ne manipulez pas les tentacules. Ils portent les cellules urticantes de l’animal."
     ]
+  },
+  {
+    "id": "hydromeduse-battant-de-cloche",
+    "category": "meduses",
+    "title": "Hydroméduse-battant de cloche",
+    "scientific_name": "Sarsia tubulosa",
+    "summary": "Minuscule hydroméduse transparente dont l’ombrelle ressemble à une petite cloche. Elle possède seulement quatre tentacules et un très long tube digestif pendant au centre, qui dépasse largement de l’ombrelle et lui donne son étonnante allure de « cloche avec son battant ».",
+    "presence": "Présente dans les eaux de la Manche et documentée dans le plancton à Roscoff, dans le Finistère. Espèce des eaux septentrionales, elle atteint en Europe sa limite sud principale au niveau de la Manche. La phase méduse s’observe surtout entre avril et août.",
+    "danger_level": "faible",
+    "danger_label": "Cnidaire – ne pas manipuler",
+    "image_remote": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Sarsia_tubulosa.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "image_asset": "",
+    "photo_author": "Aino Hosia",
+    "photo_license": "CC BY-SA 4.0",
+    "photo_credit": "Aino Hosia / Universitetsmuseet i Bergen, Universitetet i Bergen – CC BY-SA 4.0",
+    "photo_source_label": "Wikimedia Commons",
+    "photo_source_url": "https://commons.wikimedia.org/wiki/File:Sarsia_tubulosa.jpg?utm_source=chatgpt.com",
+    "elouan_tip": "Sell 'ta, ur gloc'h vihan eo ! 👀🔔🪼\nRegarde, c’est une petite cloche !\n\nCherche son drôle de « battant » qui pend au milieu et dépasse de sa cloche transparente. Et compte les tentacules : contrairement à beaucoup de méduses, celle-ci n’en possède que quatre !",
+    "warning": "Cette hydroméduse est minuscule et ne présente pas de danger particulier connu pour l’Homme. Comme tous les cnidaires, elle possède cependant des cellules urticantes destinées à capturer ses proies : observez-la sans la manipuler.",
+    "recognition": [
+      "Sa cloche transparente est plus haute que large : elle peut atteindre environ 18 mm de hauteur pour 10 mm de diamètre.",
+      "Elle ne possède que quatre tentacules, chacun présentant une petite glande à sa base.",
+      "Son critère le plus spectaculaire est son très long manubrium — la partie portant la bouche — qui pend au centre et dépasse largement sous l’ombrelle, comme le battant d’une cloche. C’est également une nageuse particulièrement active."
+    ],
+    "good_actions": [
+      "Observez-la dans l’eau plutôt que d’essayer de l’attraper : avec une taille de seulement quelques millimètres à moins de 2 cm, elle est extrêmement fragile.",
+      "Si vous la photographiez, essayez d’avoir une vue de profil : la forme de cloche, le long « battant » et les quatre tentacules faciliteront beaucoup son identification"
+    ],
+    "avoid_actions": [
+      "Ne la manipulez pas et ne la sortez pas de l’eau pour l’observer : son corps est extrêmement délicat.",
+      "Ne concluez pas trop vite qu’il s’agit forcément de Sarsia tubulosa. Plusieurs espèces de Sarsia lui ressemblent beaucoup et DORIS indique qu’il pourrait même s’agir d’un complexe d’espèces."
+    ]
   }
 ]
