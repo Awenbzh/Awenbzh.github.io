@@ -321,5 +321,37 @@
       "Ne la prenez pas dans les mains, même si son aspect transparent et fragile peut donner envie de l’examiner de plus près.",
       "Ne manipulez pas les individus échoués et ne laissez pas les enfants ou les chiens jouer avec eux"
     ]
+  },
+  {
+    "id": "equoree",
+    "category": "meduses",
+    "title": "Équorée",
+    "scientific_name": "Aequorea forskalea",
+    "summary": "Grande hydroméduse transparente pouvant atteindre environ 25 cm de diamètre. Elle se reconnaît surtout aux nombreux canaux brunâtres à bleu foncé qui rayonnent du centre de son ombrelle vers le bord, ainsi qu’à ses nombreux tentacules fins et longs.",
+    "presence": "Présente dans l’Atlantique Nord-Est et signalée sur les côtes françaises. Pélagique, elle vit dans le plancton et peut être observée près de la surface. Elle est toutefois plus souvent remarquée morte ou échouée que nageant en pleine eau.",
+    "danger_level": "faible",
+    "danger_label": "Non urticante pour l’Homme",
+    "image_remote": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Aequorea_forskalea_115030475.jpg?utm_source=fr.wikipedia.org&utm_campaign=index&utm_content=original",
+    "image_asset": "",
+    "photo_author": "Tony Wills",
+    "photo_license": " Creative Commons Attribution 3.0 Unported",
+    "photo_credit": "",
+    "photo_source_label": "",
+    "photo_source_url": "",
+    "elouan_tip": "Sell 'ta, heñvel eo ouzh ur rod ! 👀🪼\nRegarde, on dirait une roue !\n\nSes nombreux rayons foncés permettent de la distinguer de l’Équorée de verre, dont les rayons sont beaucoup plus clairs. Et si tu en trouves une échouée, regarde bien sa drôle de forme : certains trouvent qu’elle ressemble à une tranche d’ananas bleue ! 🍍",
+    "warning": "Cette espèce n’est pas considérée comme urticante pour l’Homme. Évitez néanmoins de manipuler les méduses, notamment les individus échoués, et ne portez jamais vos mains aux yeux ou à la bouche après un contact.",
+    "recognition": [
+      "Son ombrelle transparente mesure généralement entre 8 et 25 cm de diamètre.",
+      "De nombreux canaux radiaires bruns à bleu foncé partent du centre de l’ombrelle et rejoignent son bord, donnant à la méduse l’aspect d’une roue.",
+      "De nombreux tentacules très fins et longs prennent naissance sur le pourtour de l’ombrelle. Échouée ou morte, l’Équorée peut prendre une apparence évoquant une tranche d’ananas bleue."
+    ],
+    "good_actions": [
+      "Observez-la sans la manipuler et photographiez notamment les rayons de l’ombrelle : leur couleur foncée constitue un excellent critère d’identification.",
+      "Si elle est échouée, laissez-la sur place : les organismes marins échoués font partie du fonctionnement naturel du littoral."
+    ],
+    "avoid_actions": [
+      "Ne la confondez pas avec l’Équorée de verre : Aequorea forskalea possède des canaux radiaires bruns ou bleu foncé, tandis que ceux d’Aequorea vitrina sont blancs à bleu pâle.",
+      "Même si elle est considérée comme inoffensive pour la peau humaine, évitez de la manipuler et de toucher ensuite les yeux ou la bouche"
+    ]
   }
 ]
