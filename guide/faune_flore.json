@@ -253,5 +253,39 @@
       "Ne pas dégrader les rochers et sols fragiles qui constituent son habitat."
     ],
     "image_remote": "https://awenhafredrigstudio.bzh/images/guide/faune_flore/armerie-maritime.jpg"
+]
+},
+  {
+    
+    "id": "queue-de-lievre",
+    "category": "faune_flore",
+    "title": "Queue-de-lièvre",
+    "scientific_name": "Lagurus ovatus L.",
+    "summary": "Petite graminée du littoral reconnaissable à ses épis ovales, doux et soyeux qui ressemblent à de petites queues de lapin. Elle apprécie les sols sableux, secs et ensoleillés.",
+    "presence": "Présente sur le littoral breton, notamment dans les dunes, les pelouses sableuses et les terrains secs proches de la mer.",
+    "danger_level": "",
+    "danger_label": "",
+    "image_remote": "https://www.preservons-la-nature.fr/blog/wp-content/uploads/2014/12/DSC1041.jpg",
+    "image_asset": "",
+    "photo_author": "Frédéric",
+    "photo_license": "",
+    "photo_credit": "",
+    "photo_source_label": "Préservons la nature",
+    "photo_source_url": "",
+    "elouan_tip": "Sell 'ta, heñvel eo ouzh lostig ur c'honikl ! 👀🐇Regarde, on dirait la petite queue d’un lapin !Tu la reconnaîtras facilement à ses petits épis tout doux et duveteux. Mais on regarde avec les yeux : les plantes des dunes préfèrent rester chez elles ! 🌿",
+    "warning": "La végétation des dunes est fragile. Restez sur les sentiers et passages aménagés et évitez de cueillir ou d’arracher les plantes.",
+    "recognition": [
+      "Ses épis ovales, très doux et duveteux, sont caractéristiques. D’abord verdâtres, ils deviennent blanc crème à blond en mûrissant.",
+      "Ses feuilles sont fines et étroites. La plante forme de petites touffes et atteint généralement de 10 à 50 cm de hauteur.",
+      "Elle pousse principalement dans les endroits secs, sableux et bien exposés au soleil, notamment sur le littoral."
+    ],
+    "good_actions": [
+      "Observez-la et photographiez-la sans la cueillir afin de préserver la végétation naturelle du littoral.",
+      "Dans les dunes, restez sur les chemins et passages aménagés pour éviter de piétiner les plantes."
+    ],
+    "avoid_actions": [
+      "Évitez de cueillir ses épis, même s’ils sont très appréciés pour réaliser des bouquets secs.",
+      "Ne piétinez pas les zones végétalisées des dunes et n’arrachez pas les plants : ces milieux sont fragiles et sensibles aux passages répétés."
+    ]
   }
 ]
