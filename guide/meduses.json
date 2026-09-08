@@ -8,7 +8,7 @@
     "presence": "Juin à octobre, surtout après les vents d'est.",
     "danger_level": "fort",
     "danger_label": "Très urticante",
-    "image_url": "https://awenhafredrigstudio.bzh/images/guide/meduses/pelagie.jpg",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/meduses/pelagie.jpg",
     "image_asset": "assets/images/guide/meduses/pelagie.jpg",
     "photo_author": "",
     "photo_license": "",
@@ -43,7 +43,7 @@
     "presence": "La physalie est rare en Bretagne mais peut être observée après de forts vents océaniques. Des arrivages sont parfois signalés sur les plages bretonnes, principalement en automne et en hiver, mais aussi à d'autres périodes selon les conditions météorologiques.",
     "danger_level": "fort",
     "danger_label": "Ne jamais toucher, même échouée.",
-    "image_url": "https://awenhafredrigstudio.bzh/images/guide/meduses/physalie.jpg",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/meduses/physalie.jpg",
     "image_asset": "",
     "photo_author": "",
     "photo_license": "",
@@ -85,7 +85,7 @@
     "presence": "Présente du printemps à l'automne sur les côtes bretonnes, particulièrement dans les baies, les estuaires et les eaux calmes. Des rassemblements importants peuvent parfois être observés selon les courants et les vents.",
     "danger_level": "faible",
     "danger_label": "Faiblement urticante – éviter tout contact.",
-    "image_url": "https://awenhafredrigstudio.bzh/images/guide/meduses/aurelie.jpg",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/meduses/aurelie.jpg",
     "image_asset": "",
     "photo_author": "Kakidai",
     "photo_license": "CC BY-SA 3.0",
@@ -126,7 +126,7 @@
     "presence": "Le rhizostome est présent sur les côtes bretonnes principalement de l'été jusqu'au début de l'automne. Il est régulièrement observé dans les baies, les estuaires et le long des plages, où il peut parfois s'échouer après des épisodes de vent.",
     "danger_level": "faible",
     "danger_label": "Faiblement urticante – éviter tout contact.",
-    "image_url": "https://awenhafredrigstudio.bzh/images/guide/meduses/rhizostome.jpg",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/meduses/rhizostome.jpg",
     "image_asset": "",
     "photo_author": "Nanosanchez",
     "photo_license": "",
@@ -167,10 +167,10 @@
     "presence": "Elle peut être observée sur les côtes bretonnes, principalement au printemps et en été, parfois poussée vers les plages par les courants et les vents.",
     "danger_level": "modere",
     "danger_label": "Méduse urticante — contact douloureux.",
-    "image_url": "",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/meduses/meduse-boussole.jpg",
     "image_asset": "",
     "photo_author": "Anna Fiolek",
-    "photo_license": " NOAA Photo Library: expl1606",
+    "photo_license": "NOAA Photo Library: expl1606",
     "photo_credit": "",
     "photo_source_label": "wikipédia",
     "photo_source_url": "",
@@ -200,8 +200,7 @@
       "Ne pas gratter les tentacules avec les doigts.",
       "Ne pas remettre volontairement une méduse à l’eau à mains nues.",
       "Ne pas poursuivre la baignade en cas de douleur importante ou de malaise."
-    ],
-    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/meduses/meduse-boussole.jpg"
+    ]
   },
   {
     "id": "la-cyanee-bleue-cyanee-de-lamarck",
@@ -212,12 +211,12 @@
     "presence": "Elle peut être rencontrée sur les côtes bretonnes, surtout entre le printemps et le début de l’automne. Elle vit normalement en pleine mer mais peut être ramenée près des plages par les courants.",
     "danger_level": "modere",
     "danger_label": "Méduse urticante — contact douloureux.",
-    "image_url": "",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/meduses/cyanee-bleue.jpg",
     "image_asset": "",
-    "photo_author": " \tW.carter",
+    "photo_author": "W.carter",
     "photo_license": "",
     "photo_credit": "",
-    "photo_source_label": " \tOwn work",
+    "photo_source_label": "Own work",
     "photo_source_url": "",
     "elouan_tip": "🪼 Demat deoc’h ! Sellit mat ouzh he liv glas !\nRegardez bien sa couleur bleue : elle est superbe, mais gardez vos distances.\n\nNa stokit ket outi ! Même échouée sur le sable, ne la touchez pas : ses tentacules peuvent encore être urticants.",
     "warning": "⚠️ La cyanée bleue possède de très nombreux tentacules porteurs de cellules urticantes.\n\nUn contact peut provoquer douleur, rougeur, irritation et sensation de brûlure. Une réaction allergique importante reste possible chez certaines personnes.\n\nEn cas de malaise, de réaction généralisée ou de difficulté respiratoire, contactez rapidement les secours.",
@@ -244,8 +243,7 @@
       "Ne pas manipuler les tentacules avec les doigts.",
       "Ne pas poursuivre la baignade si la douleur est importante.",
       "Ne pas remettre une méduse à l’eau à mains nues."
-    ],
-    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/meduses/cyanee-bleue.jpg"
+    ]
   },
   {
     "id": "la-cyanee-capillaire-meduse-a-criniere-de-lion",
@@ -256,7 +254,7 @@
     "presence": "Espèce surtout présente dans les eaux froides de l’Atlantique Nord, de la Manche et de la mer du Nord. Les courants et les vents peuvent pousser certains individus vers les côtes françaises et jusqu’au golfe de Gascogne. Elle peut donc être observée occasionnellement sur le littoral breton.",
     "danger_level": "fort",
     "danger_label": "Méduse très urticante — garder une grande distance.",
-    "image_url": "",
+    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/meduses/cyanee-capillaire.jpg",
     "image_asset": "",
     "photo_author": "W.carter",
     "photo_license": "",
@@ -290,7 +288,38 @@
       "Ne pas toucher les tentacules avec les doigts.",
       "Ne pas poursuivre la baignade après une piqûre importante.",
       "Ne pas remettre une méduse à l’eau à mains nues."
+    ]
+  },
+  {
+    "id": "equoree-de-verre",
+    "category": "meduses",
+    "title": "Équorée de verre",
+    "scientific_name": "Aequorea vitrina",
+    "summary": "Méduse presque entièrement transparente, délicate et spectaculaire, pouvant atteindre environ 20 cm de diamètre. Son ombrelle est parcourue de nombreux fins canaux blanchâtres à bleu pâle disposés comme les rayons d’une roue. Elle possède de très nombreux tentacules fins et translucides.",
+    "presence": "Présente dans les eaux fraîches de l’Atlantique Nord-Est et de la Manche. Sa répartition s’étend jusqu’aux côtes bretonnes, où elle peut être observée en mer ou parfois échouée sur le littoral.",
+    "danger_level": "faible",
+    "danger_label": "Urticante – prudence",
+    "image_remote": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Aequorea_victoria.jpg/1280px-Aequorea_victoria.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "image_asset": "",
+    "photo_author": "Mnolf ",
+    "photo_license": "CC BY-SA 3.0",
+    "photo_credit": "",
+    "photo_source_label": "wikipedia",
+    "photo_source_url": "",
+    "elouan_tip": "Sell 'ta, treuzwelus eo evel gwer ! 👀🪼\nRegarde, elle est transparente comme du verre !\n\nPour la reconnaître, cherche les nombreux petits rayons blancs ou bleu pâle qui partent du centre de son ombrelle. Et même si elle semble toute fragile et transparente, on ne la touche pas !",
+    "warning": "Ne touchez pas une méduse, même échouée ou apparemment morte. Observez-la à distance et empêchez les jeunes enfants et les animaux de la manipuler.",
+    "recognition": [
+      "Son ombrelle est presque entièrement transparente et mesure généralement de 5 à 20 cm de diamètre.",
+      "De très nombreux canaux blancs à bleu pâle rayonnent depuis le centre jusqu’au bord de l’ombrelle, donnant l’impression d’une roue transparente.",
+      "Elle porte de très nombreux tentacules blancs, extrêmement fins et longs. Déployés pour capturer ses proies, ils peuvent atteindre plusieurs fois le diamètre de l’ombrelle"
     ],
-    "image_remote": "https://awenhafredrigstudio.bzh/images/guide/meduses/cyanee-capillaire.jpg"
+    "good_actions": [
+      "Observez-la sans la toucher, dans l’eau comme sur la plage, et photographiez-la à distance si vous souhaitez l’identifier",
+      "Si vous en voyez plusieurs près d’une zone de baignade, restez attentif et évitez le contact direct avec les méduses et leurs tentacules."
+    ],
+    "avoid_actions": [
+      "Ne la prenez pas dans les mains, même si son aspect transparent et fragile peut donner envie de l’examiner de plus près.",
+      "Ne manipulez pas les individus échoués et ne laissez pas les enfants ou les chiens jouer avec eux"
+    ]
   }
 ]
