@@ -417,5 +417,37 @@
       "Ne décrochez jamais une lucernaire de son support pour mieux l’observer ou la photographier.",
       "Évitez d’arracher ou de piétiner les algues et les zostères dans lesquelles ces animaux minuscules peuvent facilement passer inaperçus"
     ]
+  },
+  {
+    "id": "petite-lucernaire-a-boutons",
+    "category": "meduses",
+    "title": "Petite lucernaire à boutons",
+    "scientific_name": "Haliclystus octoradiatus",
+    "summary": "Petite méduse fixée, en forme d’entonnoir, qui vit accrochée aux algues et aux zostères. Elle possède huit bras terminés chacun par un bouquet de nombreux petits tentacules. Entre les bras se trouvent huit petits « boutons » blancs caractéristiques qui lui ont donné son nom.",
+    "presence": "Bien présente sur les côtes bretonnes, principalement dans les eaux peu profondes riches en algues et en zostères. Son aire de répartition descend jusqu’au sud de la Bretagne. Elle a notamment été observée à Ouessant, Trévou-Tréguignec et Concarneau.",
+    "danger_level": "faible",
+    "danger_label": "Cnidaire – ne pas manipuler",
+    "image_remote": "https://upload.wikimedia.org/wikipedia/commons/9/93/Haliclystus_octoradiatus_%28in_natural_habitat%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "image_asset": "",
+    "photo_author": "Genet",
+    "photo_license": "CC BY-SA 4.0",
+    "photo_credit": "Genet / Wikimedia Commons – CC BY-SA 4.0",
+    "photo_source_label": "Wikimedia Commons",
+    "photo_source_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Haliclystus_octoradiatus_%28in_natural_habitat%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "elouan_tip": "Sell 'ta, eizh bouton bihan zo warni ! 👀🪼\nRegarde, elle a huit petits boutons !\n\nPour la reconnaître, cherche les petits boutons blancs placés entre ses huit bras. Et regarde bien la couleur : elle peut devenir verte ou brun-rouge pour mieux se camoufler sur la plante où elle vit !",
+    "warning": "Cette petite lucernaire est discrète et peut facilement passer inaperçue parmi les algues et les zostères. Observez-la sans la décrocher de son support et évitez de manipuler ou d’arracher la végétation marine qui l’abrite.",
+    "recognition": [
+      "Elle mesure généralement 2 à 2,5 cm, rarement jusqu’à 4 cm. Sa petite ombrelle forme un entonnoir porté par un pédoncule fin.",
+      "Elle possède 8 bras, chacun terminé par un bouquet pouvant compter environ 100 petits tentacules.",
+      "Entre chacun de ses bras se trouve un petit bouton blanc adhésif, rond ou légèrement réniforme : c'est l'un de ses meilleurs critères d'identification. Sa couleur varie du vert au brun-roux."
+    ],
+    "good_actions": [
+      "Photographiez-la directement sur son support sans essayer de la décrocher. Une vue montrant les huit bras et les petits boutons blancs facilitera son identification.",
+      "Préservez les algues et surtout les herbiers de zostères : cette lucernaire en dépend fortement pour vivre et se camoufler."
+    ],
+    "avoid_actions": [
+      "Ne la décrochez pas pour l’observer dans votre main ou la déplacer : malgré son apparence de petite plante, c'est bien un animal.",
+      "Évitez de piétiner ou d’arracher les zostères et les algues dans les petites zones d'eau où elle peut se cacher."
+    ]
   }
 ]
