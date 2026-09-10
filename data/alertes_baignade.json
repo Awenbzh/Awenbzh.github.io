@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-25T09:11:25.427423+00:00",
+  "generated_at": "2026-09-10T13:12:41.818138+00:00",
   "source_url": "https://static.data.gouv.fr/resources/donnees-de-rapportage-de-la-saison-balneaire-1/20260709-082704/liste-des-sites-de-baignade-saison-2026-opendata-v1.csv",
   "sites_examines": 690,
-  "true": 17,
-  "false": 673,
+  "true": 26,
+  "false": 664,
   "unknown": 0,
   "erreurs": 0,
   "communes_examinees": 220,
@@ -26,7 +26,24 @@
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
       "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=022&site=022001430&annee=2026",
-      "verified_at": "2026-08-25T09:11:25.427423+00:00"
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
+    },
+    {
+      "id": "baignade:FRH0122218M022377",
+      "site_id": "FRH0122218M022377",
+      "nom": "BEG VILIN",
+      "commune": "PLOUGRESCANT",
+      "departement": "22",
+      "latitude": "48,84663812695",
+      "longitude": "-3,20668662334",
+      "statut": "interdit",
+      "niveau": "rouge",
+      "motif": "Interdiction de baignade signalée sur le portail officiel",
+      "date_debut": "22/08/2026",
+      "date_fin": "",
+      "source": "Portail officiel Santé - baignades.sante.gouv.fr",
+      "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=022&site=022001350&annee=2026",
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
     },
     {
       "id": "baignade:FRH0122274D022645",
@@ -43,7 +60,7 @@
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
       "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=022&site=022001425&annee=2026",
-      "verified_at": "2026-08-25T09:11:25.427423+00:00"
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
     },
     {
       "id": "baignade:FRH0122278M022200",
@@ -60,7 +77,41 @@
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
       "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=022&site=022001372&annee=2026",
-      "verified_at": "2026-08-25T09:11:25.427423+00:00"
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
+    },
+    {
+      "id": "baignade:FRH0229019M029504",
+      "site_id": "FRH0229019M029504",
+      "nom": "SAINTE-ANNE-DU-PORTZIC",
+      "commune": "BREST",
+      "departement": "29",
+      "latitude": "48,36097293287",
+      "longitude": "-4,55365661643",
+      "statut": "interdit",
+      "niveau": "rouge",
+      "motif": "Interdiction de baignade signalée sur le portail officiel",
+      "date_debut": "08/09/2026",
+      "date_fin": "",
+      "source": "Portail officiel Santé - baignades.sante.gouv.fr",
+      "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=029&site=029001800&annee=2026",
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
+    },
+    {
+      "id": "baignade:FRH0229057M029857",
+      "site_id": "FRH0229057M029857",
+      "nom": "KERLEVEN",
+      "commune": "FORET-FOUESNANT (LA)",
+      "departement": "29",
+      "latitude": "47,89635595309",
+      "longitude": "-3,96513362202",
+      "statut": "interdit",
+      "niveau": "rouge",
+      "motif": "Interdiction de baignade signalée sur le portail officiel",
+      "date_debut": "08/09/2026",
+      "date_fin": "",
+      "source": "Portail officiel Santé - baignades.sante.gouv.fr",
+      "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=029&site=029001900&annee=2026",
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
     },
     {
       "id": "baignade:FRH0229077M029263",
@@ -77,7 +128,7 @@
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
       "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=029&site=029001743&annee=2026",
-      "verified_at": "2026-08-25T09:11:25.427423+00:00"
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
     },
     {
       "id": "baignade:FRH0229077M029266",
@@ -94,7 +145,24 @@
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
       "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=029&site=029001744&annee=2026",
-      "verified_at": "2026-08-25T09:11:25.427423+00:00"
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
+    },
+    {
+      "id": "baignade:FRH0229077M029268",
+      "site_id": "FRH0229077M029268",
+      "nom": "DIBENNOU",
+      "commune": "GUISSENY",
+      "departement": "29",
+      "latitude": "48,63981968502",
+      "longitude": "-4,42852246257",
+      "statut": "interdit",
+      "niveau": "rouge",
+      "motif": "Interdiction de baignade signalée sur le portail officiel",
+      "date_debut": "08/09/2026",
+      "date_fin": "",
+      "source": "Portail officiel Santé - baignades.sante.gouv.fr",
+      "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=029&site=029001745&annee=2026",
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
     },
     {
       "id": "baignade:FRH0229091M029262",
@@ -111,24 +179,24 @@
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
       "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=029&site=029002709&annee=2026",
-      "verified_at": "2026-08-25T09:11:25.427423+00:00"
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
     },
     {
-      "id": "baignade:FRH0229101M029328",
-      "site_id": "FRH0229101M029328",
-      "nom": "SAINTE-MARGUERITE",
-      "commune": "LANDEDA",
+      "id": "baignade:FRH0229109M029383",
+      "site_id": "FRH0229109M029383",
+      "nom": "CHATEAU",
+      "commune": "LANDUNVEZ",
       "departement": "29",
-      "latitude": "48,59325960057",
-      "longitude": "-4,60687229852",
+      "latitude": "48,55435334283",
+      "longitude": "-4,71279105363",
       "statut": "interdit",
       "niveau": "rouge",
       "motif": "Interdiction de baignade signalée sur le portail officiel",
-      "date_debut": "22/08/2026",
+      "date_debut": "08/09/2026",
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
-      "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=029&site=029001762&annee=2026",
-      "verified_at": "2026-08-25T09:11:25.427423+00:00"
+      "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=029&site=029001763&annee=2026",
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
     },
     {
       "id": "baignade:FRH0229133M029018",
@@ -145,7 +213,24 @@
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
       "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=029&site=029001846&annee=2026",
-      "verified_at": "2026-08-25T09:11:25.427423+00:00"
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
+    },
+    {
+      "id": "baignade:FRH0229178M029358",
+      "site_id": "FRH0229178M029358",
+      "nom": "TREOMPAN",
+      "commune": "PLOUDALMEZEAU",
+      "departement": "29",
+      "latitude": "48,56763201525",
+      "longitude": "-4,68088268615",
+      "statut": "interdit",
+      "niveau": "rouge",
+      "motif": "Interdiction de baignade signalée sur le portail officiel",
+      "date_debut": "09/09/2026",
+      "date_fin": "",
+      "source": "Portail officiel Santé - baignades.sante.gouv.fr",
+      "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=029&site=029001779&annee=2026",
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
     },
     {
       "id": "baignade:FRH0229210D029031",
@@ -162,7 +247,58 @@
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
       "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=029&site=029001857&annee=2026",
-      "verified_at": "2026-08-25T09:11:25.427423+00:00"
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
+    },
+    {
+      "id": "baignade:FRH0229212M029513",
+      "site_id": "FRH0229212M029513",
+      "nom": "MINOU",
+      "commune": "PLOUZANE",
+      "departement": "29",
+      "latitude": "48,33983687138",
+      "longitude": "-4,61592111212",
+      "statut": "interdit",
+      "niveau": "rouge",
+      "motif": "Interdiction de baignade signalée sur le portail officiel",
+      "date_debut": "08/09/2026",
+      "date_fin": "",
+      "source": "Portail officiel Santé - baignades.sante.gouv.fr",
+      "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=029&site=029001972&annee=2026",
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
+    },
+    {
+      "id": "baignade:FRH0229221M029411",
+      "site_id": "FRH0229221M029411",
+      "nom": "BOURG",
+      "commune": "PORSPODER",
+      "departement": "29",
+      "latitude": "48,51149124495",
+      "longitude": "-4,76771699030",
+      "statut": "interdit",
+      "niveau": "rouge",
+      "motif": "Interdiction de baignade signalée sur le portail officiel",
+      "date_debut": "08/09/2026",
+      "date_fin": "",
+      "source": "Portail officiel Santé - baignades.sante.gouv.fr",
+      "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=029&site=029001803&annee=2026",
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
+    },
+    {
+      "id": "baignade:FRH0229221M029416",
+      "site_id": "FRH0229221M029416",
+      "nom": "MAZOU",
+      "commune": "PORSPODER",
+      "departement": "29",
+      "latitude": "48,49289967532",
+      "longitude": "-4,77552384777",
+      "statut": "interdit",
+      "niveau": "rouge",
+      "motif": "Interdiction de baignade signalée sur le portail officiel",
+      "date_debut": "09/09/2026",
+      "date_fin": "",
+      "source": "Portail officiel Santé - baignades.sante.gouv.fr",
+      "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=029&site=029002314&annee=2026",
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
     },
     {
       "id": "baignade:FRH0335013D035888",
@@ -179,7 +315,41 @@
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
       "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=035&site=035001336&annee=2026",
-      "verified_at": "2026-08-25T09:11:25.427423+00:00"
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
+    },
+    {
+      "id": "baignade:FRH0335061D035050",
+      "site_id": "FRH0335061D035050",
+      "nom": "LE BARRAGE",
+      "commune": "CHAPELLE-ERBREE (LA)",
+      "departement": "35",
+      "latitude": "48,14604950956",
+      "longitude": "-1,12335171899",
+      "statut": "interdit",
+      "niveau": "rouge",
+      "motif": "Interdiction de baignade signalée sur le portail officiel",
+      "date_debut": "27/08/2026",
+      "date_fin": "",
+      "source": "Portail officiel Santé - baignades.sante.gouv.fr",
+      "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=035&site=035000885&annee=2026",
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
+    },
+    {
+      "id": "baignade:FRH0335093M035695",
+      "site_id": "FRH0335093M035695",
+      "nom": "LE PRIEURE",
+      "commune": "DINARD",
+      "departement": "35",
+      "latitude": "48,62528791639",
+      "longitude": "-2,05245379262",
+      "statut": "interdit",
+      "niveau": "rouge",
+      "motif": "Interdiction de baignade signalée sur le portail officiel",
+      "date_debut": "03/09/2026",
+      "date_fin": "",
+      "source": "Portail officiel Santé - baignades.sante.gouv.fr",
+      "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=035&site=035000842&annee=2026",
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
     },
     {
       "id": "baignade:FRH0335142D035130",
@@ -196,7 +366,7 @@
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
       "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=035&site=035000870&annee=2026",
-      "verified_at": "2026-08-25T09:11:25.427423+00:00"
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
     },
     {
       "id": "baignade:FRH0335167D035160",
@@ -213,7 +383,7 @@
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
       "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=035&site=035000897&annee=2026",
-      "verified_at": "2026-08-25T09:11:25.427423+00:00"
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
     },
     {
       "id": "baignade:FRH0456078M056016",
@@ -230,7 +400,7 @@
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
       "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=056&site=056000867&annee=2026",
-      "verified_at": "2026-08-25T09:11:25.427423+00:00"
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
     },
     {
       "id": "baignade:FRH0456171D056030",
@@ -247,58 +417,41 @@
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
       "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=056&site=056000826&annee=2026",
-      "verified_at": "2026-08-25T09:11:25.427423+00:00"
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
     },
     {
-      "id": "baignade:FRG0144049M044150",
-      "site_id": "FRG0144049M044150",
-      "nom": "LE CASTOUILLET (BAIE)",
-      "commune": "CROISIC (LE)",
-      "departement": "44",
-      "latitude": "47,30025330483",
-      "longitude": "-2,53775865413",
+      "id": "baignade:FRH0456243M056378",
+      "site_id": "FRH0456243M056378",
+      "nom": "POINTE DU BILL",
+      "commune": "SENE",
+      "departement": "56",
+      "latitude": "47,59937651544",
+      "longitude": "-2,73286362384",
       "statut": "interdit",
       "niveau": "rouge",
       "motif": "Interdiction de baignade signalée sur le portail officiel",
-      "date_debut": "21/08/2026",
+      "date_debut": "08/09/2026",
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
-      "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=044&site=044000520&annee=2026",
-      "verified_at": "2026-08-25T09:11:25.427423+00:00"
+      "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=056&site=056001016&annee=2026",
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
     },
     {
-      "id": "baignade:FRG0144115D044110",
-      "site_id": "FRG0144115D044110",
-      "nom": "PLAN D'EAU DU CHÒNE",
-      "commune": "OUDON",
+      "id": "baignade:FRG0144131M044600",
+      "site_id": "FRG0144131M044600",
+      "nom": "LES GRANDES VALLEES",
+      "commune": "PORNIC",
       "departement": "44",
-      "latitude": "47,34634053394",
-      "longitude": "-1,27770786820",
+      "latitude": "47,11117723734",
+      "longitude": "-2,12380380222",
       "statut": "interdit",
       "niveau": "rouge",
       "motif": "Interdiction de baignade signalée sur le portail officiel",
-      "date_debut": "08/07/2026",
+      "date_debut": "07/09/2026",
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
-      "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=044&site=044000576&annee=2026",
-      "verified_at": "2026-08-25T09:11:25.427423+00:00"
-    },
-    {
-      "id": "baignade:FRG0144192D044170",
-      "site_id": "FRG0144192D044170",
-      "nom": "PLAN D'EAU - BASE DE LOISIRS",
-      "commune": "SAINT-VIAUD",
-      "departement": "44",
-      "latitude": "47,25987325027",
-      "longitude": "-2,01499857272",
-      "statut": "interdit",
-      "niveau": "rouge",
-      "motif": "Interdiction de baignade signalée sur le portail officiel",
-      "date_debut": "15/08/2026",
-      "date_fin": "",
-      "source": "Portail officiel Santé - baignades.sante.gouv.fr",
-      "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=044&site=044000575&annee=2026",
-      "verified_at": "2026-08-25T09:11:25.427423+00:00"
+      "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=044&site=044000541&annee=2026",
+      "verified_at": "2026-09-10T13:12:41.818138+00:00"
     }
   ]
 }
