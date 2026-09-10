@@ -316,5 +316,37 @@
       "Ne décrochez pas les escargots des tiges pour les déplacer ou les collectionner : leur position en hauteur les aide notamment à supporter les périodes chaudes et sèches.",
       "Évitez de cueillir les plantes couvertes d’escargots ou de traverser les zones végétalisées des dunes."
     ]
+  },
+  {
+    "id": "becasseau-sanderling",
+    "category": "faune_flore",
+    "title": "Bécasseau sanderling",
+    "scientific_name": "Calidris alba",
+    "summary": "Petit limicole vif et infatigable, le Bécasseau sanderling est facile à remarquer lorsqu'il court en groupe au bord de l'eau. Il suit les vagues qui se retirent pour picorer de minuscules invertébrés dans le sable, puis remonte rapidement lorsque la vague suivante arrive.",
+    "presence": "Très présent sur le littoral breton en dehors de sa période de reproduction, notamment lors des migrations et en hiver. Il fréquente surtout les plages de sable, mais aussi les baies, estuaires et certains secteurs rocheux. Des observations sont documentées sur différents sites bretons, notamment dans le Finistère.",
+    "danger_level": "",
+    "danger_label": "Inoffensif",
+    "image_remote": "",
+    "image_asset": "",
+    "photo_author": "",
+    "photo_license": "",
+    "photo_credit": "",
+    "photo_source_label": "",
+    "photo_source_url": "",
+    "elouan_tip": "Sell 'ta, redek a ra gant ar gwagennoù ! 👀🐦\nRegarde, il court avec les vagues !\n\nObserve-les quelques minutes : ils descendent derrière la vague pour chercher leur nourriture puis remontent à toute vitesse devant la suivante. On dirait presque qu'ils jouent avec la mer ! 🌊",
+    "warning": "Les oiseaux du littoral ont besoin de tranquillité pour se nourrir et se reposer. Observez-les à distance et évitez de faire courir les chiens vers les groupes d'oiseaux, particulièrement pendant les périodes de migration et d'hivernage.",
+    "recognition": [
+      "C'est un petit oiseau d'environ 20 à 21 cm, avec un bec droit et relativement court et des pattes noires.",
+      "En dehors de la période de reproduction, son plumage est principalement gris pâle sur le dessus et blanc dessous;",
+      "Son comportement est un excellent indice : il court très rapidement en petits groupes à la limite des vagues, avançant lorsque l'eau se retire et reculant lorsqu'elle revient"
+    ],
+    "good_actions": [
+      "Restez à distance et utilisez des jumelles ou le zoom de votre téléphone pour les observer sans interrompre leur recherche de nourriture.",
+      "Contournez les groupes d'oiseaux posés sur la plage plutôt que de les faire s'envoler : pendant leurs longues migrations, chaque période de repos et d'alimentation compte."
+    ],
+    "avoid_actions": [
+      "Ne courez pas vers eux pour les faire s'envoler et empêchez les chiens de poursuivre les groupes présents sur l'estran.",
+      "Évitez de traverser un groupe au repos : s'ils s'envolent systématiquement à l'approche des promeneurs, ils dépensent inutilement de l'énergie."
+    ]
   }
 ]
