@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-12T07:22:19.371444+00:00",
+  "generated_at": "2026-10-12T21:44:45.804906+00:00",
   "source_url": "https://static.data.gouv.fr/resources/donnees-de-rapportage-de-la-saison-balneaire-1/20260709-082704/liste-des-sites-de-baignade-saison-2026-opendata-v1.csv",
   "sites_examines": 690,
-  "true": 12,
-  "false": 678,
+  "true": 8,
+  "false": 682,
   "unknown": 0,
   "erreurs": 0,
   "communes_examinees": 220,
@@ -26,7 +26,7 @@
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
       "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=022&site=022001430&annee=2026",
-      "verified_at": "2026-10-12T07:22:19.371444+00:00",
+      "verified_at": "2026-10-12T21:44:45.804906+00:00",
       "beach_id": null
     },
     {
@@ -44,7 +44,7 @@
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
       "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=022&site=022001425&annee=2026",
-      "verified_at": "2026-10-12T07:22:19.371444+00:00",
+      "verified_at": "2026-10-12T21:44:45.804906+00:00",
       "beach_id": null
     },
     {
@@ -62,7 +62,7 @@
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
       "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=022&site=022001372&annee=2026",
-      "verified_at": "2026-10-12T07:22:19.371444+00:00",
+      "verified_at": "2026-10-12T21:44:45.804906+00:00",
       "beach_id": "cd22-plage-du-valais-425935256"
     },
     {
@@ -80,7 +80,7 @@
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
       "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=029&site=029001743&annee=2026",
-      "verified_at": "2026-10-12T07:22:19.371444+00:00",
+      "verified_at": "2026-10-12T21:44:45.804906+00:00",
       "beach_id": null
     },
     {
@@ -98,7 +98,7 @@
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
       "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=029&site=029001744&annee=2026",
-      "verified_at": "2026-10-12T07:22:19.371444+00:00",
+      "verified_at": "2026-10-12T21:44:45.804906+00:00",
       "beach_id": null
     },
     {
@@ -116,7 +116,7 @@
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
       "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=029&site=029002709&annee=2026",
-      "verified_at": "2026-10-12T07:22:19.371444+00:00",
+      "verified_at": "2026-10-12T21:44:45.804906+00:00",
       "beach_id": null
     },
     {
@@ -134,7 +134,7 @@
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
       "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=029&site=029001846&annee=2026",
-      "verified_at": "2026-10-12T07:22:19.371444+00:00",
+      "verified_at": "2026-10-12T21:44:45.804906+00:00",
       "beach_id": "locquirec_plage_du_moulin_de_la_rive"
     },
     {
@@ -152,79 +152,7 @@
       "date_fin": "",
       "source": "Portail officiel Santé - baignades.sante.gouv.fr",
       "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=029&site=029001857&annee=2026",
-      "verified_at": "2026-10-12T07:22:19.371444+00:00",
-      "beach_id": null
-    },
-    {
-      "id": "baignade:FRH0335013D035888",
-      "site_id": "FRH0335013D035888",
-      "nom": "L'ILE AUX PIES",
-      "commune": "BAINS-SUR-OUST",
-      "departement": "35",
-      "latitude": "47,71152313912",
-      "longitude": "-2,11650001673",
-      "statut": "interdit",
-      "niveau": "rouge",
-      "motif": "Interdiction de baignade signalée sur le portail officiel",
-      "date_debut": "15/06/2026",
-      "date_fin": "",
-      "source": "Portail officiel Santé - baignades.sante.gouv.fr",
-      "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=035&site=035001336&annee=2026",
-      "verified_at": "2026-10-12T07:22:19.371444+00:00",
-      "beach_id": null
-    },
-    {
-      "id": "baignade:FRH0335061D035050",
-      "site_id": "FRH0335061D035050",
-      "nom": "LE BARRAGE",
-      "commune": "CHAPELLE-ERBREE (LA)",
-      "departement": "35",
-      "latitude": "48,14604950956",
-      "longitude": "-1,12335171899",
-      "statut": "interdit",
-      "niveau": "rouge",
-      "motif": "Interdiction de baignade signalée sur le portail officiel",
-      "date_debut": "27/08/2026",
-      "date_fin": "",
-      "source": "Portail officiel Santé - baignades.sante.gouv.fr",
-      "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=035&site=035000885&annee=2026",
-      "verified_at": "2026-10-12T07:22:19.371444+00:00",
-      "beach_id": null
-    },
-    {
-      "id": "baignade:FRH0335142D035130",
-      "site_id": "FRH0335142D035130",
-      "nom": "LE CHENEDET",
-      "commune": "LANDEAN",
-      "departement": "35",
-      "latitude": "48,39330749459",
-      "longitude": "-1,17495040985",
-      "statut": "interdit",
-      "niveau": "rouge",
-      "motif": "Interdiction de baignade signalée sur le portail officiel",
-      "date_debut": "06/08/2026",
-      "date_fin": "",
-      "source": "Portail officiel Santé - baignades.sante.gouv.fr",
-      "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=035&site=035000870&annee=2026",
-      "verified_at": "2026-10-12T07:22:19.371444+00:00",
-      "beach_id": null
-    },
-    {
-      "id": "baignade:FRH0335167D035160",
-      "site_id": "FRH0335167D035160",
-      "nom": "ETANG DE LA FORGE",
-      "commune": "MARTIGNE-FERCHAUD",
-      "departement": "35",
-      "latitude": "47,83460139266",
-      "longitude": "-1,31566129686",
-      "statut": "interdit",
-      "niveau": "rouge",
-      "motif": "Interdiction de baignade signalée sur le portail officiel",
-      "date_debut": "15/06/2026",
-      "date_fin": "",
-      "source": "Portail officiel Santé - baignades.sante.gouv.fr",
-      "source_url": "https://baignades.sante.gouv.fr/baignades/consultSite.do?dptddass=035&site=035000897&annee=2026",
-      "verified_at": "2026-10-12T07:22:19.371444+00:00",
+      "verified_at": "2026-10-12T21:44:45.804906+00:00",
       "beach_id": null
     }
   ]
