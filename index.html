@@ -209,6 +209,34 @@
       width: 100%;
     }
 
+    .kalon-launch {
+      position: relative;
+      z-index: 3;
+      margin-top: -38px;
+      padding: 0 0 28px;
+    }
+    .kalon-launch-card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+      padding: 24px 30px;
+      border-radius: 24px;
+      background: white;
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(197,47,106,.12);
+    }
+    .kalon-launch-text { display:flex; align-items:center; gap:18px; }
+    .kalon-launch-logo { width:82px; height:82px; object-fit:contain; flex-shrink:0; }
+    .kalon-launch-card h2 { margin:0 0 4px; color:var(--navy); font-size:clamp(1.35rem,3vw,1.9rem); }
+    .kalon-launch-card p { margin:0; color:var(--muted); }
+    .btn-kalon {
+      background:#c52f6a;
+      color:white;
+      box-shadow:0 12px 26px rgba(197,47,106,.24);
+      white-space:nowrap;
+    }
+
     section {
       padding: 86px 0;
     }
@@ -465,9 +493,12 @@
         font-size: 2.1rem;
       }
 
-      .kalon-logo {
-        width: 180px;
-      }
+      .kalon-logo { width: 180px; }
+      .kalon-launch { margin-top:-28px; }
+      .kalon-launch-card { flex-direction:column; align-items:stretch; padding:22px; }
+      .kalon-launch-text { align-items:flex-start; }
+      .kalon-launch-logo { width:64px; height:64px; }
+      .btn-kalon { width:100%; }
     }
   </style>
 </head>
@@ -523,6 +554,21 @@
         </div>
       </div>
     </section>
+
+    <div class="kalon-launch" aria-label="Préinscription Breizh Kalon">
+      <div class="container">
+        <div class="kalon-launch-card">
+          <div class="kalon-launch-text">
+            <img class="kalon-launch-logo" src="logo-breizh-kalon.png" alt="Logo Breizh Kalon">
+            <div>
+              <h2>❤️ Breizh Kalon arrive prochainement !</h2>
+              <p>Les préinscriptions sont ouvertes. Rejoignez les premiers et soyez prévenu(e) dès l’ouverture.</p>
+            </div>
+          </div>
+          <a class="btn btn-kalon" href="./breizh-kalon.html">❤️ Je me préinscris</a>
+        </div>
+      </div>
+    </div>
 
     <section id="applications">
       <div class="container">
@@ -643,7 +689,7 @@
               alt="Logo Breizh Kalon"
             >
 
-            <span class="status">En développement</span>
+            <span class="status">Prochainement</span>
 
             <h3>❤️ Breizh Kalon</h3>
 
