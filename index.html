@@ -462,9 +462,57 @@
       color: #8de4ef;
     }
 
+
+    .menu-toggle {
+      display: none;
+      width: 46px;
+      height: 46px;
+      border: 0;
+      border-radius: 14px;
+      background: var(--navy);
+      color: white;
+      font-size: 1.55rem;
+      cursor: pointer;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
     @media (max-width: 900px) {
+      .nav {
+        position: relative;
+      }
+
+      .menu-toggle {
+        display: inline-flex;
+      }
+
       .menu {
         display: none;
+        position: absolute;
+        top: calc(100% + 1px);
+        left: 0;
+        right: 0;
+        padding: 14px 18px 20px;
+        background: rgba(255,255,255,.98);
+        box-shadow: 0 16px 30px rgba(6,35,61,.14);
+        border-radius: 0 0 20px 20px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 4px;
+      }
+
+      .menu.open {
+        display: flex;
+      }
+
+      .menu a {
+        padding: 11px 10px;
+        border-radius: 10px;
+      }
+
+      .menu a:hover {
+        background: #effbfc;
       }
 
       .hero-grid,
@@ -525,7 +573,7 @@
         <img src="logo-awen-ha-fredrig-studio.jpeg" alt="Logo Awen ha Fredrig Studio">
       </a>
 
-      <nav class="menu" aria-label="Navigation principale">
+      <nav class="menu" id="menu-principal" aria-label="Navigation principale">
         <a href="#applications">Applications</a>
         <a href="./qui-sommes-nous-awen-fredrig.html">Qui sommes-nous ?</a>
         <a href="#projets">Nos projets</a>
@@ -533,6 +581,8 @@
         <a href="./decouvrir-breizh-kalon.html">Découvrir Breizh Kalon</a>
         <a href="#contact">Contact</a>
       </nav>
+
+      <button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu-principal">☰</button>
 
     </div>
   </header>
@@ -811,5 +861,29 @@
 
     </div>
   </footer>
+
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const mobileMenu = document.querySelector('#menu-principal');
+
+    if (menuToggle && mobileMenu) {
+      menuToggle.addEventListener('click', () => {
+        const isOpen = mobileMenu.classList.toggle('open');
+        menuToggle.setAttribute('aria-expanded', String(isOpen));
+        menuToggle.setAttribute('aria-label', isOpen ? 'Fermer le menu' : 'Ouvrir le menu');
+        menuToggle.textContent = isOpen ? '✕' : '☰';
+      });
+
+      mobileMenu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.remove('open');
+          menuToggle.setAttribute('aria-expanded', 'false');
+          menuToggle.setAttribute('aria-label', 'Ouvrir le menu');
+          menuToggle.textContent = '☰';
+        });
+      });
+    }
+  </script>
+
 </body>
 </html>
